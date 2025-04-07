@@ -2,9 +2,9 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "Arietis Sector DB-W b2-0",
+  "systemName": "Synuefai HY-U b22-2",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-07T19:34:21.401761+00:00",
+  "lastUpdated": "2025-04-07T23:05:44.407801+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -27,14 +27,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 338,
-      "demandBracket": 2,
+      "buyPrice": 5972,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "cmmcomposite",
-      "sellPrice": 5972,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 14500,
+      "stockBracket": 2
     },
     {
       "buyPrice": 708,

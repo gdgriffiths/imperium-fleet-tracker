@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Cauani",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-07T22:17:07.366650+00:00",
+  "lastUpdated": "2025-04-07T22:17:50.578073+00:00",
   "commodities": [
     {
       "buyPrice": 2552,
@@ -53,8 +53,8 @@
       "meanPrice": 0,
       "name": "cropharvesters",
       "sellPrice": 0,
-      "stock": 3,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 252,
@@ -63,8 +63,8 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 29,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 483,
@@ -73,8 +73,8 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 1,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 387,
@@ -83,8 +83,8 @@
       "meanPrice": 0,
       "name": "grain",
       "sellPrice": 0,
-      "stock": 4,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -113,8 +113,8 @@
       "meanPrice": 0,
       "name": "pesticides",
       "sellPrice": 0,
-      "stock": 5,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 306,
@@ -133,8 +133,8 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 364,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 4179,
@@ -153,12 +153,12 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 383,
+      "stock": 77,
       "stockBracket": 2
     },
     {
       "buyPrice": 0,
-      "demand": 8000,
+      "demand": 7276,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",

@@ -45,17 +45,26 @@
     .tab-content.active {
       display: block;
     }
-    .system, .carrier-box {
+    .carrier-box {
       background: #1a1c2c;
       border: 1px solid #2c2f3c;
       border-radius: 8px;
       margin: 10px 0;
       padding: 15px;
     }
-    .status-completed { color: #66ff66; }
-    .status-inprogress { color: #ffa500; }
-    .status-upcoming { color: #9999ff; }
-    ul { padding-left: 20px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #2a2c3c;
+    }
   </style>
 </head>
 <body>
@@ -64,27 +73,23 @@
   </header>
 
   <div class="tabs">
-    <button class="tablink active" onclick="showTab(event, 'route')">Colony Route</button>
-    <button class="tablink" onclick="showTab(event, 'carriers')">Fleet Carriers</button>
-    <button class="tablink" onclick="showTab(event, 'progress')">Current Colony Progress</button>
+    <button class="tablink active" onclick="showTab(event, 'carriers')">Fleet Carriers</button>
+    <button class="tablink" onclick="showTab(event, 'fleetstock')">Fleet Stock</button>
   </div>
 
-  <div id="route" class="tab-content active">
-    <h2>Colonization Route</h2>
-    <div id="colonization-list"></div>
-  </div>
-
-  <div id="carriers" class="tab-content">
+  <div id="carriers" class="tab-content active">
     <h2>Fleet Carriers</h2>
-    <div id="carrier-info"><p>Loading carrier data...</p></div>
+    <div id="carrier-info"></div>
   </div>
 
-  <div id="progress" class="tab-content">
-    <h2>Current Colony Progress</h2>
-    <div id="progress-info"><p>Loading progress data...</p></div>
+  <div id="fleetstock" class="tab-content">
+    <h2>Fleet Export Stock</h2>
+    <div id="fleet-stock-info"></div>
   </div>
 
   <script>
+    const carriers = ["v0x-02m", "wzh-w7t", "j8f-5hm", "tfk-21w", "t8l-0xz"];
+
     function showTab(evt, tabId) {
       document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
       document.querySelectorAll('.tablink').forEach(btn => btn.classList.remove('active'));
@@ -92,87 +97,41 @@
       evt.currentTarget.classList.add('active');
     }
 
-    const colonizationData = [
-      { name: "Synuefai TU-I c12-12", remaining: 414.63 },
-      { name: "Synuefai RV-P b25-3", remaining: 402.35 },
-      { name: "Synuefai NP-R b24-0", remaining: 394.07 },
-      { name: "Synuefai NP-R b24-2", remaining: 384.48 },
-      { name: "Synuefai IJ-T b23-0", remaining: 371.43 },
-      { name: "Synuefai JJ-T b23-0", remaining: 359.8 },
-      { name: "Synuefai HY-U B22-2", remaining: 349.89 },
-      { name: "Synuefai DB-U d4-17", remaining: 339.71 },
-      { name: "Synuefai BX-W b21-2", remaining: 327.07 },
-      { name: "Synuefai WQ-Y b20-0", remaining: 320.12 },
-      { name: "Synuefai WQ-Y b20-1", remaining: 305.17 },
-      { name: "Synuefai WQ-Y b20-3", remaining: 290.22 },
-      { name: "Synuefai CT-Z b19-2", remaining: 275.57 },
-      { name: "Synuefai SX-Z b19-0", remaining: 262.27 },
-      { name: "Synuefai ZY-X b20-1", remaining: 248.55 },
-      { name: "Synuefai MO-Y b20-3", remaining: 234.83 },
-      { name: "Synuefai LZ-Y b20-0", remaining: 221.52 },
-      { name: "Synuefai AE-Z b20-3", remaining: 208.21 },
-      { name: "Synuefai AE-Z b20-0", remaining: 193.29 },
-      { name: "Synuefai HY-Z b20-2", remaining: 178.37 },
-      { name: "California Sector HR-W d1-29", remaining: 165.52 }
-    ];
-
-    const routeContainer = document.getElementById("colonization-list");
-    colonizationData.forEach((system, index) => {
-      let status = "Upcoming";
-      if (index < 6) status = "Completed";
-      else if (index === 6) status = "In Progress";
-
-      const div = document.createElement("div");
-      div.className = "system";
-      const statusClass = status === "Completed" ? "status-completed"
-                        : status === "In Progress" ? "status-inprogress"
-                        : "status-upcoming";
-      div.innerHTML = `
-        <h3 class="${statusClass}">${system.name}</h3>
-        <p>Status: ${status}</p>
-        <p>Distance Remaining: ${system.remaining.toFixed(1)} LY</p>
-      `;
-      routeContainer.appendChild(div);
-    });
-
-    const carriers = ["v0x-02m", "wzh-w7t", "j8f-5hm", "tfk-21w", "t8l-0xz"];
     const carrierContainer = document.getElementById("carrier-info");
+    const fleetStockContainer = document.getElementById("fleet-stock-info");
 
-    function formatDate(isoString) {
-      if (!isoString) return "Unknown";
-      const date = new Date(isoString);
-      return date.toLocaleString("en-GB", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-        hour: "2-digit",
-        minute: "2-digit"
-      });
-    }
+    const fleetStock = {};
 
-    function renderCommodities(title, items) {
-      if (!items.length) return '';
-      return `<h4>${title}</h4><ul>${items.map(i => `<li>${i.name} – ${(i.stock || i.demand)} T</li>`).join('')}</ul>`;
-    }
-
-    carrierContainer.innerHTML = "";
     carriers.forEach(tag => {
       fetch(`${tag}.json`)
         .then(res => res.json())
         .then(data => {
-          const exports = data.commodities.filter(c => c.stock > 0);
-          const imports = data.commodities.filter(c => c.demand > 0);
+          const exports = (data.commodities || []).filter(c => c.stock > 0);
+          const imports = (data.commodities || []).filter(c => c.demand > 0);
 
           const div = document.createElement("div");
           div.className = "carrier-box";
           div.innerHTML = `
             <h3>${data.carrierName || tag.toUpperCase()}</h3>
             <p>System: ${data.systemName || "Unknown"}</p>
-            <p>Last Updated: ${formatDate(data.lastUpdated)}</p>
-            ${renderCommodities("Exports", exports)}
-            ${renderCommodities("Imports", imports)}
+            <p>Last Updated: ${new Date(data.lastUpdated).toLocaleString()}</p>
+            <h4>Exports</h4>
+            <table><tr><th>Commodity</th><th>Amount (T)</th></tr>
+              ${exports.map(c => `<tr><td>${c.name}</td><td>${c.stock}</td></tr>`).join("")}
+            </table>
+            <h4>Imports</h4>
+            <table><tr><th>Commodity</th><th>Amount (T)</th></tr>
+              ${imports.map(c => `<tr><td>${c.name}</td><td>${c.demand}</td></tr>`).join("")}
+            </table>
           `;
           carrierContainer.appendChild(div);
+
+          exports.forEach(c => {
+            if (!fleetStock[c.name]) fleetStock[c.name] = 0;
+            fleetStock[c.name] += c.stock;
+          });
+
+          renderFleetStock();
         })
         .catch(() => {
           const div = document.createElement("div");
@@ -182,28 +141,19 @@
         });
     });
 
-    // Current Colony Progress
-    fetch("progress.json")
-      .then(res => res.json())
-      .then(progress => {
-        const container = document.getElementById("progress-info");
-        const formattedDate = formatDate(progress.lastUpdated);
+    function renderFleetStock() {
+      const rows = Object.entries(fleetStock)
+        .sort((a, b) => b[1] - a[1])
+        .map(([name, amount]) => `<tr><td>${name}</td><td>${amount} T</td></tr>`)
+        .join("");
 
-        let html = `
-          <p><strong>Current System:</strong> ${progress.currentSystem}</p>
-          <p><strong>Last Updated:</strong> ${formattedDate}</p>
-          <h4>Required Commodities</h4>
-          <ul>
-        `;
-        progress.requirements.forEach(req => {
-          html += `<li>${req.commodity} – ${req.amount} T</li>`;
-        });
-        html += `</ul>`;
-        container.innerHTML = html;
-      })
-      .catch(() => {
-        document.getElementById("progress-info").innerHTML = "<p>Failed to load progress data.</p>";
-      });
+      fleetStockContainer.innerHTML = `
+        <table>
+          <tr><th>Commodity</th><th>Total Export Stock</th></tr>
+          ${rows}
+        </table>
+      `;
+    }
   </script>
 </body>
 </html>

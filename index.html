@@ -59,6 +59,19 @@
       font-size: 14px;
       margin-top: 10px;
     }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 5px;
+      text-align: left;
+    }
+    th {
+      background-color: #2c2f3c;
+    }
   </style>
 </head>
 <body>
@@ -79,43 +92,19 @@
 
   <div id="carriers" class="tab-content">
     <h2>Fleet Carriers</h2>
-    <div id="carrier-info">
-      <p>Loading IMBR Pixelated Pioneer data...</p>
-    </div>
+    <div id="carrier-info"></div>
   </div>
 
   <div id="markets" class="tab-content">
-  <h2>Market Overview – Cauani</h2>
-  <button onclick="loadMarketData('Cauani')">Refresh Market Data</button>
-  <div id="market-info">
-    <p>Loading market data...</p>
+    <h2>Market Overview – Cauani</h2>
+    <button onclick="loadMarketData('Cauani')">Refresh Market Data</button>
+    <div id="market-info">
+      <p>Loading market data...</p>
+    </div>
   </div>
-</div>
 
   <script>
-    const colonizationData = [
-      { name: "Synuefai TU-I c12-12", distance: 0.0, remaining: 414.63, status: "Completed" },
-      { name: "Synuefai RV-P b25-3", distance: 13.35, remaining: 402.35, status: "Completed" },
-      { name: "Synuefai NP-R b24-0", distance: 14.06, remaining: 394.07, status: "Completed" },
-      { name: "Synuefai NP-R b24-2", distance: 10.54, remaining: 384.48, status: "Completed" },
-      { name: "Synuefai IJ-T b23-0", distance: 13.1, remaining: 371.43, status: "Completed" },
-      { name: "Synuefai JJ-T b23-0", distance: 14.02, remaining: 359.8, status: "Completed" },
-      { name: "Synuefai HY-U b22-2", distance: 10.36, remaining: 349.89, status: "In Progress" },
-      { name: "Synuefai DB-U d4-17", distance: 14.63, remaining: 339.71, status: "Upcoming" },
-      { name: "Synuefai BX-W b21-2", distance: 13.69, remaining: 327.07, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-0", distance: 7.77, remaining: 320.12, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-1", distance: 14.95, remaining: 305.17, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-3", distance: 13.67, remaining: 290.22, status: "Upcoming" },
-      { name: "Synuefai CT-Z b19-2", distance: 14.65, remaining: 275.57, status: "Upcoming" },
-      { name: "Synuefai SX-Z b19-0", distance: 14.35, remaining: 262.27, status: "Upcoming" },
-      { name: "Synuefai ZY-X b20-1", distance: 13.72, remaining: 248.55, status: "Upcoming" },
-      { name: "Synuefai MO-Y b20-3", distance: 11.42, remaining: 234.83, status: "Upcoming" },
-      { name: "Synuefai LZ-Y b20-0", distance: 13.31, remaining: 221.52, status: "Upcoming" },
-      { name: "Synuefai AE-Z b20-3", distance: 12.41, remaining: 208.21, status: "Upcoming" },
-      { name: "Synuefai AE-Z b20-0", distance: 14.92, remaining: 193.29, status: "Upcoming" },
-      { name: "Synuefai HY-Z b20-2", distance: 13.57, remaining: 178.37, status: "Upcoming" },
-      { name: "California Sector HR-W d1-29", distance: 12.89, remaining: 165.52, status: "Upcoming" }
-    ];
+    const colonizationData = [...]; // same as before
 
     function showTab(tabId) {
       document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
@@ -137,99 +126,60 @@
         <div class="station-info" id="stations-${system.name.replace(/\s+/g, '_')}"> </div>`;
       return div;
     }
-
     colonizationData.forEach(system => {
       container.appendChild(createSystemDiv(system));
     });
 
-    function getStations(systemName, button) {
-      const id = `stations-${systemName.replace(/\s+/g, '_')}`;
-      const container = document.getElementById(id);
-      container.innerHTML = "Loading stations...";
+    function getStations(systemName, button) { ... } // same as before
 
-      fetch(`https://www.edsm.net/api-system-v1/stations?systemName=${encodeURIComponent(systemName)}`)
-        .then(res => res.json())
-        .then(data => {
-          if (data.stations && data.stations.length > 0) {
-            container.innerHTML = data.stations.map(station => `
-              <div>
-                <strong>${station.name}</strong> (${station.type})<br>
-                Market: ${station.haveMarket ? 'Yes' : 'No'}<br>
-                Distance: ${station.distanceToStar || 'Unknown'} LS
-              </div>
-            `).join("<hr>");
-          } else {
-            container.innerHTML = "No station data found.";
-          }
-        })
-        .catch(() => container.innerHTML = "Failed to load station data.");
-    }
+    function loadMarketData(systemName) { ... } // same as before
 
-    // Load carrier info from your backend
-    fetch("https://inara-proxy.onrender.com/carrier", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ carrierTag: "V0X-02M" })
-    })
-    .then(res => res.json())
-    .then(data => {
-      const carrierData = data.events[0].eventData;
-      document.getElementById("carrier-info").innerHTML = `
-        <div class="carrier-box">
-          <h3>${carrierData.name || 'IMBR Pixelated Pioneer'}</h3>
-          <p>Location: ${carrierData.currentStarSystemName || 'Unknown'}</p>
-          <p>Callsign: ${carrierData.callsign}</p>
-          <p>Fuel: ${carrierData.fuelLevel || 'N/A'}</p>
-        </div>
-      `;
-    })
-    .catch(() => {
-      document.getElementById("carrier-info").innerHTML = "Failed to load carrier data.";
-    });
-  
-    function loadMarketData(systemName) {
-      const marketContainer = document.getElementById("market-info");
-      marketContainer.innerHTML = "Loading market data...";
+    loadMarketData("Cauani");
 
-      fetch("https://inara-proxy.onrender.com/market", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ system: systemName })
-      })
-      .then(res => res.json())
-      .then(data => {
-        const event = data.events && data.events[0];
-        if (!event || !event.eventData || !event.eventData.stations || event.eventData.stations.length === 0) {
-          marketContainer.innerHTML = "No market data found.";
-          return;
-        }
+    const carriers = [
+      { tag: "V0X-02M", name: "IMBR Pixelated Pioneer" },
+      { tag: "WHZ-W7T", name: "IMBR Voxel Voyager" },
+      { tag: "J8F-5HM", name: "IMBR Clear Skies" },
+      { tag: "TFK-21W", name: "IMBR Lilith's Hex" }
+    ];
 
-        const station = event.eventData.stations[0];
-        const market = station.commodities || [];
-
-        let html = `<h3>${station.name}</h3>`;
-        html += `<p>System: ${station.starSystemName}</p>`;
-        html += `<table border='1' cellpadding='5' style='margin-top:10px;'>`;
-        html += `<tr><th>Commodity</th><th>Stock</th><th>Buy</th><th>Sell</th></tr>`;
-        market.forEach(item => {
-          html += `<tr>
-            <td>${item.name}</td>
-            <td>${item.stock}</td>
-            <td>${item.buyPrice}</td>
-            <td>${item.sellPrice}</td>
-          </tr>`;
-        });
-        html += `</table>`;
-
-        marketContainer.innerHTML = html;
-      })
-      .catch(() => {
-        marketContainer.innerHTML = "Failed to load market data.";
+    function loadCarriers() {
+      const container = document.getElementById("carrier-info");
+      container.innerHTML = "";
+      carriers.forEach(carrier => {
+        fetch(`${carrier.tag.toLowerCase()}.json`)
+          .then(res => res.json())
+          .then(data => {
+            const div = document.createElement("div");
+            div.className = "carrier-box";
+            div.innerHTML = `
+              <h3>${carrier.name}</h3>
+              <p><strong>System:</strong> ${data.system}</p>
+              <p><strong>Last Updated:</strong> ${new Date(data.lastUpdated).toLocaleString()}</p>
+              <h4>Market</h4>
+              <table>
+                <tr><th>Commodity</th><th>Stock</th><th>Buy</th><th>Sell</th></tr>
+                ${data.commodities.map(item => `
+                  <tr>
+                    <td>${item.name}</td>
+                    <td>${item.stock}</td>
+                    <td>${item.buyPrice}</td>
+                    <td>${item.sellPrice}</td>
+                  </tr>`).join("")}
+              </table>
+            `;
+            container.appendChild(div);
+          })
+          .catch(() => {
+            const div = document.createElement("div");
+            div.className = "carrier-box";
+            div.innerHTML = `<h3>${carrier.name}</h3><p>Failed to load data.</p>`;
+            container.appendChild(div);
+          });
       });
     }
 
-    // Auto-load Cauani on page load
-    loadMarketData("Cauani");
+    loadCarriers();
   </script>
 </body>
 </html>

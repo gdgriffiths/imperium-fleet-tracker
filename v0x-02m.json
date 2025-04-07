@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai HY-U b22-2",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-07T15:54:53.800110+00:00",
+  "lastUpdated": "2025-04-07T19:55:24.176699+00:00",
   "commodities": [
     {
       "buyPrice": 2552,
@@ -84,16 +84,6 @@
       "name": "polymers",
       "sellPrice": 0,
       "stock": 44,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 4186,
-      "demand": 0,
-      "demandBracket": "",
-      "meanPrice": 0,
-      "name": "steel",
-      "sellPrice": 0,
-      "stock": 943,
       "stockBracket": 2
     },
     {

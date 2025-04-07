@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Imperium Britannica Colonization Tracker</title>
   <style>
     body {
@@ -55,14 +55,10 @@
     .status-completed { color: #66ff66; }
     .status-inprogress { color: #ffa500; }
     .status-upcoming { color: #9999ff; }
-    .station-info {
-      font-size: 14px;
-      margin-top: 10px;
-    }
+    ul { padding-left: 20px; }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Imperium Britannica Colonization Tracker</h1>
   </header>
@@ -70,7 +66,6 @@
   <div class="tabs">
     <button class="tablink active" onclick="showTab(event, 'route')">Colony Route</button>
     <button class="tablink" onclick="showTab(event, 'carriers')">Fleet Carriers</button>
-    <button class="tablink" onclick="showTab(event, 'markets')">Markets</button>
   </div>
 
   <div id="route" class="tab-content active">
@@ -80,12 +75,9 @@
 
   <div id="carriers" class="tab-content">
     <h2>Fleet Carriers</h2>
-    <div id="carrier-info"><p>Loading carrier data...</p></div>
-  </div>
-
-  <div id="markets" class="tab-content">
-    <h2>Market Overview</h2>
-    <p>Market data coming soon...</p>
+    <div id="carrier-info">
+      <p>Loading carrier data...</p>
+    </div>
   </div>
 
   <script>
@@ -135,31 +127,57 @@
       routeContainer.appendChild(div);
     });
 
-    // Carrier info loader for V0X-02M
-    fetch("v0x-02m.json")
-      .then(res => res.json())
-      .then(data => {
-        const carrierDiv = document.createElement("div");
-        carrierDiv.className = "carrier-box";
-        carrierDiv.innerHTML = `
-          <h3>${data.callsign || "Unnamed Carrier"}</h3>
-          <p>System: ${data.system || "Unknown"}</p>
-          <p>Last Updated: ${data.lastUpdated || "N/A"}</p>
-          <h4>Market</h4>
-          <ul>
-            ${(data.commodities || []).map(c => `
-              <li>${c.name} – ${c.stock}t @ ${c.buyPrice}cr</li>
-            `).join("")}
-          </ul>
-        `;
-        document.getElementById("carrier-info").innerHTML = "";
-        document.getElementById("carrier-info").appendChild(carrierDiv);
-      })
-      .catch(err => {
-        console.error("Carrier load error:", err);
-        document.getElementById("carrier-info").innerHTML = "<p>Failed to load V0X-02M data.</p>";
-      });
-  </script>
+    const carriers = ["v0x-02m", "whz-w7t", "j8f-5hm", "tfk-21w"];
+    const carrierContainer = document.getElementById("carrier-info");
 
+    function formatDate(isoString) {
+      if (!isoString) return "Unknown";
+      const date = new Date(isoString);
+      return date.toLocaleString("en-GB", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    }
+
+    function renderCommodities(title, items) {
+      if (!items || items.length === 0) return "";
+      return `
+        <h4>${title}</h4>
+        <ul>
+          ${items.map(item => `<li>${item.name} – ${(item.stock || item.demand)} T</li>`).join("")}
+        </ul>
+      `;
+    }
+
+    carrierContainer.innerHTML = "";
+    carriers.forEach(tag => {
+      fetch(`${tag}.json`)
+        .then(res => res.json())
+        .then(data => {
+          const buyOrders = (data.commodities || []).filter(c => c.stock > 0);
+          const sellOrders = (data.commodities || []).filter(c => c.demand > 0);
+
+          const div = document.createElement("div");
+          div.className = "carrier-box";
+          div.innerHTML = `
+            <h3>${data.callsign || tag.toUpperCase()}</h3>
+            <p>System: ${data.system || "Unknown"}</p>
+            <p>Last Updated: ${formatDate(data.lastUpdated)}</p>
+            ${renderCommodities("Buy Orders", buyOrders)}
+            ${renderCommodities("Sell Orders", sellOrders)}
+          `;
+          carrierContainer.appendChild(div);
+        })
+        .catch(() => {
+          const div = document.createElement("div");
+          div.className = "carrier-box";
+          div.innerHTML = `<h3>${tag.toUpperCase()}</h3><p>Data unavailable.</p>`;
+          carrierContainer.appendChild(div);
+        });
+    });
+  </script>
 </body>
 </html>

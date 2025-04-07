@@ -4,12 +4,12 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai HY-U b22-2",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-07T23:33:26.077014+00:00",
+  "lastUpdated": "2025-04-07T23:41:31.525225+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
@@ -19,7 +19,7 @@
     {
       "buyPrice": 271,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "biowaste",
       "sellPrice": 0,
@@ -29,7 +29,7 @@
     {
       "buyPrice": 631,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
@@ -39,7 +39,7 @@
     {
       "buyPrice": 10605,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
@@ -49,7 +49,7 @@
     {
       "buyPrice": 2388,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
@@ -59,7 +59,7 @@
     {
       "buyPrice": 1084,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
@@ -69,7 +69,7 @@
     {
       "buyPrice": 4179,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
@@ -79,7 +79,7 @@
     {
       "buyPrice": 4447,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,

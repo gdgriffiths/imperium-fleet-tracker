@@ -45,7 +45,7 @@
     .tab-content.active {
       display: block;
     }
-    .system {
+    .system, .carrier-box {
       background: #1a1c2c;
       border: 1px solid #2c2f3c;
       border-radius: 8px;
@@ -79,7 +79,9 @@
 
   <div id="carriers" class="tab-content">
     <h2>Fleet Carriers</h2>
-    <p>Coming soon...</p>
+    <div id="carrier-info">
+      <p>Loading IMBR Pixelated Pioneer data...</p>
+    </div>
   </div>
 
   <div id="markets" class="tab-content">
@@ -112,8 +114,14 @@
       { name: "California Sector HR-W d1-29", distance: 12.89, remaining: 165.52, status: "Upcoming" }
     ];
 
-    const container = document.getElementById("colonization-list");
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tablink').forEach(btn => btn.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.currentTarget.classList.add('active');
+    }
 
+    const container = document.getElementById("colonization-list");
     function createSystemDiv(system) {
       const div = document.createElement("div");
       div.className = "system";
@@ -126,6 +134,10 @@
         <div class="station-info" id="stations-${system.name.replace(/\s+/g, '_')}"> </div>`;
       return div;
     }
+
+    colonizationData.forEach(system => {
+      container.appendChild(createSystemDiv(system));
+    });
 
     function getStations(systemName, button) {
       const id = `stations-${systemName.replace(/\s+/g, '_')}`;
@@ -150,16 +162,27 @@
         .catch(() => container.innerHTML = "Failed to load station data.");
     }
 
-    colonizationData.forEach(system => {
-      container.appendChild(createSystemDiv(system));
+    // Load carrier info from your backend
+    fetch("https://inara-proxy.onrender.com/carrier", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ carrierTag: "V0X-02M" })
+    })
+    .then(res => res.json())
+    .then(data => {
+      const carrierData = data.events[0].eventData;
+      document.getElementById("carrier-info").innerHTML = `
+        <div class="carrier-box">
+          <h3>${carrierData.name || 'IMBR Pixelated Pioneer'}</h3>
+          <p>Location: ${carrierData.currentStarSystemName || 'Unknown'}</p>
+          <p>Callsign: ${carrierData.callsign}</p>
+          <p>Fuel: ${carrierData.fuelLevel || 'N/A'}</p>
+        </div>
+      `;
+    })
+    .catch(() => {
+      document.getElementById("carrier-info").innerHTML = "Failed to load carrier data.";
     });
-
-    function showTab(tabId) {
-      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-      document.querySelectorAll('.tablink').forEach(btn => btn.classList.remove('active'));
-      document.getElementById(tabId).classList.add('active');
-      event.currentTarget.classList.add('active');
-    }
   </script>
 </body>
 </html>

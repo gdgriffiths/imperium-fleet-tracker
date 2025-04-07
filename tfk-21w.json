@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai HY-U b22-2",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-07T23:25:14.150299+00:00",
+  "lastUpdated": "2025-04-07T23:33:26.077014+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 11440,
+      "stock": 11033,
       "stockBracket": 2
     },
     {

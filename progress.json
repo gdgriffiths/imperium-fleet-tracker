@@ -1,0 +1,26 @@
+{
+    "lastUpdated": "2025-04-07T18:00:00Z",
+    "currentSystem": "Synuefai HY-U b22-2",
+    "requirements": [
+      { "commodity": "Aluminium", "amount": 0 },
+      { "commodity": "Ceramic Composites", "amount": 0 },
+      { "commodity": "CMM Composite", "amount": 2602 },
+      { "commodity": "Computer Components", "amount": 0 },
+      { "commodity": "Copper", "amount": 0 },
+      { "commodity": "Food Cartridges", "amount": 0 },
+      { "commodity": "Fruit and Vegetables", "amount": 0 },
+      { "commodity": "Insulating Membrane", "amount": 76 },
+      { "commodity": "Liquid Oxygen", "amount": 0 },
+      { "commodity": "Medical Diagnostic Equipment", "amount": 0 },
+      { "commodity": "Non-Lethal Weapons", "amount": 0 },
+      { "commodity": "Polymers", "amount": 0 },
+      { "commodity": "Power Generators", "amount": 0 },
+      { "commodity": "Semiconductors", "amount": 0 },
+      { "commodity": "Steel", "amount": 3614 },
+      { "commodity": "Superconductors", "amount": 0 },
+      { "commodity": "Titanium", "amount": 0 },
+      { "commodity": "Water", "amount": 0 },
+      { "commodity": "Water Purifiers", "amount": 0 }
+    ]
+  }
+  

@@ -66,6 +66,7 @@
   <div class="tabs">
     <button class="tablink active" onclick="showTab(event, 'route')">Colony Route</button>
     <button class="tablink" onclick="showTab(event, 'carriers')">Fleet Carriers</button>
+    <button class="tablink" onclick="showTab(event, 'progress')">Colonization Progress</button>
   </div>
 
   <div id="route" class="tab-content active">
@@ -77,6 +78,13 @@
     <h2>Fleet Carriers</h2>
     <div id="carrier-info">
       <p>Loading carrier data...</p>
+    </div>
+  </div>
+
+  <div id="progress" class="tab-content">
+    <h2>Colonization Progress</h2>
+    <div id="progress-info">
+      <p>Loading progress...</p>
     </div>
   </div>
 
@@ -178,6 +186,46 @@
           carrierContainer.appendChild(div);
         });
     });
+
+    // Colonization Progress Fetch
+    fetch("progress.json")
+      .then(res => res.json())
+      .then(progress => {
+        const container = document.getElementById("progress-info");
+        const formattedDate = formatDate(progress.lastUpdated);
+        let html = `
+          <h3>Current System: ${progress.currentSystem}</h3>
+          <p>Last Updated: ${formattedDate}</p>
+          <h4>Remaining Commodities</h4>
+          <ul>
+            ${progress.requirements.map(r => `<li>${r.commodity} – ${r.amount} T</li>`).join("")}
+          </ul>
+        `;
+
+        html += `<h4>Suggested Carrier Sources</h4>`;
+
+        progress.requirements.forEach(req => {
+          html += `<strong>${req.commodity}</strong><ul id="suggest-${req.commodity.replace(/\s+/g, '-')}"></ul>`;
+          carriers.forEach(tag => {
+            fetch(`${tag}.json`)
+              .then(res => res.json())
+              .then(data => {
+                const match = data.commodities.find(c => c.stock > 0 && c.name === req.commodity);
+                if (match) {
+                  const list = document.getElementById(`suggest-${req.commodity.replace(/\s+/g, '-')}`);
+                  const li = document.createElement("li");
+                  li.textContent = `${data.carrierName || data.callsign} – ${match.stock} T in ${data.systemName}`;
+                  list.appendChild(li);
+                }
+              });
+          });
+        });
+
+        container.innerHTML = html;
+      })
+      .catch(() => {
+        document.getElementById("progress-info").innerHTML = "<p>Failed to load progress data.</p>";
+      });
   </script>
 </body>
 </html>

@@ -118,6 +118,11 @@
 
     const fleetStock = {};
 
+    function sanitizeName(name) {
+      return name.replace(/([a-z])([A-Z])/g, '$1 $2')
+                 .replace(/\b\w/g, l => l.toUpperCase());
+    }
+
     carriers.forEach(tag => {
       fetch(`${tag}.json`)
         .then(res => res.json())
@@ -133,18 +138,19 @@
             <p>Last Updated: ${new Date(data.lastUpdated).toLocaleString()}</p>
             <h4>Exports</h4>
             <table><tr><th>Commodity</th><th>Amount (T)</th></tr>
-              ${exports.map(c => `<tr><td>${c.name}</td><td>${c.stock}</td></tr>`).join("")}
+              ${exports.map(c => `<tr><td>${sanitizeName(c.name)}</td><td>${c.stock}</td></tr>`).join("")}
             </table>
             <h4>Imports</h4>
             <table><tr><th>Commodity</th><th>Amount (T)</th></tr>
-              ${imports.map(c => `<tr><td>${c.name}</td><td>${c.demand}</td></tr>`).join("")}
+              ${imports.map(c => `<tr><td>${sanitizeName(c.name)}</td><td>${c.demand}</td></tr>`).join("")}
             </table>
           `;
           carrierContainer.appendChild(div);
 
           exports.forEach(c => {
-            if (!fleetStock[c.name]) fleetStock[c.name] = 0;
-            fleetStock[c.name] += c.stock;
+            const cleanName = sanitizeName(c.name);
+            if (!fleetStock[cleanName]) fleetStock[cleanName] = 0;
+            fleetStock[cleanName] += c.stock;
           });
 
           renderFleetStock();
@@ -171,7 +177,6 @@
       `;
     }
 
-    // Colonization data
     const colonizationData = [
       { name: "Synuefai TU-I c12-12", distance: 0.0, remaining: 414.63, status: "Completed" },
       { name: "Synuefai RV-P b25-3", distance: 13.35, remaining: 402.35, status: "Completed" },

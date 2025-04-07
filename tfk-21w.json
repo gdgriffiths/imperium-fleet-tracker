@@ -4,21 +4,11 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-07T19:12:03.520734+00:00",
+  "lastUpdated": "2025-04-07T20:07:58.620645+00:00",
   "commodities": [
     {
       "buyPrice": 0,
-      "demand": 576,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "insulatingmembrane",
-      "sellPrice": 10605,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 13000,
+      "demand": 12852,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "steel",

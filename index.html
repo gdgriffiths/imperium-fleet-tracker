@@ -56,6 +56,7 @@
     .status-inprogress { color: #ffa500; }
     .status-upcoming { color: #9999ff; }
     ul { padding-left: 20px; }
+    .highlight { font-weight: bold; color: #66ccff; }
   </style>
 </head>
 <body>
@@ -193,35 +194,54 @@
       .then(progress => {
         const container = document.getElementById("progress-info");
         const formattedDate = formatDate(progress.lastUpdated);
-        let html = `
-          <h3>Current System: ${progress.currentSystem}</h3>
-          <p>Last Updated: ${formattedDate}</p>
-          <h4>Remaining Commodities</h4>
-          <ul>
-            ${progress.requirements.map(r => `<li>${r.commodity} – ${r.amount} T</li>`).join("")}
-          </ul>
-        `;
 
-        html += `<h4>Suggested Carrier Sources</h4>`;
+        const htmlParts = [
+          `<h3>Current System: ${progress.currentSystem}</h3>`,
+          `<p>Last Updated: ${formattedDate}</p>`,
+          `<h4>Remaining Commodities</h4>`,
+          `<ul>${progress.requirements.map(r => `<li>${r.commodity} – ${r.amount} T</li>`).join("")}</ul>`,
+          `<h4>Suggested Carrier Sources</h4>`
+        ];
 
         progress.requirements.forEach(req => {
-          html += `<strong>${req.commodity}</strong><ul id="suggest-${req.commodity.replace(/\s+/g, '-')}"></ul>`;
-          carriers.forEach(tag => {
+          const listId = `suggest-${req.commodity.replace(/\s+/g, '-')}`;
+          htmlParts.push(`<strong>${req.commodity}</strong><ul id="${listId}"></ul>`);
+        });
+
+        container.innerHTML = htmlParts.join("");
+
+        progress.requirements.forEach(req => {
+          const listId = `suggest-${req.commodity.replace(/\s+/g, '-')}`;
+          const list = document.getElementById(listId);
+          const matches = [];
+
+          const fetches = carriers.map(tag =>
             fetch(`${tag}.json`)
               .then(res => res.json())
               .then(data => {
-                const match = data.commodities.find(c => c.stock > 0 && c.name === req.commodity);
+                const match = (data.commodities || []).find(c => c.stock > 0 && c.name === req.commodity);
                 if (match) {
-                  const list = document.getElementById(`suggest-${req.commodity.replace(/\s+/g, '-')}`);
-                  const li = document.createElement("li");
-                  li.textContent = `${data.carrierName || data.callsign} – ${match.stock} T in ${data.systemName}`;
-                  list.appendChild(li);
+                  matches.push({
+                    name: data.carrierName || data.callsign || tag.toUpperCase(),
+                    stock: match.stock,
+                    system: data.systemName || 'Unknown'
+                  });
                 }
-              });
+              })
+              .catch(() => {})
+          );
+
+          Promise.all(fetches).then(() => {
+            if (matches.length === 0) return;
+            matches.sort((a, b) => b.stock - a.stock);
+            matches.forEach((m, i) => {
+              const li = document.createElement("li");
+              li.textContent = `${m.name} – ${m.stock} T in ${m.system}`;
+              if (i === 0) li.classList.add("highlight");
+              list.appendChild(li);
+            });
           });
         });
-
-        container.innerHTML = html;
       })
       .catch(() => {
         document.getElementById("progress-info").innerHTML = "<p>Failed to load progress data.</p>";

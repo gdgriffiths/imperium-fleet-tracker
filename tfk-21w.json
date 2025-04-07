@@ -2,14 +2,44 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "Cauani",
+  "systemName": "Synuefai HY-U b22-2",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-07T22:20:29.987555+00:00",
+  "lastUpdated": "2025-04-07T23:07:22.873370+00:00",
   "commodities": [
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 531,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 271,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "biowaste",
+      "sellPrice": 0,
+      "stock": 8,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 631,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 9,
+      "stockBracket": 2
+    },
     {
       "buyPrice": 10605,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
@@ -17,19 +47,39 @@
       "stockBracket": 2
     },
     {
+      "buyPrice": 2388,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "powergenerators",
+      "sellPrice": 0,
+      "stock": 1,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1084,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 1,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 4179,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 13000,
+      "stock": 12220,
       "stockBracket": 2
     },
     {
       "buyPrice": 4447,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,

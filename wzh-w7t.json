@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Cauani",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-07T21:36:11.504717+00:00",
+  "lastUpdated": "2025-04-07T21:45:58.423377+00:00",
   "commodities": [
     {
       "buyPrice": 2552,
@@ -98,7 +98,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 2776,
+      "demand": 2052,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "insulatingmembrane",
@@ -107,12 +107,12 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 1375,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 3051,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "liquidoxygen",
-      "sellPrice": 0,
+      "sellPrice": 1375,
       "stock": 0,
       "stockBracket": 0
     },
@@ -168,7 +168,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 11000,
+      "demand": 8000,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",

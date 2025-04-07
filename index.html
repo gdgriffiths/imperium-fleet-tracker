@@ -86,6 +86,49 @@
       evt.currentTarget.classList.add('active');
     }
 
+    const colonizationData = [
+      { name: "Synuefai TU-I c12-12", remaining: 414.63 },
+      { name: "Synuefai RV-P b25-3", remaining: 402.35 },
+      { name: "Synuefai NP-R b24-0", remaining: 394.07 },
+      { name: "Synuefai NP-R b24-2", remaining: 384.48 },
+      { name: "Synuefai IJ-T b23-0", remaining: 371.43 },
+      { name: "Synuefai JJ-T b23-0", remaining: 359.8 },
+      { name: "Synuefai HY-U B22-2", remaining: 349.89 },
+      { name: "Synuefai DB-U d4-17", remaining: 339.71 },
+      { name: "Synuefai BX-W b21-2", remaining: 327.07 },
+      { name: "Synuefai WQ-Y b20-0", remaining: 320.12 },
+      { name: "Synuefai WQ-Y b20-1", remaining: 305.17 },
+      { name: "Synuefai WQ-Y b20-3", remaining: 290.22 },
+      { name: "Synuefai CT-Z b19-2", remaining: 275.57 },
+      { name: "Synuefai SX-Z b19-0", remaining: 262.27 },
+      { name: "Synuefai ZY-X b20-1", remaining: 248.55 },
+      { name: "Synuefai MO-Y b20-3", remaining: 234.83 },
+      { name: "Synuefai LZ-Y b20-0", remaining: 221.52 },
+      { name: "Synuefai AE-Z b20-3", remaining: 208.21 },
+      { name: "Synuefai AE-Z b20-0", remaining: 193.29 },
+      { name: "Synuefai HY-Z b20-2", remaining: 178.37 },
+      { name: "California Sector HR-W d1-29", remaining: 165.52 }
+    ];
+
+    const routeContainer = document.getElementById("colonization-list");
+    colonizationData.forEach((system, index) => {
+      let status = "Upcoming";
+      if (index < 6) status = "Completed";
+      else if (index === 6) status = "In Progress";
+
+      const div = document.createElement("div");
+      div.className = "system";
+      const statusClass = status === "Completed" ? "status-completed"
+                        : status === "In Progress" ? "status-inprogress"
+                        : "status-upcoming";
+      div.innerHTML = `
+        <h3 class="${statusClass}">${system.name}</h3>
+        <p>Status: ${status}</p>
+        <p>Distance Remaining: ${system.remaining.toFixed(1)} LY</p>
+      `;
+      routeContainer.appendChild(div);
+    });
+
     const carriers = ["v0x-02m", "wzh-w7t", "j8f-5hm", "tfk-21w", "t8l-0xz"];
     const carrierContainer = document.getElementById("carrier-info");
 

@@ -56,7 +56,6 @@
     .status-inprogress { color: #ffa500; }
     .status-upcoming { color: #9999ff; }
     ul { padding-left: 20px; }
-    .highlight { font-weight: bold; color: #66ccff; }
   </style>
 </head>
 <body>
@@ -67,7 +66,6 @@
   <div class="tabs">
     <button class="tablink active" onclick="showTab(event, 'route')">Colony Route</button>
     <button class="tablink" onclick="showTab(event, 'carriers')">Fleet Carriers</button>
-    <button class="tablink" onclick="showTab(event, 'progress')">Colonization Progress</button>
   </div>
 
   <div id="route" class="tab-content active">
@@ -80,11 +78,6 @@
     <div id="carrier-info"><p>Loading carrier data...</p></div>
   </div>
 
-  <div id="progress" class="tab-content">
-    <h2>Colonization Progress</h2>
-    <div id="progress-info"><p>Loading progress...</p></div>
-  </div>
-
   <script>
     function showTab(evt, tabId) {
       document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
@@ -93,29 +86,52 @@
       evt.currentTarget.classList.add('active');
     }
 
-    const colonizationData = [
-      { name: "Synuefai TU-I c12-12", distance: 0.0, remaining: 414.63, status: "Completed" },
-      { name: "Synuefai RV-P b25-3", distance: 13.35, remaining: 402.35, status: "Completed" },
-      { name: "Synuefai NP-R b24-0", distance: 14.06, remaining: 394.07, status: "Completed" },
-      { name: "Synuefai NP-R b24-2", distance: 10.54, remaining: 384.48, status: "Completed" },
-      { name: "Synuefai IJ-T b23-0", distance: 13.1, remaining: 371.43, status: "Completed" },
-      { name: "Synuefai JJ-T b23-0", distance: 14.02, remaining: 359.8, status: "Completed" },
-      { name: "Synuefai HY-U b22-2", distance: 10.36, remaining: 349.89, status: "In Progress" },
-      { name: "Synuefai DB-U d4-17", distance: 14.63, remaining: 339.71, status: "Upcoming" },
-      { name: "Synuefai BX-W b21-2", distance: 13.69, remaining: 327.07, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-0", distance: 7.77, remaining: 320.12, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-1", distance: 14.95, remaining: 305.17, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-3", distance: 13.67, remaining: 290.22, status: "Upcoming" },
-      { name: "Synuefai CT-Z b19-2", distance: 14.65, remaining: 275.57, status: "Upcoming" },
-      { name: "Synuefai SX-Z b19-0", distance: 14.35, remaining: 262.27, status: "Upcoming" },
-      { name: "Synuefai ZY-X b20-1", distance: 13.72, remaining: 248.55, status: "Upcoming" },
-      { name: "Synuefai MO-Y b20-3", distance: 11.42, remaining: 234.83, status: "Upcoming" },
-      { name: "Synuefai LZ-Y b20-0", distance: 13.31, remaining: 221.52, status: "Upcoming" },
-      { name: "Synuefai AE-Z b20-3", distance: 12.41, remaining: 208.21, status: "Upcoming" },
-      { name: "Synuefai AE-Z b20-0", distance: 14.92, remaining: 193.29, status: "Upcoming" },
-      { name: "Synuefai HY-Z b20-2", distance: 13.57, remaining: 178.37, status: "Upcoming" },
-      { name: "California Sector HR-W d1-29", distance: 12.89, remaining: 165.52, status: "Upcoming" }
-    ];
+    const carriers = ["v0x-02m", "wzh-w7t", "j8f-5hm", "tfk-21w"];
+    const carrierContainer = document.getElementById("carrier-info");
+
+    function formatDate(isoString) {
+      if (!isoString) return "Unknown";
+      const date = new Date(isoString);
+      return date.toLocaleString("en-GB", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    }
+
+    function renderCommodities(title, items) {
+      if (!items.length) return '';
+      return `<h4>${title}</h4><ul>${items.map(i => `<li>${i.name} – ${(i.stock || i.demand)} T</li>`).join('')}</ul>`;
+    }
+
+    carrierContainer.innerHTML = "";
+    carriers.forEach(tag => {
+      fetch(`${tag}.json`)
+        .then(res => res.json())
+        .then(data => {
+          const exports = data.commodities.filter(c => c.stock > 0);
+          const imports = data.commodities.filter(c => c.demand > 0);
+
+          const div = document.createElement("div");
+          div.className = "carrier-box";
+          div.innerHTML = `
+            <h3>${data.carrierName || tag.toUpperCase()}</h3>
+            <p>System: ${data.systemName || "Unknown"}</p>
+            <p>Last Updated: ${formatDate(data.lastUpdated)}</p>
+            ${renderCommodities("Exports", exports)}
+            ${renderCommodities("Imports", imports)}
+          `;
+          carrierContainer.appendChild(div);
+        })
+        .catch(() => {
+          const div = document.createElement("div");
+          div.className = "carrier-box";
+          div.innerHTML = `<h3>${tag.toUpperCase()}</h3><p>Data unavailable.</p>`;
+          carrierContainer.appendChild(div);
+        });
+    });
   </script>
 </body>
 </html>

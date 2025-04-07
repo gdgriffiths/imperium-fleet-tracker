@@ -77,16 +77,12 @@
 
   <div id="carriers" class="tab-content">
     <h2>Fleet Carriers</h2>
-    <div id="carrier-info">
-      <p>Loading carrier data...</p>
-    </div>
+    <div id="carrier-info"><p>Loading carrier data...</p></div>
   </div>
 
   <div id="progress" class="tab-content">
     <h2>Colonization Progress</h2>
-    <div id="progress-info">
-      <p>Loading progress...</p>
-    </div>
+    <div id="progress-info"><p>Loading progress...</p></div>
   </div>
 
   <script>
@@ -97,132 +93,29 @@
       evt.currentTarget.classList.add('active');
     }
 
-    const colonizationData = [...]; // Unchanged colonization system list.
-
-    const routeContainer = document.getElementById("colonization-list");
-    colonizationData.forEach(system => {
-      const div = document.createElement("div");
-      div.className = "system";
-      const statusClass = system.status === "Completed" ? "status-completed"
-                         : system.status === "In Progress" ? "status-inprogress"
-                         : "status-upcoming";
-      div.innerHTML = `
-        <h3 class="${statusClass}">${system.name}</h3>
-        <p>Status: ${system.status}</p>
-        <p>Distance Remaining: ${system.remaining.toFixed(1)} LY</p>
-      `;
-      routeContainer.appendChild(div);
-    });
-
-    const carriers = ["v0x-02m", "wzh-w7t", "j8f-5hm", "tfk-21w"];
-    const carrierContainer = document.getElementById("carrier-info");
-
-    function formatDate(isoString) {
-      if (!isoString) return "Unknown";
-      const date = new Date(isoString);
-      return date.toLocaleString("en-GB", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-        hour: "2-digit",
-        minute: "2-digit"
-      });
-    }
-
-    function renderCommodities(title, items) {
-      if (!items || items.length === 0) return "";
-      return `
-        <h4>${title}</h4>
-        <ul>
-          ${items.map(item => `<li>${item.name} – ${(item.stock || item.demand)} T</li>`).join("")}
-        </ul>
-      `;
-    }
-
-    carrierContainer.innerHTML = "";
-    carriers.forEach(tag => {
-      fetch(`${tag}.json`)
-        .then(res => res.json())
-        .then(data => {
-          const buyOrders = (data.commodities || []).filter(c => c.stock > 0);
-          const sellOrders = (data.commodities || []).filter(c => c.demand > 0);
-
-          const div = document.createElement("div");
-          div.className = "carrier-box";
-          div.innerHTML = `
-            <h3>${data.carrierName || tag.toUpperCase()}</h3>
-            <p>System: ${data.systemName || "Unknown"}</p>
-            <p>Last Updated: ${formatDate(data.lastUpdated)}</p>
-            ${renderCommodities("Exports", buyOrders)}
-            ${renderCommodities("Imports", sellOrders)}
-          `;
-          carrierContainer.appendChild(div);
-        })
-        .catch(() => {
-          const div = document.createElement("div");
-          div.className = "carrier-box";
-          div.innerHTML = `<h3>${tag.toUpperCase()}</h3><p>Data unavailable.</p>`;
-          carrierContainer.appendChild(div);
-        });
-    });
-
-    fetch("progress.json")
-      .then(res => res.json())
-      .then(progress => {
-        const container = document.getElementById("progress-info");
-        const formattedDate = formatDate(progress.lastUpdated);
-
-        const htmlParts = [
-          `<h3>Current System: ${progress.currentSystem}</h3>`,
-          `<p>Last Updated: ${formattedDate}</p>`,
-          `<h4>Remaining Commodities</h4>`,
-          `<ul>${progress.requirements.map(r => `<li>${r.commodity} – ${r.amount} T</li>`).join("")}</ul>`,
-          `<h4>Suggested Carrier Sources</h4>`
-        ];
-
-        progress.requirements.forEach(req => {
-          const listId = `suggest-${req.commodity.replace(/\s+/g, '-')}`;
-          htmlParts.push(`<strong>${req.commodity}</strong><ul id="${listId}"></ul>`);
-        });
-
-        container.innerHTML = htmlParts.join("");
-
-        progress.requirements.forEach(req => {
-          const listId = `suggest-${req.commodity.replace(/\s+/g, '-')}`;
-          const list = document.getElementById(listId);
-          const matches = [];
-
-          const fetches = carriers.map(tag =>
-            fetch(`${tag}.json`)
-              .then(res => res.json())
-              .then(data => {
-                const match = (data.commodities || []).find(c => c.stock > 0 && c.name === req.commodity);
-                if (match) {
-                  matches.push({
-                    name: data.carrierName || data.callsign || tag.toUpperCase(),
-                    stock: match.stock,
-                    system: data.systemName || 'Unknown'
-                  });
-                }
-              })
-              .catch(() => {})
-          );
-
-          Promise.all(fetches).then(() => {
-            if (matches.length === 0) return;
-            matches.sort((a, b) => b.stock - a.stock);
-            matches.forEach((m, i) => {
-              const li = document.createElement("li");
-              li.textContent = `${m.name} – ${m.stock} T in ${m.system}`;
-              if (i === 0) li.classList.add("highlight");
-              list.appendChild(li);
-            });
-          });
-        });
-      })
-      .catch(() => {
-        document.getElementById("progress-info").innerHTML = "<p>Failed to load progress data.</p>";
-      });
+    const colonizationData = [
+      { name: "Synuefai TU-I c12-12", distance: 0.0, remaining: 414.63, status: "Completed" },
+      { name: "Synuefai RV-P b25-3", distance: 13.35, remaining: 402.35, status: "Completed" },
+      { name: "Synuefai NP-R b24-0", distance: 14.06, remaining: 394.07, status: "Completed" },
+      { name: "Synuefai NP-R b24-2", distance: 10.54, remaining: 384.48, status: "Completed" },
+      { name: "Synuefai IJ-T b23-0", distance: 13.1, remaining: 371.43, status: "Completed" },
+      { name: "Synuefai JJ-T b23-0", distance: 14.02, remaining: 359.8, status: "Completed" },
+      { name: "Synuefai HY-U b22-2", distance: 10.36, remaining: 349.89, status: "In Progress" },
+      { name: "Synuefai DB-U d4-17", distance: 14.63, remaining: 339.71, status: "Upcoming" },
+      { name: "Synuefai BX-W b21-2", distance: 13.69, remaining: 327.07, status: "Upcoming" },
+      { name: "Synuefai WQ-Y b20-0", distance: 7.77, remaining: 320.12, status: "Upcoming" },
+      { name: "Synuefai WQ-Y b20-1", distance: 14.95, remaining: 305.17, status: "Upcoming" },
+      { name: "Synuefai WQ-Y b20-3", distance: 13.67, remaining: 290.22, status: "Upcoming" },
+      { name: "Synuefai CT-Z b19-2", distance: 14.65, remaining: 275.57, status: "Upcoming" },
+      { name: "Synuefai SX-Z b19-0", distance: 14.35, remaining: 262.27, status: "Upcoming" },
+      { name: "Synuefai ZY-X b20-1", distance: 13.72, remaining: 248.55, status: "Upcoming" },
+      { name: "Synuefai MO-Y b20-3", distance: 11.42, remaining: 234.83, status: "Upcoming" },
+      { name: "Synuefai LZ-Y b20-0", distance: 13.31, remaining: 221.52, status: "Upcoming" },
+      { name: "Synuefai AE-Z b20-3", distance: 12.41, remaining: 208.21, status: "Upcoming" },
+      { name: "Synuefai AE-Z b20-0", distance: 14.92, remaining: 193.29, status: "Upcoming" },
+      { name: "Synuefai HY-Z b20-2", distance: 13.57, remaining: 178.37, status: "Upcoming" },
+      { name: "California Sector HR-W d1-29", distance: 12.89, remaining: 165.52, status: "Upcoming" }
+    ];
   </script>
 </body>
 </html>

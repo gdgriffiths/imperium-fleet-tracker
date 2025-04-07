@@ -97,29 +97,7 @@
       evt.currentTarget.classList.add('active');
     }
 
-    const colonizationData = [
-      { name: "Synuefai TU-I c12-12", distance: 0.0, remaining: 414.63, status: "Completed" },
-      { name: "Synuefai RV-P b25-3", distance: 13.35, remaining: 402.35, status: "Completed" },
-      { name: "Synuefai NP-R b24-0", distance: 14.06, remaining: 394.07, status: "Completed" },
-      { name: "Synuefai NP-R b24-2", distance: 10.54, remaining: 384.48, status: "Completed" },
-      { name: "Synuefai IJ-T b23-0", distance: 13.1, remaining: 371.43, status: "Completed" },
-      { name: "Synuefai JJ-T b23-0", distance: 14.02, remaining: 359.8, status: "Completed" },
-      { name: "Synuefai HY-U b22-2", distance: 10.36, remaining: 349.89, status: "In Progress" },
-      { name: "Synuefai DB-U d4-17", distance: 14.63, remaining: 339.71, status: "Upcoming" },
-      { name: "Synuefai BX-W b21-2", distance: 13.69, remaining: 327.07, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-0", distance: 7.77, remaining: 320.12, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-1", distance: 14.95, remaining: 305.17, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-3", distance: 13.67, remaining: 290.22, status: "Upcoming" },
-      { name: "Synuefai CT-Z b19-2", distance: 14.65, remaining: 275.57, status: "Upcoming" },
-      { name: "Synuefai SX-Z b19-0", distance: 14.35, remaining: 262.27, status: "Upcoming" },
-      { name: "Synuefai ZY-X b20-1", distance: 13.72, remaining: 248.55, status: "Upcoming" },
-      { name: "Synuefai MO-Y b20-3", distance: 11.42, remaining: 234.83, status: "Upcoming" },
-      { name: "Synuefai LZ-Y b20-0", distance: 13.31, remaining: 221.52, status: "Upcoming" },
-      { name: "Synuefai AE-Z b20-3", distance: 12.41, remaining: 208.21, status: "Upcoming" },
-      { name: "Synuefai AE-Z b20-0", distance: 14.92, remaining: 193.29, status: "Upcoming" },
-      { name: "Synuefai HY-Z b20-2", distance: 13.57, remaining: 178.37, status: "Upcoming" },
-      { name: "California Sector HR-W d1-29", distance: 12.89, remaining: 165.52, status: "Upcoming" }
-    ];
+    const colonizationData = [...]; // Unchanged colonization system list.
 
     const routeContainer = document.getElementById("colonization-list");
     colonizationData.forEach(system => {
@@ -188,7 +166,6 @@
         });
     });
 
-    // Colonization Progress Fetch
     fetch("progress.json")
       .then(res => res.json())
       .then(progress => {

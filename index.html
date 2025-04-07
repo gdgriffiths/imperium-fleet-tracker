@@ -166,8 +166,8 @@
             <h3>${data.callsign || tag.toUpperCase()}</h3>
             <p>System: ${data.system || "Unknown"}</p>
             <p>Last Updated: ${formatDate(data.lastUpdated)}</p>
-            ${renderCommodities("Imports", buyOrders)}
-            ${renderCommodities("Exports", sellOrders)}
+            ${renderCommodities("Exports", buyOrders)}
+            ${renderCommodities("Imports", sellOrders)}
           `;
           carrierContainer.appendChild(div);
         })

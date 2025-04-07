@@ -1,0 +1,120 @@
+{
+  "carrierName": "IMBR Voxel Voyager",
+  "callsign": "WZH-W7T",
+  "stationName": "WZH-W7T",
+  "systemName": "Synuefai HY-U b22-2",
+  "marketId": 3711740928,
+  "lastUpdated": "2025-04-07T17:12:10.454313+00:00",
+  "commodities": [
+    {
+      "buyPrice": 2552,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 2185,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 406,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "ceramiccomposites",
+      "sellPrice": 0,
+      "stock": 647,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 632,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 1710,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 2211,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "cropharvesters",
+      "sellPrice": 0,
+      "stock": 3,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 252,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "foodcartridges",
+      "sellPrice": 0,
+      "stock": 29,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 483,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "fruitandvegetables",
+      "sellPrice": 0,
+      "stock": 1,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 387,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "grain",
+      "sellPrice": 0,
+      "stock": 4,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 412,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "pesticides",
+      "sellPrice": 0,
+      "stock": 5,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1085,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 364,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 6568,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 383,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 4447,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "titanium",
+      "sellPrice": 0,
+      "stock": 3438,
+      "stockBracket": 2
+    }
+  ]
+}

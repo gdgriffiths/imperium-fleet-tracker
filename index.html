@@ -164,7 +164,7 @@
           div.className = "carrier-box";
           div.innerHTML = `
             <h3>${data.callsign || tag.toUpperCase()}</h3>
-            <p>System: ${data.system || "Unknown"}</p>
+            <p>System: ${data.systemName || "Unknown"}</p>
             <p>Last Updated: ${formatDate(data.lastUpdated)}</p>
             ${renderCommodities("Exports", buyOrders)}
             ${renderCommodities("Imports", sellOrders)}

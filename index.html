@@ -85,9 +85,12 @@
   </div>
 
   <div id="markets" class="tab-content">
-    <h2>Market Overview</h2>
-    <p>Coming soon...</p>
+  <h2>Market Overview – Cauani</h2>
+  <button onclick="loadMarketData('Cauani')">Refresh Market Data</button>
+  <div id="market-info">
+    <p>Loading market data...</p>
   </div>
+</div>
 
   <script>
     const colonizationData = [
@@ -183,6 +186,50 @@
     .catch(() => {
       document.getElementById("carrier-info").innerHTML = "Failed to load carrier data.";
     });
+  
+    function loadMarketData(systemName) {
+      const marketContainer = document.getElementById("market-info");
+      marketContainer.innerHTML = "Loading market data...";
+
+      fetch("https://inara-proxy.onrender.com/market", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ system: systemName })
+      })
+      .then(res => res.json())
+      .then(data => {
+        const event = data.events && data.events[0];
+        if (!event || !event.eventData || !event.eventData.stations || event.eventData.stations.length === 0) {
+          marketContainer.innerHTML = "No market data found.";
+          return;
+        }
+
+        const station = event.eventData.stations[0];
+        const market = station.commodities || [];
+
+        let html = `<h3>${station.name}</h3>`;
+        html += `<p>System: ${station.starSystemName}</p>`;
+        html += `<table border='1' cellpadding='5' style='margin-top:10px;'>`;
+        html += `<tr><th>Commodity</th><th>Stock</th><th>Buy</th><th>Sell</th></tr>`;
+        market.forEach(item => {
+          html += `<tr>
+            <td>${item.name}</td>
+            <td>${item.stock}</td>
+            <td>${item.buyPrice}</td>
+            <td>${item.sellPrice}</td>
+          </tr>`;
+        });
+        html += `</table>`;
+
+        marketContainer.innerHTML = html;
+      })
+      .catch(() => {
+        marketContainer.innerHTML = "Failed to load market data.";
+      });
+    }
+
+    // Auto-load Cauani on page load
+    loadMarketData("Cauani");
   </script>
 </body>
 </html>

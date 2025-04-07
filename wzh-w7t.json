@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Cauani",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-07T22:01:11.328490+00:00",
+  "lastUpdated": "2025-04-07T22:17:07.366650+00:00",
   "commodities": [
     {
       "buyPrice": 2552,
@@ -88,7 +88,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 1604,
+      "demand": 880,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "insulatingmembrane",

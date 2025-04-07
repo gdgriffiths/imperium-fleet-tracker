@@ -66,6 +66,7 @@
   <div class="tabs">
     <button class="tablink active" onclick="showTab(event, 'route')">Colony Route</button>
     <button class="tablink" onclick="showTab(event, 'carriers')">Fleet Carriers</button>
+    <button class="tablink" onclick="showTab(event, 'progress')">Current Colony Progress</button>
   </div>
 
   <div id="route" class="tab-content active">
@@ -76,6 +77,11 @@
   <div id="carriers" class="tab-content">
     <h2>Fleet Carriers</h2>
     <div id="carrier-info"><p>Loading carrier data...</p></div>
+  </div>
+
+  <div id="progress" class="tab-content">
+    <h2>Current Colony Progress</h2>
+    <div id="progress-info"><p>Loading progress data...</p></div>
   </div>
 
   <script>
@@ -175,6 +181,29 @@
           carrierContainer.appendChild(div);
         });
     });
+
+    // Current Colony Progress
+    fetch("progress.json")
+      .then(res => res.json())
+      .then(progress => {
+        const container = document.getElementById("progress-info");
+        const formattedDate = formatDate(progress.lastUpdated);
+
+        let html = `
+          <p><strong>Current System:</strong> ${progress.currentSystem}</p>
+          <p><strong>Last Updated:</strong> ${formattedDate}</p>
+          <h4>Required Commodities</h4>
+          <ul>
+        `;
+        progress.requirements.forEach(req => {
+          html += `<li>${req.commodity} – ${req.amount} T</li>`;
+        });
+        html += `</ul>`;
+        container.innerHTML = html;
+      })
+      .catch(() => {
+        document.getElementById("progress-info").innerHTML = "<p>Failed to load progress data.</p>";
+      });
   </script>
 </body>
 </html>

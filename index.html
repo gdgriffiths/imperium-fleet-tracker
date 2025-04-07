@@ -115,99 +115,93 @@
 
     const carrierContainer = document.getElementById("carrier-info");
     const fleetStockContainer = document.getElementById("fleet-stock-info");
+    const routeContainer = document.getElementById("colonization-list");
 
     const fleetStock = {};
 
     function sanitizeName(name) {
       return name.replace(/([a-z])([A-Z])/g, '$1 $2')
-                 .replace(/\b\w/g, l => l.toUpperCase());
+                 .replace(/([a-zA-Z])([0-9])/g, '$1 $2')
+                 .replace(/([0-9])([a-zA-Z])/g, '$1 $2')
+                 .replace(/([a-zA-Z])([A-Z])/g, '$1 $2')
+                 .replace(/\s+/g, ' ')
+                 .toLowerCase()
+                 .replace(/\b\w/g, c => c.toUpperCase())
+                 .trim();
+    }
+
+    function formatDate(isoString) {
+      if (!isoString) return "Unknown";
+      const date = new Date(isoString);
+      return date.toLocaleString("en-GB", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
     }
 
     carriers.forEach(tag => {
       fetch(`${tag}.json`)
         .then(res => res.json())
         .then(data => {
-          const exports = (data.commodities || []).filter(c => c.stock > 0);
-          const imports = (data.commodities || []).filter(c => c.demand > 0);
+          const buyOrders = (data.commodities || []).filter(c => c.stock > 0);
+          const sellOrders = (data.commodities || []).filter(c => c.demand > 0);
 
-          const div = document.createElement("div");
-          div.className = "carrier-box";
-          div.innerHTML = `
+          const box = document.createElement("div");
+          box.className = "carrier-box";
+          box.innerHTML = `
             <h3>${data.carrierName || tag.toUpperCase()}</h3>
-            <p>System: ${data.systemName || "Unknown"}</p>
-            <p>Last Updated: ${new Date(data.lastUpdated).toLocaleString()}</p>
+            <p>System: ${data.systemName || 'Unknown'}</p>
+            <p>Last Updated: ${formatDate(data.lastUpdated)}</p>
             <h4>Exports</h4>
-            <table><tr><th>Commodity</th><th>Amount (T)</th></tr>
-              ${exports.map(c => `<tr><td>${sanitizeName(c.name)}</td><td>${c.stock}</td></tr>`).join("")}
+            <table>
+              <tr><th>Commodity</th><th>Stock (T)</th></tr>
+              ${buyOrders.map(c => {
+                const name = sanitizeName(c.name);
+                fleetStock[name] = (fleetStock[name] || 0) + c.stock;
+                return `<tr><td>${name}</td><td>${c.stock}</td></tr>`;
+              }).join("")}
             </table>
             <h4>Imports</h4>
-            <table><tr><th>Commodity</th><th>Amount (T)</th></tr>
-              ${imports.map(c => `<tr><td>${sanitizeName(c.name)}</td><td>${c.demand}</td></tr>`).join("")}
+            <table>
+              <tr><th>Commodity</th><th>Demand (T)</th></tr>
+              ${sellOrders.map(c => `<tr><td>${sanitizeName(c.name)}</td><td>${c.demand}</td></tr>`).join("")}
             </table>
           `;
-          carrierContainer.appendChild(div);
-
-          exports.forEach(c => {
-            const cleanName = sanitizeName(c.name);
-            if (!fleetStock[cleanName]) fleetStock[cleanName] = 0;
-            fleetStock[cleanName] += c.stock;
-          });
-
-          renderFleetStock();
-        })
-        .catch(() => {
-          const div = document.createElement("div");
-          div.className = "carrier-box";
-          div.innerHTML = `<h3>${tag.toUpperCase()}</h3><p>Data unavailable.</p>`;
-          carrierContainer.appendChild(div);
+          carrierContainer.appendChild(box);
         });
     });
 
     function renderFleetStock() {
-      const rows = Object.entries(fleetStock)
-        .sort((a, b) => b[1] - a[1])
-        .map(([name, amount]) => `<tr><td>${name}</td><td>${amount} T</td></tr>`)
-        .join("");
-
-      fleetStockContainer.innerHTML = `
-        <table>
-          <tr><th>Commodity</th><th>Total Export Stock</th></tr>
-          ${rows}
-        </table>
+      const table = document.createElement("table");
+      table.innerHTML = `
+        <tr><th>Commodity</th><th>Total Stock (T)</th></tr>
+        ${Object.entries(fleetStock).map(([name, total]) => `<tr><td>${name}</td><td>${total}</td></tr>`).join("")}
       `;
+      fleetStockContainer.appendChild(table);
     }
 
+    setTimeout(renderFleetStock, 2000);
+
     const colonizationData = [
-      { name: "Synuefai TU-I c12-12", distance: 0.0, remaining: 414.63, status: "Completed" },
-      { name: "Synuefai RV-P b25-3", distance: 13.35, remaining: 402.35, status: "Completed" },
-      { name: "Synuefai NP-R b24-0", distance: 14.06, remaining: 394.07, status: "Completed" },
-      { name: "Synuefai NP-R b24-2", distance: 10.54, remaining: 384.48, status: "Completed" },
-      { name: "Synuefai IJ-T b23-0", distance: 13.1, remaining: 371.43, status: "Completed" },
-      { name: "Synuefai JJ-T b23-0", distance: 14.02, remaining: 359.8, status: "Completed" },
-      { name: "Synuefai HY-U b22-2", distance: 10.36, remaining: 349.89, status: "In Progress" },
-      { name: "Synuefai DB-U d4-17", distance: 14.63, remaining: 339.71, status: "Upcoming" },
-      { name: "Synuefai BX-W b21-2", distance: 13.69, remaining: 327.07, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-0", distance: 7.77, remaining: 320.12, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-1", distance: 14.95, remaining: 305.17, status: "Upcoming" },
-      { name: "Synuefai WQ-Y b20-3", distance: 13.67, remaining: 290.22, status: "Upcoming" },
-      { name: "Synuefai CT-Z b19-2", distance: 14.65, remaining: 275.57, status: "Upcoming" },
-      { name: "Synuefai SX-Z b19-0", distance: 14.35, remaining: 262.27, status: "Upcoming" },
-      { name: "Synuefai ZY-X b20-1", distance: 13.72, remaining: 248.55, status: "Upcoming" },
-      { name: "Synuefai MO-Y b20-3", distance: 11.42, remaining: 234.83, status: "Upcoming" },
-      { name: "Synuefai LZ-Y b20-0", distance: 13.31, remaining: 221.52, status: "Upcoming" },
-      { name: "Synuefai AE-Z b20-3", distance: 12.41, remaining: 208.21, status: "Upcoming" },
-      { name: "Synuefai AE-Z b20-0", distance: 14.92, remaining: 193.29, status: "Upcoming" },
-      { name: "Synuefai HY-Z b20-2", distance: 13.57, remaining: 178.37, status: "Upcoming" },
-      { name: "California Sector HR-W d1-29", distance: 12.89, remaining: 165.52, status: "Upcoming" }
+      { name: "Synuefai TU-I c12-12", remaining: 414.63, status: "Completed" },
+      { name: "Synuefai RV-P b25-3", remaining: 402.35, status: "Completed" },
+      { name: "Synuefai NP-R b24-0", remaining: 394.07, status: "Completed" },
+      { name: "Synuefai NP-R b24-2", remaining: 384.48, status: "Completed" },
+      { name: "Synuefai IJ-T b23-0", remaining: 371.43, status: "Completed" },
+      { name: "Synuefai JJ-T b23-0", remaining: 359.8, status: "Completed" },
+      { name: "Synuefai HY-U b22-2", remaining: 349.89, status: "In Progress" },
+      { name: "Synuefai DB-U d4-17", remaining: 339.71, status: "Upcoming" },
+      { name: "California Sector HR-W d1-29", remaining: 165.52, status: "Upcoming" }
     ];
 
-    const routeContainer = document.getElementById("colonization-list");
     colonizationData.forEach(system => {
       const div = document.createElement("div");
       div.className = "system";
-      const statusClass = system.status === "Completed" ? "status-completed"
-                         : system.status === "In Progress" ? "status-inprogress"
-                         : "status-upcoming";
+      const statusClass = system.status === "Completed" ? "status-completed" :
+                          system.status === "In Progress" ? "status-inprogress" : "status-upcoming";
       div.innerHTML = `
         <h3 class="${statusClass}">${system.name}</h3>
         <p>Status: ${system.status}</p>

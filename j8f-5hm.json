@@ -1,0 +1,160 @@
+{
+  "carrierName": "IMBR Clear Skies",
+  "callsign": "J8F-5HM",
+  "stationName": "J8F-5HM",
+  "systemName": "Synuefai HY-U b22-2",
+  "marketId": 3711748608,
+  "lastUpdated": "2025-04-07T19:45:05.617421+00:00",
+  "commodities": [
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 517,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 715,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "computercomponents",
+      "sellPrice": 0,
+      "stock": 400,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 631,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 529,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 252,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "foodcartridges",
+      "sellPrice": 0,
+      "stock": 347,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 488,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "fruitandvegetables",
+      "sellPrice": 0,
+      "stock": 302,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 2944,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "medicaldiagnosticequipment",
+      "sellPrice": 0,
+      "stock": 100,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1848,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "nonlethalweapons",
+      "sellPrice": 0,
+      "stock": 100,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "polymers",
+      "sellPrice": 0,
+      "stock": 519,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 2411,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "powergenerators",
+      "sellPrice": 0,
+      "stock": 70,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1084,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 336,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 0,
+      "demand": 800,
+      "demandBracket": 2,
+      "meanPrice": 0,
+      "name": "steel",
+      "sellPrice": 4056,
+      "stock": 0,
+      "stockBracket": ""
+    },
+    {
+      "buyPrice": 6633,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 676,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 0,
+      "demand": 800,
+      "demandBracket": 2,
+      "meanPrice": 0,
+      "name": "titanium",
+      "sellPrice": 4314,
+      "stock": 0,
+      "stockBracket": ""
+    },
+    {
+      "buyPrice": 265,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "water",
+      "sellPrice": 0,
+      "stock": 533,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 452,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "waterpurifiers",
+      "sellPrice": 0,
+      "stock": 150,
+      "stockBracket": 2
+    }
+  ]
+}

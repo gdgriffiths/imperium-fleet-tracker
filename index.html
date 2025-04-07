@@ -34,42 +34,63 @@
     .carrier h3, .system h3, .claim h3 {
       margin-top: 0;
     }
+    .status-completed { color: #66ff66; }
+    .status-inprogress { color: #ffa500; }
+    .status-upcoming { color: #9999ff; }
   </style>
 </head>
 <body>
   <header>
     <h1>Imperium Britannica Colonization Tracker</h1>
   </header>
+
   <section>
-    <h2>Live Station Info: California Sector BA-A e6</h2>
-    <div id="station-info" class="system">
-      <p>Loading station data...</p>
-    </div>
+    <h2>Colonization Route</h2>
+    <div id="colonization-list"></div>
   </section>
 
   <script>
-    async function loadStationData(systemName) {
-      const response = await fetch(`https://www.edsm.net/api-system-v1/stations?systemName=${encodeURIComponent(systemName)}`);
-      const data = await response.json();
+    const colonizationData = [
+      { name: "Synuefai TU-I c12-12", distance: 0.0, remaining: 414.6, status: "Completed" },
+      { name: "Synuefai RV-P b25-3", distance: 13.35, remaining: 402.35, status: "Completed" },
+      { name: "Synuefai NP-R b24-0", distance: 14.06, remaining: 394.07, status: "Completed" },
+      { name: "Synuefai NP-R b24-2", distance: 10.54, remaining: 384.48, status: "Completed" },
+      { name: "Synuefai IJ-T b23-0", distance: 13.10, remaining: 371.43, status: "Completed" },
+      { name: "Synuefai IT-T b23-4", distance: 12.61, remaining: 358.81, status: "Completed" },
+      { name: "Synuefai HY-U b22-2", distance: 10.36, remaining: 349.89, status: "In Progress" },
+      { name: "Synuefai DB-U d4-17", distance: 14.63, remaining: 339.71, status: "Upcoming" },
+      { name: "Synuefai BX-W b21-2", distance: 13.69, remaining: 327.07, status: "Upcoming" },
+      { name: "Synuefai EX-W b21-0", distance: 11.64, remaining: 318.47, status: "Upcoming" },
+      { name: "Synuefai AH-X b20-1", distance: 14.94, remaining: 307.53, status: "Upcoming" },
+      { name: "Synuefai FH-X b20-3", distance: 13.79, remaining: 294.76, status: "Upcoming" },
+      { name: "Synuefai MW-X b20-5", distance: 10.87, remaining: 280.97, status: "Upcoming" },
+      { name: "Synuefai WX-X b20-5", distance: 12.57, remaining: 270.10, status: "Upcoming" },
+      { name: "Synuefai ZY-X b20-1", distance: 14.59, remaining: 257.52, status: "Upcoming" },
+      { name: "Synuefai QY-X b20-0", distance: 12.35, remaining: 242.93, status: "Upcoming" },
+      { name: "Synuefai PY-X b20-3", distance: 13.01, remaining: 229.92, status: "Upcoming" },
+      { name: "Synuefai PI-X b20-5", distance: 14.56, remaining: 216.92, status: "Upcoming" },
+      { name: "Synuefai UU-X b20-4", distance: 10.28, remaining: 202.36, status: "Upcoming" },
+      { name: "Synuefai KI-X b20-2", distance: 13.73, remaining: 192.08, status: "Upcoming" },
+      { name: "Synuefai MQ-X b20-2", distance: 11.79, remaining: 178.35, status: "Upcoming" },
+      { name: "California Sector HR-W d1-29", distance: 11.20, remaining: 165.51, status: "Upcoming" }
+    ];
 
-      const container = document.getElementById('station-info');
-      container.innerHTML = '';
+    const container = document.getElementById("colonization-list");
 
-      if (data.stations && data.stations.length > 0) {
-        data.stations.forEach(station => {
-          const div = document.createElement('div');
-          div.innerHTML = `<h3>${station.name}</h3>
-            <p>Type: ${station.type}</p>
-            <p>Distance from star: ${station.distanceToStar} LS</p>
-            <p>Has Market: ${station.haveMarket ? 'Yes' : 'No'}</p>`;
-          container.appendChild(div);
-        });
-      } else {
-        container.innerHTML = '<p>No station data found for this system.</p>';
-      }
+    function createSystemDiv(system) {
+      const div = document.createElement("div");
+      div.className = "system";
+      const statusClass = system.status === "Completed" ? "status-completed" :
+                          system.status === "In Progress" ? "status-inprogress" : "status-upcoming";
+      div.innerHTML = `<h3 class="${statusClass}">${system.name}</h3>
+        <p>Status: ${system.status}</p>
+        <p>Distance Remaining: ${system.remaining.toFixed(1)} LY</p>`;
+      return div;
     }
 
-    loadStationData("California Sector BA-A e6");
+    colonizationData.forEach(system => {
+      container.appendChild(createSystemDiv(system));
+    });
   </script>
 </body>
 </html>

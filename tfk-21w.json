@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T19:06:33.507707+00:00",
+  "lastUpdated": "2025-04-08T19:09:08.296588+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,8 +13,8 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 62,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 708,
@@ -23,7 +23,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 279,
+      "stock": 215,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 188,
+      "stock": 97,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 205,
+      "stock": 153,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 73,
+      "stock": 60,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
-      "stock": 75,
+      "stock": 61,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
-      "stock": 32,
+      "stock": 13,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 564,
+      "stock": 498,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 772,
+      "stock": 656,
       "stockBracket": 2
     },
     {

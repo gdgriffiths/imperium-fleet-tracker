@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-08T00:49:35.708845+00:00",
+  "lastUpdated": "2025-04-08T00:50:53.934186+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 341,
+      "stock": 279,
       "stockBracket": 2
     },
     {
@@ -93,7 +93,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 87,
+      "stock": 73,
       "stockBracket": 2
     },
     {
@@ -103,12 +103,12 @@
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
-      "stock": 88,
+      "stock": 75,
       "stockBracket": 2
     },
     {
       "buyPrice": 0,
-      "demand": 70,
+      "demand": 10,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "polymers",
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
-      "stock": 51,
+      "stock": 31,
       "stockBracket": 2
     },
     {
@@ -193,7 +193,7 @@
       "meanPrice": 0,
       "name": "waterpurifiers",
       "sellPrice": 0,
-      "stock": 111,
+      "stock": 72,
       "stockBracket": 2
     }
   ]

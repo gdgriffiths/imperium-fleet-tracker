@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-08T14:41:22.719502+00:00",
+  "lastUpdated": "2025-04-08T14:48:01.897074+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -37,24 +37,24 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 46,
-      "demandBracket": 2,
+      "buyPrice": 253,
+      "demand": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "foodcartridges",
-      "sellPrice": 253,
-      "stock": 0,
-      "stockBracket": ""
+      "sellPrice": 0,
+      "stock": 376,
+      "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 39,
-      "demandBracket": 2,
+      "buyPrice": 485,
+      "demand": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "fruitandvegetables",
-      "sellPrice": 485,
-      "stock": 0,
-      "stockBracket": ""
+      "sellPrice": 0,
+      "stock": 303,
+      "stockBracket": 2
     },
     {
       "buyPrice": 2944,
@@ -77,14 +77,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 10,
-      "demandBracket": 2,
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "polymers",
-      "sellPrice": 306,
-      "stock": 0,
-      "stockBracket": ""
+      "sellPrice": 0,
+      "stock": 60,
+      "stockBracket": 2
     },
     {
       "buyPrice": 2411,
@@ -97,14 +97,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 234,
-      "demandBracket": 2,
+      "buyPrice": 1085,
+      "demand": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "semiconductors",
-      "sellPrice": 1075,
-      "stock": 0,
-      "stockBracket": ""
+      "sellPrice": 0,
+      "stock": 700,
+      "stockBracket": 2
     },
     {
       "buyPrice": 0,
@@ -117,14 +117,14 @@
       "stockBracket": ""
     },
     {
-      "buyPrice": 0,
-      "demand": 147,
-      "demandBracket": 2,
+      "buyPrice": 6568,
+      "demand": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "superconductors",
-      "sellPrice": 6503,
-      "stock": 0,
-      "stockBracket": ""
+      "sellPrice": 0,
+      "stock": 994,
+      "stockBracket": 2
     },
     {
       "buyPrice": 0,

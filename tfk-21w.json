@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T19:09:08.296588+00:00",
+  "lastUpdated": "2025-04-08T19:09:57.562544+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 846,
+      "stock": 838,
       "stockBracket": 2
     },
     {
@@ -93,8 +93,8 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 181,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 2388,
@@ -153,7 +153,7 @@
       "meanPrice": 0,
       "name": "waterpurifiers",
       "sellPrice": 0,
-      "stock": 72,
+      "stock": 33,
       "stockBracket": 2
     }
   ]

@@ -115,43 +115,55 @@
 
     const carrierContainer = document.getElementById("carrier-info");
     const fleetStockContainer = document.getElementById("fleet-stock-info");
-
     const fleetStock = {};
 
     function sanitizeName(name) {
-      const commodityMap = {
-        ceramiccomposites: "Ceramic Composites",
-        cmmcomposite: "CMM Composite",
-        foodcartridges: "Food Cartridges",
-        fruitandvegetables: "Fruit and Vegetables",
-        insulatingmembrane: "Insulating Membrane",
-        liquidoxygen: "Liquid Oxygen",
-        medicaldiagnosticequipment: "Medical Diagnostic Equipment",
-        nonlethalweapons: "Non-Lethal Weapons",
-        powergenerators: "Power Generators",
-        superconductors: "Superconductors",
-        computercomponents: "Computer Components"
-      };
-
-      const key = name.replace(/[^a-zA-Z]/g, "").toLowerCase();
-      if (commodityMap[key]) return commodityMap[key];
-
-      return name
-        .replace(/([a-z])([A-Z])/g, '$1 $2')
-        .replace(/([A-Z])([A-Z][a-z])/g, '$1 $2')
-        .replace(/([a-zA-Z])([0-9])/g, '$1 $2')
-        .replace(/([0-9])([a-zA-Z])/g, '$1 $2')
-        .replace(/[_\-]/g, ' ')
-        .replace(/([a-z])([A-Z])/g, '$1 $2')
-        .replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2')
-        .replace(/([a-z])([A-Z])/g, '$1 $2')
-        .replace(/\s+/g, ' ')
-        .trim()
-        .toLowerCase()
-        .replace(/\b\w/g, c => c.toUpperCase());
+      const spaced = name.replace(/([a-z])([A-Z])/g, '$1 $2')
+                         .replace(/([a-zA-Z])([0-9])/g, '$1 $2')
+                         .replace(/([0-9])([a-zA-Z])/g, '$1 $2')
+                         .replace(/[^a-zA-Z0-9]/g, ' ');
+      return spaced.trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
     }
 
-    // Colony Route Content
+    function renderCommodityTable(title, items, field) {
+      if (!items.length) return '';
+      let rows = items.map(c => `<tr><td>${sanitizeName(c.name)}</td><td>${c[field]}</td></tr>`).join('');
+      return `<h4>${title}</h4><table><tr><th>Commodity</th><th>Amount (T)</th></tr>${rows}</table>`;
+    }
+
+    carriers.forEach(tag => {
+      fetch(`${tag}.json`).then(res => res.json()).then(data => {
+        const exports = (data.commodities || []).filter(c => c.stock > 0);
+        const imports = (data.commodities || []).filter(c => c.demand > 0);
+
+        const box = document.createElement("div");
+        box.className = "carrier-box";
+        box.innerHTML = `
+          <h3>${data.carrierName || data.callsign}</h3>
+          <p>System: ${data.systemName}</p>
+          <p>Last Updated: ${new Date(data.lastUpdated).toLocaleString('en-GB')}</p>
+          ${renderCommodityTable("Exports", exports, "stock")}
+          ${renderCommodityTable("Imports", imports, "demand")}
+        `;
+        carrierContainer.appendChild(box);
+
+        // Update Fleet Stock Totals
+        exports.forEach(c => {
+          const name = sanitizeName(c.name);
+          if (!fleetStock[name]) fleetStock[name] = 0;
+          fleetStock[name] += c.stock;
+        });
+      });
+    });
+
+    setTimeout(() => {
+      let rows = Object.entries(fleetStock)
+        .sort((a, b) => b[1] - a[1])
+        .map(([name, total]) => `<tr><td>${name}</td><td>${total}</td></tr>`)
+        .join('');
+      fleetStockContainer.innerHTML = `<table><tr><th>Commodity</th><th>Total Stock (T)</th></tr>${rows}</table>`;
+    }, 2000);
+
     const colonizationData = [
       { name: "Synuefai TU-I c12-12", distance: 0.0, remaining: 414.63, status: "Completed" },
       { name: "Synuefai RV-P b25-3", distance: 13.35, remaining: 402.35, status: "Completed" },
@@ -180,11 +192,8 @@
     colonizationData.forEach(system => {
       const div = document.createElement("div");
       div.className = "system";
-      const statusClass = system.status === "Completed"
-        ? "status-completed"
-        : system.status === "In Progress"
-        ? "status-inprogress"
-        : "status-upcoming";
+      const statusClass = system.status === "Completed" ? "status-completed"
+                         : system.status === "In Progress" ? "status-inprogress" : "status-upcoming";
       div.innerHTML = `
         <h3 class="${statusClass}">${system.name}</h3>
         <p>Status: ${system.status}</p>

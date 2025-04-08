@@ -4,12 +4,22 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai WQ-Y b20-0",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T21:47:30.290970+00:00",
+  "lastUpdated": "2025-04-08T21:48:12.727218+00:00",
   "commodities": [
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
     {
       "buyPrice": 708,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
@@ -17,9 +27,19 @@
       "stockBracket": 2
     },
     {
+      "buyPrice": 631,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
       "buyPrice": 252,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
@@ -29,7 +49,7 @@
     {
       "buyPrice": 483,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
@@ -39,17 +59,17 @@
     {
       "buyPrice": 10605,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 237,
+      "stock": 138,
       "stockBracket": 2
     },
     {
       "buyPrice": 2944,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
@@ -59,7 +79,7 @@
     {
       "buyPrice": 1848,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
@@ -67,9 +87,29 @@
       "stockBracket": 2
     },
     {
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "polymers",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 2388,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "powergenerators",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
       "buyPrice": 1084,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
@@ -79,7 +119,7 @@
     {
       "buyPrice": 4179,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
@@ -89,7 +129,7 @@
     {
       "buyPrice": 6551,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
@@ -99,12 +139,22 @@
     {
       "buyPrice": 4446,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
       "stock": 544,
       "stockBracket": 2
+    },
+    {
+      "buyPrice": 447,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "waterpurifiers",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     }
   ]
 }

@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-08T16:30:03.084538+00:00",
+  "lastUpdated": "2025-04-08T16:37:47.376627+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -235,6 +235,16 @@
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
+    },
+    {
+      "buyPrice": 260,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "water",
+      "sellPrice": 0,
+      "stock": 2977,
+      "stockBracket": 2
     },
     {
       "buyPrice": 22002,

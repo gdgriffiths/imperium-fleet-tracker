@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai WQ-Y b20-0",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-08T23:37:04.266135+00:00",
+  "lastUpdated": "2025-04-08T23:37:53.493833+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -253,7 +253,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 9272,
+      "stock": 7764,
       "stockBracket": 2
     },
     {

@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai BX-W b21-2",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-08T19:19:45.514833+00:00",
+  "lastUpdated": "2025-04-08T19:21:23.911691+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 7027,
+      "stock": 6243,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 5220,
+      "stock": 4952,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 1672,
+      "stock": 1156,
       "stockBracket": 2
     },
     {

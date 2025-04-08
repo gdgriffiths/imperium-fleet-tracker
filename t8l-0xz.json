@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai BX-W b21-2",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-08T19:33:38.901736+00:00",
+  "lastUpdated": "2025-04-08T19:36:23.410684+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 6243,
+      "stock": 5459,
       "stockBracket": 2
     },
     {

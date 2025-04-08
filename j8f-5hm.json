@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-08T00:21:49.063221+00:00",
+  "lastUpdated": "2025-04-08T00:22:39.364220+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -93,7 +93,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 100,
+      "stock": 87,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 519,
+      "stock": 121,
       "stockBracket": 2
     },
     {

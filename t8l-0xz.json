@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai WQ-Y b20-0",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-08T22:20:26.106479+00:00",
+  "lastUpdated": "2025-04-08T22:22:01.147014+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,8 +33,8 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 301,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 708,
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 3475,
+      "stock": 3108,
       "stockBracket": 2
     },
     {

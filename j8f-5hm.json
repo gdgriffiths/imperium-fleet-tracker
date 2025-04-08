@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-08T15:06:08.191421+00:00",
+  "lastUpdated": "2025-04-08T15:07:03.351814+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 280,
+      "stock": 188,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 254,
+      "stock": 205,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 630,
+      "stock": 564,
       "stockBracket": 2
     },
     {
@@ -153,7 +153,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 884,
+      "stock": 772,
       "stockBracket": 2
     },
     {

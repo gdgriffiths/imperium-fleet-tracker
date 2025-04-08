@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-08T00:20:51.723338+00:00",
+  "lastUpdated": "2025-04-08T00:21:49.063221+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 400,
+      "stock": 341,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 529,
+      "stock": 289,
       "stockBracket": 2
     },
     {
@@ -193,7 +193,7 @@
       "meanPrice": 0,
       "name": "waterpurifiers",
       "sellPrice": 0,
-      "stock": 150,
+      "stock": 111,
       "stockBracket": 2
     }
   ]

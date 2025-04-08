@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T15:55:46.033025+00:00",
+  "lastUpdated": "2025-04-08T16:00:57.111673+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -27,16 +27,6 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 142,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "computercomponents",
-      "sellPrice": 708,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
       "buyPrice": 10605,
       "demand": 0,
       "demandBracket": 0,
@@ -53,12 +43,12 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 9529,
+      "stock": 8971,
       "stockBracket": 2
     },
     {
       "buyPrice": 0,
-      "demand": 772,
+      "demand": 190,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "superconductors",
@@ -73,7 +63,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 4641,
+      "stock": 4419,
       "stockBracket": 2
     }
   ]

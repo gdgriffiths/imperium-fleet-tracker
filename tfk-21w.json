@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T17:27:39.967237+00:00",
+  "lastUpdated": "2025-04-08T17:44:17.224058+00:00",
   "commodities": [
     {
       "buyPrice": 4179,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 5127,
+      "stock": 4347,
       "stockBracket": 2
     }
   ]

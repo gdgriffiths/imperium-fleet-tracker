@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai HY-U b22-2",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-07T23:21:16.310781+00:00",
+  "lastUpdated": "2025-04-08T00:35:01.882116+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 12272,
+      "stock": 12129,
       "stockBracket": 2
     },
     {

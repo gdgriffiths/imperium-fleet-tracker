@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T15:11:05.157314+00:00",
+  "lastUpdated": "2025-04-08T15:16:57.751925+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 959,
+      "stock": 846,
       "stockBracket": 2
     },
     {

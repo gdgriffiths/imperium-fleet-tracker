@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai WQ-Y b20-0",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-08T21:41:14.967004+00:00",
+  "lastUpdated": "2025-04-08T21:59:26.043654+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 869,
+      "stock": 828,
       "stockBracket": 2
     },
     {

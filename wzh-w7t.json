@@ -2,9 +2,9 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "Synuefai BX-W b21-2",
+  "systemName": "Synuefai WQ-Y b20-0",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-08T18:41:44.332103+00:00",
+  "lastUpdated": "2025-04-08T22:37:52.978940+00:00",
   "commodities": [
     {
       "buyPrice": 2552,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2185,
+      "stock": 1453,
       "stockBracket": 2
     },
     {
@@ -45,6 +45,16 @@
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
+    },
+    {
+      "buyPrice": 631,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 2272,
+      "stockBracket": 2
     },
     {
       "buyPrice": 2211,
@@ -87,24 +97,24 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 5,
-      "demandBracket": 2,
+      "buyPrice": 10707,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "insulatingmembrane",
-      "sellPrice": 10605,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 3495,
+      "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 6,
-      "demandBracket": 2,
+      "buyPrice": 1382,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "liquidoxygen",
-      "sellPrice": 1375,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 1537,
+      "stockBracket": 2
     },
     {
       "buyPrice": 412,
@@ -157,14 +167,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 2752,
-      "demandBracket": 2,
+      "buyPrice": 4447,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 4447,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 8022,
+      "stockBracket": 2
     }
   ]
 }

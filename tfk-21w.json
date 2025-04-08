@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai WQ-Y b20-0",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T21:49:28.574556+00:00",
+  "lastUpdated": "2025-04-08T21:50:01.786226+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 138,
+      "stock": 39,
       "stockBracket": 2
     },
     {
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 1696,
+      "stock": 1011,
       "stockBracket": 2
     },
     {

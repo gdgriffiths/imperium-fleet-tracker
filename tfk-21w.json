@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai BX-W b21-2",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T20:49:08.318247+00:00",
+  "lastUpdated": "2025-04-08T20:58:09.307102+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 538,
+      "stock": 499,
       "stockBracket": 2
     },
     {

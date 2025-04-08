@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-08T00:42:39.150875+00:00",
+  "lastUpdated": "2025-04-08T00:43:32.451247+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 517,
+      "stock": 391,
       "stockBracket": 2
     },
     {

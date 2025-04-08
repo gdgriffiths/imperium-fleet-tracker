@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T00:33:45.126880+00:00",
+  "lastUpdated": "2025-04-08T15:11:05.157314+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 531,
+      "stock": 437,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 8110,
+      "stock": 7330,
       "stockBracket": 2
     }
   ]

@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Synuefai DB-U d4-17",
+  "systemName": "Synuefai BX-W b21-2",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-08T16:37:47.376627+00:00",
+  "lastUpdated": "2025-04-08T18:59:51.735675+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -243,7 +243,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 2977,
+      "stock": 2755,
       "stockBracket": 2
     },
     {

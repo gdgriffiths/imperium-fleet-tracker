@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai BX-W b21-2",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-08T20:22:17.734343+00:00",
+  "lastUpdated": "2025-04-08T20:24:35.293875+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 3528,
+      "stock": 2744,
       "stockBracket": 2
     },
     {

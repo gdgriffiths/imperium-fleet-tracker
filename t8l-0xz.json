@@ -2,9 +2,9 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "Synuefai HY-U b22-2",
+  "systemName": "Synuefai DB-U d4-17",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-08T00:35:01.882116+00:00",
+  "lastUpdated": "2025-04-08T16:45:13.476313+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -23,7 +23,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 2000,
+      "stock": 1489,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 5482,
+      "stock": 5435,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 2396,
+      "stock": 1672,
       "stockBracket": 2
     },
     {

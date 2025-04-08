@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai BX-W b21-2",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-08T18:59:51.735675+00:00",
+  "lastUpdated": "2025-04-08T19:10:39.743453+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -243,7 +243,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 2755,
+      "stock": 1996,
       "stockBracket": 2
     },
     {

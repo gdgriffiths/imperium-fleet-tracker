@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "HIP 21369",
+  "systemName": "Cauani",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-09T15:45:21.240348+00:00",
+  "lastUpdated": "2025-04-09T20:36:12.361879+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -167,6 +167,16 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 0,
+      "demand": 1200,
+      "demandBracket": 2,
+      "meanPrice": 0,
+      "name": "polymers",
+      "sellPrice": 306,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
       "buyPrice": 1094,
       "demand": 0,
       "demandBracket": 0,
@@ -183,6 +193,16 @@
       "meanPrice": 0,
       "name": "silver",
       "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 0,
+      "demand": 3384,
+      "demandBracket": 2,
+      "meanPrice": 0,
+      "name": "steel",
+      "sellPrice": 4179,
       "stock": 0,
       "stockBracket": 0
     },
@@ -233,6 +253,16 @@
       "meanPrice": 0,
       "name": "tritium",
       "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 0,
+      "demand": 2000,
+      "demandBracket": 2,
+      "meanPrice": 0,
+      "name": "water",
+      "sellPrice": 260,
       "stock": 0,
       "stockBracket": 0
     },

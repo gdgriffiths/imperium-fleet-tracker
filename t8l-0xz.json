@@ -4,8 +4,18 @@
   "stationName": "T8L-0XZ",
   "systemName": "Arietis Sector DB-W b2-0",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-09T17:54:02.406200+00:00",
+  "lastUpdated": "2025-04-09T17:55:11.446221+00:00",
   "commodities": [
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
     {
       "buyPrice": 0,
       "demand": 1670,
@@ -14,7 +24,7 @@
       "name": "ceramiccomposites",
       "sellPrice": 406,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -24,7 +34,47 @@
       "name": "cmmcomposite",
       "sellPrice": 5972,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 708,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "computercomponents",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 631,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 253,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "foodcartridges",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 485,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "fruitandvegetables",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -34,7 +84,27 @@
       "name": "liquidoxygen",
       "sellPrice": 69,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 2944,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "medicaldiagnosticequipment",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 1848,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "nonlethalweapons",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -44,7 +114,77 @@
       "name": "polymers",
       "sellPrice": 306,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 2388,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "powergenerators",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 1084,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 4186,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "steel",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 6551,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 4446,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "titanium",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 260,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "water",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 447,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "waterpurifiers",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     }
   ]
 }

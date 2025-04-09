@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Arietis Sector DB-W b2-0",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-09T17:55:11.446221+00:00",
+  "lastUpdated": "2025-04-09T19:17:17.541169+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -28,7 +28,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 12648,
+      "demand": 11864,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "cmmcomposite",

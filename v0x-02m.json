@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Cauani",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-09T22:57:13.744331+00:00",
+  "lastUpdated": "2025-04-09T23:12:12.817518+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -238,7 +238,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 1524,
+      "demand": 740,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "water",

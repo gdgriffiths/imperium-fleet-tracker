@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Arietis Sector DB-W b2-0",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-09T21:57:10.533066+00:00",
+  "lastUpdated": "2025-04-09T21:58:38.951478+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -68,7 +68,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 1900,
+      "demand": 1116,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "liquidoxygen",

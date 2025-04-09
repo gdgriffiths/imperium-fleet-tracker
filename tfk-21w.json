@@ -4,18 +4,8 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-09T20:10:06.721417+00:00",
+  "lastUpdated": "2025-04-09T20:20:01.513377+00:00",
   "commodities": [
-    {
-      "buyPrice": 2540,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "aluminium",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
     {
       "buyPrice": 0,
       "demand": 500,
@@ -24,7 +14,7 @@
       "name": "computercomponents",
       "sellPrice": 708,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -34,7 +24,7 @@
       "name": "copper",
       "sellPrice": 631,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -44,7 +34,7 @@
       "name": "foodcartridges",
       "sellPrice": 252,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -54,7 +44,7 @@
       "name": "fruitandvegetables",
       "sellPrice": 483,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -64,7 +54,7 @@
       "name": "insulatingmembrane",
       "sellPrice": 10605,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -74,7 +64,7 @@
       "name": "medicaldiagnosticequipment",
       "sellPrice": 2944,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -84,17 +74,7 @@
       "name": "nonlethalweapons",
       "sellPrice": 1848,
       "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 306,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "polymers",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -104,7 +84,7 @@
       "name": "semiconductors",
       "sellPrice": 1084,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -114,7 +94,7 @@
       "name": "steel",
       "sellPrice": 4179,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -124,7 +104,7 @@
       "name": "superconductors",
       "sellPrice": 6551,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -134,7 +114,7 @@
       "name": "titanium",
       "sellPrice": 4446,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -144,7 +124,7 @@
       "name": "waterpurifiers",
       "sellPrice": 447,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     }
   ]
 }

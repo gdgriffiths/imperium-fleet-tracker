@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-09T20:32:57.567561+00:00",
+  "lastUpdated": "2025-04-09T20:42:58.528526+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -23,16 +23,6 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 708,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 3231,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "copper",
-      "sellPrice": 631,
       "stock": 0,
       "stockBracket": 0
     },
@@ -93,16 +83,6 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 500,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "semiconductors",
-      "sellPrice": 1084,
       "stock": 0,
       "stockBracket": 0
     },

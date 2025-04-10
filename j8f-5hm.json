@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai SK-A b20-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T21:40:38.144994+00:00",
+  "lastUpdated": "2025-04-10T21:41:52.385135+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 8008,
+      "stock": 7848,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 420,
+      "stock": 190,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 1616,
+      "stock": 1518,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 500,
+      "stock": 448,
       "stockBracket": 2
     },
     {
@@ -83,8 +83,8 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 8,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 1375,
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 1200,
+      "stock": 1132,
       "stockBracket": 2
     },
     {
@@ -163,7 +163,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 1500,
+      "stock": 1392,
       "stockBracket": 2
     },
     {

@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai PE-C b19-2",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T22:54:23.491406+00:00",
+  "lastUpdated": "2025-04-10T22:55:58.995435+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -23,7 +23,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 88,
+      "stock": 24,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 1465,
+      "stock": 1125,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 34,
+      "stock": 21,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
-      "stock": 35,
+      "stock": 22,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 3171,
+      "stock": 2821,
       "stockBracket": 2
     },
     {

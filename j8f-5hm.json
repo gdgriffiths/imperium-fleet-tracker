@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Hyades Sector HR-W d1-59",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T17:09:42.253153+00:00",
+  "lastUpdated": "2025-04-10T17:24:15.923345+00:00",
   "commodities": [
     {
       "buyPrice": 0,
@@ -28,7 +28,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 6500,
+      "demand": 3484,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "cmmcomposite",

@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai SK-A b20-0",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-10T22:13:44.204860+00:00",
+  "lastUpdated": "2025-04-10T22:24:31.515901+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 8443,
+      "stock": 6935,
       "stockBracket": 2
     }
   ]

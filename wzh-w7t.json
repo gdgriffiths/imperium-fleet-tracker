@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Cauani",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-10T11:59:02.459652+00:00",
+  "lastUpdated": "2025-04-10T12:13:28.001927+00:00",
   "commodities": [
     {
       "buyPrice": 5972,
@@ -128,7 +128,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 4702,
+      "demand": 3918,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",

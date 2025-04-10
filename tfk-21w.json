@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai SK-A b20-0",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T21:52:46.335809+00:00",
+  "lastUpdated": "2025-04-10T22:00:38.950103+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 1803,
+      "stock": 1465,
       "stockBracket": 2
     },
     {

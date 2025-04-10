@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T14:50:15.976240+00:00",
+  "lastUpdated": "2025-04-10T15:02:44.701348+00:00",
   "commodities": [
     {
       "buyPrice": 0,
@@ -18,7 +18,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 812,
+      "demand": 765,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "insulatingmembrane",
@@ -53,16 +53,6 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 4179,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 737,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "titanium",
-      "sellPrice": 4446,
       "stock": 0,
       "stockBracket": 0
     }

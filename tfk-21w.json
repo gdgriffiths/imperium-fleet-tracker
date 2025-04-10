@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai WQ-Y b20-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T20:56:50.923206+00:00",
+  "lastUpdated": "2025-04-10T21:04:51.136556+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 7227,
+      "stock": 6447,
       "stockBracket": 2
     },
     {
@@ -117,14 +117,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 4446,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 1000,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 0,
-      "stock": 764,
-      "stockBracket": 2
+      "sellPrice": 4447,
+      "stock": 0,
+      "stockBracket": 0
     }
   ]
 }

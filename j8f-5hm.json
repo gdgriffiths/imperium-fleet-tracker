@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai PE-C b19-2",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T22:48:41.328658+00:00",
+  "lastUpdated": "2025-04-10T22:49:55.081244+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,8 +13,8 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 420,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 402,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 3939,
+      "stock": 3903,
       "stockBracket": 2
     },
     {
@@ -173,8 +173,8 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 328,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 263,

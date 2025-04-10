@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai PE-C b19-2",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-10T23:26:45.569228+00:00",
+  "lastUpdated": "2025-04-10T23:27:34.827782+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 2041,
+      "stock": 1981,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 4937,
+      "stock": 4766,
       "stockBracket": 2
     },
     {
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 5499,
+      "stock": 4222,
       "stockBracket": 2
     }
   ]

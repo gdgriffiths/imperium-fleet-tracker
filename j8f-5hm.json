@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Hyades Sector HR-W d1-59",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T17:24:15.923345+00:00",
+  "lastUpdated": "2025-04-10T18:19:29.520662+00:00",
   "commodities": [
     {
       "buyPrice": 0,
@@ -18,21 +18,11 @@
     },
     {
       "buyPrice": 0,
-      "demand": 3501,
+      "demand": 953,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 402,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 3484,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "cmmcomposite",
-      "sellPrice": 5972,
       "stock": 0,
       "stockBracket": 0
     },

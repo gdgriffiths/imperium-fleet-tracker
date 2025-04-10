@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai SK-A b20-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T21:45:15.873800+00:00",
+  "lastUpdated": "2025-04-10T21:48:46.667181+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 7848,
+      "stock": 7064,
       "stockBracket": 2
     },
     {
@@ -183,7 +183,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 948,
+      "stock": 224,
       "stockBracket": 2
     },
     {

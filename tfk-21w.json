@@ -2,19 +2,109 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "Hyades Sector HR-W d1-59",
+  "systemName": "Synuefai WQ-Y b20-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T17:29:55.654730+00:00",
+  "lastUpdated": "2025-04-10T20:48:08.098310+00:00",
   "commodities": [
     {
-      "buyPrice": 0,
-      "demand": 200,
-      "demandBracket": 2,
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 3020,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 708,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "computercomponents",
+      "sellPrice": 0,
+      "stock": 152,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 483,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "fruitandvegetables",
+      "sellPrice": 0,
+      "stock": 103,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 10605,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "insulatingmembrane",
+      "sellPrice": 0,
+      "stock": 1803,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 2944,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "medicaldiagnosticequipment",
+      "sellPrice": 0,
+      "stock": 47,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1857,
+      "demand": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "nonlethalweapons",
-      "sellPrice": 1848,
-      "stock": 0,
-      "stockBracket": ""
+      "sellPrice": 0,
+      "stock": 48,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1084,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 1145,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 4179,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "steel",
+      "sellPrice": 0,
+      "stock": 8795,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 6551,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 1211,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 4446,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "titanium",
+      "sellPrice": 0,
+      "stock": 2328,
+      "stockBracket": 2
     }
   ]
 }

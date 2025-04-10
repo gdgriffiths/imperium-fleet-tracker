@@ -2,10 +2,40 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Hyades Sector HR-W d1-59",
+  "systemName": "Synuefai IJ-T b23-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T19:24:32.942418+00:00",
+  "lastUpdated": "2025-04-10T21:00:05.959719+00:00",
   "commodities": [
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 420,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 402,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "ceramiccomposites",
+      "sellPrice": 0,
+      "stock": 3501,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 6090,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "cmmcomposite",
+      "sellPrice": 0,
+      "stock": 8008,
+      "stockBracket": 2
+    },
     {
       "buyPrice": 715,
       "demand": 0,
@@ -17,24 +47,34 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 631,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 420,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 0,
-      "demand": 1700,
+      "demand": 1596,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "foodcartridges",
-      "sellPrice": 252,
+      "sellPrice": 237,
       "stock": 0,
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 500,
-      "demandBracket": 2,
+      "buyPrice": 483,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "fruitandvegetables",
-      "sellPrice": 483,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 500,
+      "stockBracket": 2
     },
     {
       "buyPrice": 10605,
@@ -97,44 +137,54 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 821,
-      "demandBracket": 2,
+      "buyPrice": 1114,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "semiconductors",
-      "sellPrice": 1084,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 1200,
+      "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 1000,
-      "demandBracket": 2,
+      "buyPrice": 4186,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "steel",
-      "sellPrice": 4186,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 293,
+      "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 1000,
-      "demandBracket": 2,
+      "buyPrice": 6681,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 1500,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 4491,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 4446,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 627,
+      "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 1000,
-      "demandBracket": 2,
+      "buyPrice": 263,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "water",
-      "sellPrice": 260,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 948,
+      "stockBracket": 2
     },
     {
       "buyPrice": 452,

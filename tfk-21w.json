@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai PE-C b19-2",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T23:04:50.948538+00:00",
+  "lastUpdated": "2025-04-10T23:05:22.121564+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2531,
+      "stock": 2455,
       "stockBracket": 2
     },
     {

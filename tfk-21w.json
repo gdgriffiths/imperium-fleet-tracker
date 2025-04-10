@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T14:31:25.905375+00:00",
+  "lastUpdated": "2025-04-10T14:33:11.386068+00:00",
   "commodities": [
     {
       "buyPrice": 0,
@@ -48,7 +48,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 2305,
+      "demand": 1521,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",

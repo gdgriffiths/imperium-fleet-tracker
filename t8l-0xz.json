@@ -2,9 +2,9 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "Synuefai WQ-Y b20-0",
+  "systemName": "Synuefai WQ-Y b20-1",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-10T16:45:32.234695+00:00",
+  "lastUpdated": "2025-04-10T17:51:55.492117+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -17,14 +17,24 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 356,
-      "demandBracket": 2,
+      "buyPrice": 402,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "ceramiccomposites",
+      "sellPrice": 0,
+      "stock": 2157,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 5972,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "cmmcomposite",
-      "sellPrice": 5972,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 15330,
+      "stockBracket": 2
     },
     {
       "buyPrice": 708,
@@ -67,6 +77,26 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 10605,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "insulatingmembrane",
+      "sellPrice": 0,
+      "stock": 99,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1375,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "liquidoxygen",
+      "sellPrice": 0,
+      "stock": 5008,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 2944,
       "demand": 0,
       "demandBracket": 0,
@@ -85,6 +115,16 @@
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
+    },
+    {
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "polymers",
+      "sellPrice": 0,
+      "stock": 1528,
+      "stockBracket": 2
     },
     {
       "buyPrice": 2388,

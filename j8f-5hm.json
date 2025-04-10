@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai SK-A b20-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T21:54:24.691500+00:00",
+  "lastUpdated": "2025-04-10T21:55:53.789131+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -153,7 +153,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 240,
+      "stock": 23,
       "stockBracket": 2
     },
     {

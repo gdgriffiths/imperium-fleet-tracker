@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Hyades Sector HR-W d1-59",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T18:19:29.520662+00:00",
+  "lastUpdated": "2025-04-10T18:27:31.980638+00:00",
   "commodities": [
     {
       "buyPrice": 0,
@@ -14,7 +14,7 @@
       "name": "aluminium",
       "sellPrice": 2540,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -24,17 +24,7 @@
       "name": "ceramiccomposites",
       "sellPrice": 402,
       "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 715,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "computercomponents",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -44,7 +34,7 @@
       "name": "copper",
       "sellPrice": 631,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -54,7 +44,7 @@
       "name": "foodcartridges",
       "sellPrice": 252,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -64,67 +54,17 @@
       "name": "fruitandvegetables",
       "sellPrice": 483,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 10605,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
       "stock": 8,
       "stockBracket": 2
-    },
-    {
-      "buyPrice": 1375,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "liquidoxygen",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 2944,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "medicaldiagnosticequipment",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 1848,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "nonlethalweapons",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 306,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "polymers",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 2411,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "powergenerators",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -134,7 +74,7 @@
       "name": "semiconductors",
       "sellPrice": 1084,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -144,7 +84,7 @@
       "name": "steel",
       "sellPrice": 4186,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -154,7 +94,7 @@
       "name": "superconductors",
       "sellPrice": 6551,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -164,7 +104,7 @@
       "name": "titanium",
       "sellPrice": 4446,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -174,17 +114,7 @@
       "name": "water",
       "sellPrice": 260,
       "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 452,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "waterpurifiers",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     }
   ]
 }

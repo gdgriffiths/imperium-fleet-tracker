@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai SK-A b20-0",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T22:01:37.260763+00:00",
+  "lastUpdated": "2025-04-10T22:10:54.380692+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 4220,
+      "stock": 3171,
       "stockBracket": 2
     },
     {

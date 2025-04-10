@@ -4,65 +4,25 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T13:33:14.978794+00:00",
+  "lastUpdated": "2025-04-10T13:38:36.624535+00:00",
   "commodities": [
     {
-      "buyPrice": 2540,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 3500,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "aluminium",
-      "sellPrice": 0,
+      "sellPrice": 2540,
       "stock": 0,
       "stockBracket": 0
     },
     {
       "buyPrice": 0,
-      "demand": 500,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "computercomponents",
-      "sellPrice": 708,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 1000,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "foodcartridges",
-      "sellPrice": 252,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 1000,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "fruitandvegetables",
-      "sellPrice": 483,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 220,
+      "demand": 1220,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 10605,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 500,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "medicaldiagnosticequipment",
-      "sellPrice": 2944,
       "stock": 0,
       "stockBracket": 0
     },
@@ -88,7 +48,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 6216,
+      "demand": 7000,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "steel",
@@ -98,21 +58,11 @@
     },
     {
       "buyPrice": 0,
-      "demand": 3770,
+      "demand": 3873,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 4446,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 500,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "waterpurifiers",
-      "sellPrice": 447,
       "stock": 0,
       "stockBracket": 0
     }

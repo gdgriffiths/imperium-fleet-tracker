@@ -4,17 +4,17 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T15:28:23.760212+00:00",
+  "lastUpdated": "2025-04-10T15:47:14.277298+00:00",
   "commodities": [
     {
       "buyPrice": 0,
-      "demand": 2697,
+      "demand": 1913,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 2540,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -24,17 +24,7 @@
       "name": "nonlethalweapons",
       "sellPrice": 1848,
       "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 306,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "polymers",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -44,7 +34,7 @@
       "name": "steel",
       "sellPrice": 4179,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     }
   ]
 }

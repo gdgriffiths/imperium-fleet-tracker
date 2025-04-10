@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Synuefai SK-A b20-0",
+  "systemName": "Synuefai PE-C b19-2",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T22:21:46.485061+00:00",
+  "lastUpdated": "2025-04-10T22:45:44.615267+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 4979,
+      "stock": 3939,
       "stockBracket": 2
     },
     {

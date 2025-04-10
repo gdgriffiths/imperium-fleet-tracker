@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai WQ-Y b20-1",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-10T19:54:51.610589+00:00",
+  "lastUpdated": "2025-04-10T19:55:02.665547+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 14691,
+      "stock": 14361,
       "stockBracket": 2
     },
     {

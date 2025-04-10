@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai SK-A b20-0",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-10T21:49:19.418884+00:00",
+  "lastUpdated": "2025-04-10T21:54:47.669617+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -93,7 +93,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 3295,
+      "stock": 2511,
       "stockBracket": 2
     },
     {

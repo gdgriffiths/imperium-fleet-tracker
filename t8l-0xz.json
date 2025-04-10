@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai PE-C b19-2",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-10T23:15:49.321309+00:00",
+  "lastUpdated": "2025-04-10T23:18:07.761115+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -93,8 +93,8 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 764,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 2944,

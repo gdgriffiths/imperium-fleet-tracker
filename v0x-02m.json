@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Synuefai SK-A b20-0",
+  "systemName": "Synuefai PE-C b19-2",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-10T22:20:26.112485+00:00",
+  "lastUpdated": "2025-04-10T23:17:45.481922+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -47,14 +47,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 479,
-      "demandBracket": 2,
+      "buyPrice": 6022,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "cmmcomposite",
-      "sellPrice": 6022,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 877,
+      "stockBracket": 2
     },
     {
       "buyPrice": 708,
@@ -273,7 +273,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 5028,
+      "stock": 2012,
       "stockBracket": 2
     },
     {

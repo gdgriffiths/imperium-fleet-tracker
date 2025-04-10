@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai PE-C b19-2",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-10T23:10:07.151361+00:00",
+  "lastUpdated": "2025-04-10T23:19:01.664150+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 1475,
+      "stock": 691,
       "stockBracket": 2
     },
     {

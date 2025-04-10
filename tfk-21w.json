@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai SK-A b20-0",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T22:00:38.950103+00:00",
+  "lastUpdated": "2025-04-10T22:01:37.260763+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -123,8 +123,8 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 173,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     }
   ]
 }

@@ -2,9 +2,9 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "Synuefai SK-A b20-0",
+  "systemName": "Synuefai PE-C b19-2",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-10T22:24:31.515901+00:00",
+  "lastUpdated": "2025-04-10T23:26:45.569228+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 6935,
+      "stock": 5499,
       "stockBracket": 2
     }
   ]

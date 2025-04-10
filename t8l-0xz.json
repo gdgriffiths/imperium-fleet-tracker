@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai WQ-Y b20-1",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-10T19:44:37.389042+00:00",
+  "lastUpdated": "2025-04-10T19:54:51.610589+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -23,7 +23,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 2157,
+      "stock": 1703,
       "stockBracket": 2
     },
     {

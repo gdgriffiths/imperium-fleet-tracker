@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai PE-C b19-2",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-10T23:35:21.632078+00:00",
+  "lastUpdated": "2025-04-10T23:46:09.007362+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 1146,
+      "stock": 943,
       "stockBracket": 2
     }
   ]

@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai SK-A b20-0",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-10T22:12:53.605850+00:00",
+  "lastUpdated": "2025-04-10T22:21:50.528840+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -27,14 +27,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 126,
-      "demandBracket": 2,
+      "buyPrice": 5972,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "cmmcomposite",
-      "sellPrice": 6022,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 10382,
+      "stockBracket": 2
     },
     {
       "buyPrice": 708,

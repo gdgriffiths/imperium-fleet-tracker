@@ -4,8 +4,38 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai HC-O c9-7",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-11T23:46:55.312943+00:00",
+  "lastUpdated": "2025-04-11T23:48:45.053533+00:00",
   "commodities": [
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 2455,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 271,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "biowaste",
+      "sellPrice": 0,
+      "stock": 8,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 708,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "computercomponents",
+      "sellPrice": 0,
+      "stock": 24,
+      "stockBracket": 2
+    },
     {
       "buyPrice": 252,
       "demand": 0,
@@ -17,6 +47,46 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 483,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "fruitandvegetables",
+      "sellPrice": 0,
+      "stock": 103,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 10605,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "insulatingmembrane",
+      "sellPrice": 0,
+      "stock": 2625,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 2944,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "medicaldiagnosticequipment",
+      "sellPrice": 0,
+      "stock": 21,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1848,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "nonlethalweapons",
+      "sellPrice": 0,
+      "stock": 22,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 306,
       "demand": 0,
       "demandBracket": 0,
@@ -25,6 +95,46 @@
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
+    },
+    {
+      "buyPrice": 1084,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 1145,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 4179,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "steel",
+      "sellPrice": 0,
+      "stock": 8337,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 6551,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 1211,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 4446,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "titanium",
+      "sellPrice": 0,
+      "stock": 7567,
+      "stockBracket": 2
     }
   ]
 }

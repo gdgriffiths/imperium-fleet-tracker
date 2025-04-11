@@ -4,28 +4,8 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-11T16:12:01.369845+00:00",
+  "lastUpdated": "2025-04-11T16:22:11.986809+00:00",
   "commodities": [
-    {
-      "buyPrice": 252,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "foodcartridges",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 306,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "polymers",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
     {
       "buyPrice": 0,
       "demand": 3984,
@@ -34,17 +14,17 @@
       "name": "steel",
       "sellPrice": 4186,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
-      "demand": 7511,
+      "demand": 6731,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 4446,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     }
   ]
 }

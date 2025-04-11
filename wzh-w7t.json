@@ -4,18 +4,8 @@
   "stationName": "WZH-W7T",
   "systemName": "Cauani",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-11T22:40:45.128252+00:00",
+  "lastUpdated": "2025-04-11T22:43:45.981954+00:00",
   "commodities": [
-    {
-      "buyPrice": 0,
-      "demand": 716,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "aluminium",
-      "sellPrice": 2552,
-      "stock": 0,
-      "stockBracket": 0
-    },
     {
       "buyPrice": 402,
       "demand": 0,
@@ -158,7 +148,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 3409,
+      "demand": 3345,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",

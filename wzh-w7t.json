@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Cauani",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-11T22:04:23.681287+00:00",
+  "lastUpdated": "2025-04-11T22:05:29.049613+00:00",
   "commodities": [
     {
       "buyPrice": 0,
@@ -14,12 +14,12 @@
       "name": "aluminium",
       "sellPrice": 2552,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
     },
     {
       "buyPrice": 402,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
@@ -27,9 +27,29 @@
       "stockBracket": 2
     },
     {
+      "buyPrice": 5972,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "cmmcomposite",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 708,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "computercomponents",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
       "buyPrice": 631,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
@@ -37,9 +57,49 @@
       "stockBracket": 2
     },
     {
+      "buyPrice": 2211,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "cropharvesters",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 252,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "foodcartridges",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 483,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "fruitandvegetables",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 387,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "grain",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
       "buyPrice": 10605,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
@@ -47,9 +107,49 @@
       "stockBracket": 2
     },
     {
+      "buyPrice": 412,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "pesticides",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "polymers",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 1085,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 4179,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "steel",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
       "buyPrice": 6551,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
@@ -58,13 +158,13 @@
     },
     {
       "buyPrice": 0,
-      "demand": 5637,
+      "demand": 4857,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 4447,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
     }
   ]
 }

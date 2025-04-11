@@ -4,6 +4,27 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai HC-O c9-7",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-11T23:38:35.667574+00:00",
-  "commodities": []
+  "lastUpdated": "2025-04-11T23:46:55.312943+00:00",
+  "commodities": [
+    {
+      "buyPrice": 252,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "foodcartridges",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "polymers",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    }
+  ]
 }

@@ -2,49 +2,19 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Ngobe",
+  "systemName": "Cauani",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-11T20:15:17.650823+00:00",
+  "lastUpdated": "2025-04-11T20:34:52.165730+00:00",
   "commodities": [
     {
       "buyPrice": 6090,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
       "stock": 6,
       "stockBracket": 2
-    },
-    {
-      "buyPrice": 2944,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "medicaldiagnosticequipment",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 502,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "polymers",
-      "sellPrice": 306,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 2411,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "powergenerators",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -54,17 +24,17 @@
       "name": "steel",
       "sellPrice": 4179,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
-      "demand": 7000,
+      "demand": 6778,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 4446,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     }
   ]
 }

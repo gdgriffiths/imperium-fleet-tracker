@@ -2,29 +2,8 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "Cauani",
+  "systemName": "Synuefai HC-O c9-7",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-11T20:35:29.352551+00:00",
-  "commodities": [
-    {
-      "buyPrice": 252,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "foodcartridges",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 306,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "polymers",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    }
-  ]
+  "lastUpdated": "2025-04-11T23:38:35.667574+00:00",
+  "commodities": []
 }

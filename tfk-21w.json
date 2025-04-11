@@ -2,129 +2,29 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "Synuefai PE-C b19-2",
+  "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-10T23:37:30.603456+00:00",
+  "lastUpdated": "2025-04-11T16:09:15.741117+00:00",
   "commodities": [
     {
-      "buyPrice": 2540,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "aluminium",
-      "sellPrice": 0,
-      "stock": 2455,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 708,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "computercomponents",
-      "sellPrice": 0,
-      "stock": 24,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 252,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "foodcartridges",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 483,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "fruitandvegetables",
-      "sellPrice": 0,
-      "stock": 103,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 10605,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "insulatingmembrane",
-      "sellPrice": 0,
-      "stock": 1125,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 2944,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "medicaldiagnosticequipment",
-      "sellPrice": 0,
-      "stock": 21,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 1857,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "nonlethalweapons",
-      "sellPrice": 0,
-      "stock": 22,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 306,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "polymers",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 1084,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "semiconductors",
-      "sellPrice": 0,
-      "stock": 1145,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 4179,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 3984,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "steel",
-      "sellPrice": 0,
-      "stock": 1337,
-      "stockBracket": 2
+      "sellPrice": 4186,
+      "stock": 0,
+      "stockBracket": ""
     },
     {
-      "buyPrice": 6551,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "superconductors",
-      "sellPrice": 0,
-      "stock": 1211,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 4447,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 7511,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 0,
+      "sellPrice": 4446,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     }
   ]
 }

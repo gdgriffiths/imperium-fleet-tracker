@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai LY-D b18-2",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-12T00:36:14.586950+00:00",
+  "lastUpdated": "2025-04-12T00:41:57.604072+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 2464,
+      "stock": 1928,
       "stockBracket": 2
     },
     {

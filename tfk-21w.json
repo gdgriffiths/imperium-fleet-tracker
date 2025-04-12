@@ -2,9 +2,9 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "HIP 18390",
+  "systemName": "HIP 15273",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-12T21:30:50.006633+00:00",
+  "lastUpdated": "2025-04-12T22:28:44.877455+00:00",
   "commodities": [
     {
       "buyPrice": 271,
@@ -48,7 +48,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 4632,
+      "demand": 4590,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "steel",
@@ -58,7 +58,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 6712,
+      "demand": 5974,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",

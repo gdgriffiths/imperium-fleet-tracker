@@ -2,9 +2,9 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "Synuefai JD-E b18-1",
+  "systemName": "HIP 18390",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-12T02:58:33.207683+00:00",
+  "lastUpdated": "2025-04-12T14:05:43.275120+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 4489,
+      "stock": 4154,
       "stockBracket": 2
     },
     {
@@ -167,14 +167,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 4447,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 5812,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 0,
-      "stock": 836,
-      "stockBracket": 2
+      "sellPrice": 4447,
+      "stock": 0,
+      "stockBracket": 0
     }
   ]
 }

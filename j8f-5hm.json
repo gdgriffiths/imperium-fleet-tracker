@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Synuefai FX-F b17-2",
+  "systemName": "Synuefai ZP-R c7-7",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-12T14:59:15.374142+00:00",
+  "lastUpdated": "2025-04-12T15:44:02.973476+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 1053,
+      "stock": 960,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 245,
+      "stock": 197,
       "stockBracket": 2
     },
     {

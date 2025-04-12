@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai FX-F b17-2",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-12T13:23:46.879564+00:00",
+  "lastUpdated": "2025-04-12T13:24:12.093083+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2079,
+      "stock": 1502,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 5015,
+      "stock": 4812,
       "stockBracket": 2
     },
     {

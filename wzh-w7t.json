@@ -2,10 +2,20 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "Pleiades Sector WZ-X b1-1",
+  "systemName": "Synuefai HC-O c9-7",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-11T23:13:54.984943+00:00",
+  "lastUpdated": "2025-04-12T00:19:03.446996+00:00",
   "commodities": [
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 4453,
+      "stockBracket": 2
+    },
     {
       "buyPrice": 402,
       "demand": 0,
@@ -23,7 +33,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 1981,
+      "stock": 1729,
       "stockBracket": 2
     },
     {
@@ -33,7 +43,17 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 4995,
+      "stock": 4832,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1375,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "liquidoxygen",
+      "sellPrice": 0,
+      "stock": 4766,
       "stockBracket": 2
     },
     {
@@ -47,14 +67,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 333,
-      "demandBracket": 2,
+      "buyPrice": 4447,
+      "demand": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 4447,
-      "stock": 0,
-      "stockBracket": ""
+      "sellPrice": 0,
+      "stock": 7080,
+      "stockBracket": 2
     }
   ]
 }

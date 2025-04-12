@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Synuefai HC-O c9-7",
+  "systemName": "Synuefai LY-D b18-2",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-12T00:14:28.849269+00:00",
+  "lastUpdated": "2025-04-12T00:47:51.548794+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -233,7 +233,7 @@
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
-      "stock": 663,
+      "stock": 644,
       "stockBracket": 2
     },
     {
@@ -263,7 +263,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 10202,
+      "stock": 8634,
       "stockBracket": 2
     },
     {
@@ -323,7 +323,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 1993,
+      "stock": 1283,
       "stockBracket": 2
     },
     {

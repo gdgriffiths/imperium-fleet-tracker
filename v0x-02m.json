@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai LY-D b18-2",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-12T00:48:55.818761+00:00",
+  "lastUpdated": "2025-04-12T00:49:08.697781+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -263,7 +263,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 8634,
+      "stock": 7995,
       "stockBracket": 2
     },
     {

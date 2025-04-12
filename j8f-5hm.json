@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai ZP-R c7-7",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-12T15:44:02.973476+00:00",
+  "lastUpdated": "2025-04-12T15:44:52.117684+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -83,8 +83,8 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 344,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 2411,
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 866,
+      "stock": 795,
       "stockBracket": 2
     },
     {
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 958,
+      "stock": 842,
       "stockBracket": 2
     },
     {

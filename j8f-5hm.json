@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Synuefai ZP-R c7-7",
+  "systemName": "Maia",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-12T17:24:01.765123+00:00",
+  "lastUpdated": "2025-04-12T20:12:12.549501+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -17,24 +17,24 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 252,
-      "demand": 0,
-      "demandBracket": "",
+      "buyPrice": 0,
+      "demand": 1040,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "foodcartridges",
-      "sellPrice": 0,
-      "stock": 960,
-      "stockBracket": 2
+      "sellPrice": 248,
+      "stock": 0,
+      "stockBracket": ""
     },
     {
-      "buyPrice": 483,
-      "demand": 0,
-      "demandBracket": "",
+      "buyPrice": 0,
+      "demand": 1203,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "fruitandvegetables",
-      "sellPrice": 0,
-      "stock": 197,
-      "stockBracket": 2
+      "sellPrice": 480,
+      "stock": 0,
+      "stockBracket": ""
     },
     {
       "buyPrice": 1848,
@@ -65,6 +65,16 @@
       "sellPrice": 0,
       "stock": 842,
       "stockBracket": 2
+    },
+    {
+      "buyPrice": 0,
+      "demand": 530,
+      "demandBracket": 2,
+      "meanPrice": 0,
+      "name": "tritium",
+      "sellPrice": 51294,
+      "stock": 0,
+      "stockBracket": ""
     }
   ]
 }

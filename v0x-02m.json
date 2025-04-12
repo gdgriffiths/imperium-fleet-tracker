@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai LY-D b18-2",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-12T00:47:51.548794+00:00",
+  "lastUpdated": "2025-04-12T00:48:55.818761+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 202,
+      "stock": 174,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 708,
+      "stock": 694,
       "stockBracket": 2
     },
     {
@@ -223,7 +223,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 202,
+      "stock": 179,
       "stockBracket": 2
     },
     {
@@ -233,7 +233,7 @@
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
-      "stock": 644,
+      "stock": 624,
       "stockBracket": 2
     },
     {

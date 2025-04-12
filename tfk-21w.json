@@ -4,37 +4,17 @@
   "stationName": "TFK-21W",
   "systemName": "HIP 18390",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-12T21:14:50.245821+00:00",
+  "lastUpdated": "2025-04-12T21:22:05.461402+00:00",
   "commodities": [
     {
       "buyPrice": 271,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "biowaste",
       "sellPrice": 0,
       "stock": 8,
       "stockBracket": 2
-    },
-    {
-      "buyPrice": 708,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "computercomponents",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 252,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "foodcartridges",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -44,17 +24,17 @@
       "name": "insulatingmembrane",
       "sellPrice": 10707,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
-      "demand": 6188,
+      "demand": 5408,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 4186,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -64,7 +44,7 @@
       "name": "titanium",
       "sellPrice": 4447,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     }
   ]
 }

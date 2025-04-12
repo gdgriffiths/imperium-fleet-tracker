@@ -2,9 +2,9 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "Synuefai LY-D b18-2",
+  "systemName": "Synuefai JD-E b18-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-12T00:44:12.563689+00:00",
+  "lastUpdated": "2025-04-12T04:03:28.394343+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2455,
+      "stock": 2086,
       "stockBracket": 2
     },
     {
@@ -93,7 +93,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 7557,
+      "stock": 5015,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 6003,
+      "stock": 5838,
       "stockBracket": 2
     }
   ]

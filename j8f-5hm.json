@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai JD-E b18-1",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-12T14:31:23.699944+00:00",
+  "lastUpdated": "2025-04-12T14:32:28.901372+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -153,8 +153,8 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 290,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 447,

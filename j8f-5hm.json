@@ -4,27 +4,17 @@
   "stationName": "J8F-5HM",
   "systemName": "Maia",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-12T20:52:33.039161+00:00",
+  "lastUpdated": "2025-04-12T20:57:15.122572+00:00",
   "commodities": [
     {
       "buyPrice": 0,
-      "demand": 8584,
+      "demand": 7860,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 406,
       "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 6090,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "cmmcomposite",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -34,7 +24,7 @@
       "name": "computercomponents",
       "sellPrice": 708,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -44,7 +34,7 @@
       "name": "foodcartridges",
       "sellPrice": 248,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -54,7 +44,7 @@
       "name": "fruitandvegetables",
       "sellPrice": 480,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -64,7 +54,7 @@
       "name": "medicaldiagnosticequipment",
       "sellPrice": 2944,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -74,47 +64,17 @@
       "name": "nonlethalweapons",
       "sellPrice": 1857,
       "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 306,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "polymers",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 2411,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "powergenerators",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 1084,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
       "stock": 795,
       "stockBracket": 2
-    },
-    {
-      "buyPrice": 4179,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "steel",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -124,17 +84,7 @@
       "name": "superconductors",
       "sellPrice": 6568,
       "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 4446,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "titanium",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -144,7 +94,7 @@
       "name": "tritium",
       "sellPrice": 51294,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -154,7 +104,7 @@
       "name": "water",
       "sellPrice": 260,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     },
     {
       "buyPrice": 0,
@@ -164,7 +114,7 @@
       "name": "waterpurifiers",
       "sellPrice": 447,
       "stock": 0,
-      "stockBracket": 0
+      "stockBracket": ""
     }
   ]
 }

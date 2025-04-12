@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Maia",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-12T22:36:24.429275+00:00",
+  "lastUpdated": "2025-04-12T22:41:44.545576+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -23,16 +23,6 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 718,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "cmmcomposite",
-      "sellPrice": 6022,
       "stock": 0,
       "stockBracket": 0
     },

@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai JD-E b18-1",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-12T02:57:37.872805+00:00",
+  "lastUpdated": "2025-04-12T02:58:33.207683+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 3386,
+      "stock": 3274,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 1481,
+      "stock": 1246,
       "stockBracket": 2
     },
     {

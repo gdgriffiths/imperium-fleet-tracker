@@ -2,9 +2,9 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "Synuefai LY-D b18-2",
+  "systemName": "Maia",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-12T00:45:04.221006+00:00",
+  "lastUpdated": "2025-04-12T21:19:01.787428+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -23,18 +23,18 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 1090,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
-      "buyPrice": 5972,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 4638,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "cmmcomposite",
-      "sellPrice": 0,
-      "stock": 15787,
-      "stockBracket": 2
+      "sellPrice": 6022,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 708,
@@ -87,14 +87,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 1375,
+      "buyPrice": 1382,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 1116,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 2944,
@@ -123,8 +123,8 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 465,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 2388,

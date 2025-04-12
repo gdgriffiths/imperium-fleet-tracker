@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai HC-O c9-7",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-11T23:55:47.587938+00:00",
+  "lastUpdated": "2025-04-12T00:01:34.623683+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -133,7 +133,17 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 5552,
+      "stock": 4828,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 51294,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "tritium",
+      "sellPrice": 0,
+      "stock": 180,
       "stockBracket": 2
     },
     {

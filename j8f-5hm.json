@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai LY-D b18-2",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-12T00:35:55.539294+00:00",
+  "lastUpdated": "2025-04-12T00:36:14.586950+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 1400,
+      "stock": 1081,
       "stockBracket": 2
     },
     {

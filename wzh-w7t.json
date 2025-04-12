@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai LY-D b18-2",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-12T01:14:00.299210+00:00",
+  "lastUpdated": "2025-04-12T01:19:04.955303+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 3593,
+      "stock": 2869,
       "stockBracket": 2
     }
   ]

@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai JD-E b18-1",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-12T01:43:12.482774+00:00",
+  "lastUpdated": "2025-04-12T01:44:28.603454+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 1239,
+      "stock": 1144,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 297,
+      "stock": 245,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 893,
+      "stock": 535,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 936,
+      "stock": 866,
       "stockBracket": 2
     },
     {
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 1067,
+      "stock": 958,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 4828,
+      "stock": 4044,
       "stockBracket": 2
     },
     {
@@ -163,7 +163,7 @@
       "meanPrice": 0,
       "name": "waterpurifiers",
       "sellPrice": 0,
-      "stock": 112,
+      "stock": 72,
       "stockBracket": 2
     }
   ]

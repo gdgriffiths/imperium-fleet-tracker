@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai CM-H b16-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-13T15:44:21.081262+00:00",
+  "lastUpdated": "2025-04-13T15:51:27.565274+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -45,6 +45,16 @@
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
+    },
+    {
+      "buyPrice": 10605,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "insulatingmembrane",
+      "sellPrice": 0,
+      "stock": 1963,
+      "stockBracket": 2
     },
     {
       "buyPrice": 306,

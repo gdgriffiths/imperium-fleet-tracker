@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai ZP-R c7-7",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-13T10:53:53.397081+00:00",
+  "lastUpdated": "2025-04-13T11:22:59.273604+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 2000,
+      "stock": 1998,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 1760,
+      "stock": 1176,
       "stockBracket": 2
     },
     {

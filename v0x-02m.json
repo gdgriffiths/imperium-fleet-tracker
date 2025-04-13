@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Synuefai ZP-R c7-7",
+  "systemName": "Bletii",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-13T12:15:46.802971+00:00",
+  "lastUpdated": "2025-04-13T15:17:45.045975+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -37,6 +37,16 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 0,
+      "demand": 172,
+      "demandBracket": 2,
+      "meanPrice": 0,
+      "name": "bioreducinglichen",
+      "sellPrice": 1178,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
       "buyPrice": 1525,
       "demand": 0,
       "demandBracket": 0,
@@ -47,22 +57,22 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 6022,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 86,
+      "demandBracket": 2,
       "meanPrice": 0,
-      "name": "cmmcomposite",
-      "sellPrice": 0,
+      "name": "ceramiccomposites",
+      "sellPrice": 402,
       "stock": 0,
       "stockBracket": 0
     },
     {
-      "buyPrice": 708,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 4626,
+      "demandBracket": 2,
       "meanPrice": 0,
-      "name": "computercomponents",
-      "sellPrice": 0,
+      "name": "cmmcomposite",
+      "sellPrice": 5972,
       "stock": 0,
       "stockBracket": 0
     },
@@ -87,24 +97,34 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 23,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 52,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "foodcartridges",
-      "sellPrice": 0,
-      "stock": 213,
-      "stockBracket": 2
+      "sellPrice": 253,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
-      "buyPrice": 483,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 18,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "fruitandvegetables",
-      "sellPrice": 0,
-      "stock": 585,
-      "stockBracket": 2
+      "sellPrice": 485,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 0,
+      "demand": 26,
+      "demandBracket": 2,
+      "meanPrice": 0,
+      "name": "geologicalequipment",
+      "sellPrice": 1830,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 40,
@@ -127,24 +147,24 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 10605,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 129,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "insulatingmembrane",
-      "sellPrice": 0,
+      "sellPrice": 10605,
       "stock": 0,
       "stockBracket": 0
     },
     {
-      "buyPrice": 1375,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 4663,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "liquidoxygen",
-      "sellPrice": 0,
-      "stock": 277,
-      "stockBracket": 2
+      "sellPrice": 1382,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 2944,
@@ -177,22 +197,22 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 4946,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 43,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "mutomimager",
-      "sellPrice": 0,
+      "sellPrice": 6166,
       "stock": 0,
       "stockBracket": 0
     },
     {
-      "buyPrice": 1848,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 5,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "nonlethalweapons",
-      "sellPrice": 0,
+      "sellPrice": 1848,
       "stock": 0,
       "stockBracket": 0
     },
@@ -237,22 +257,32 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 306,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 215,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "polymers",
-      "sellPrice": 0,
+      "sellPrice": 306,
       "stock": 0,
       "stockBracket": 0
     },
     {
-      "buyPrice": 2388,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 9,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "powergenerators",
-      "sellPrice": 0,
+      "sellPrice": 2388,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 0,
+      "demand": 22,
+      "demandBracket": 2,
+      "meanPrice": 0,
+      "name": "resonatingseparators",
+      "sellPrice": 5692,
       "stock": 0,
       "stockBracket": 0
     },
@@ -277,14 +307,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 4179,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 6945,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "steel",
-      "sellPrice": 0,
-      "stock": 3781,
-      "stockBracket": 2
+      "sellPrice": 4186,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 6551,
@@ -337,22 +367,12 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 260,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 2359,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "water",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 447,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "waterpurifiers",
-      "sellPrice": 0,
+      "sellPrice": 260,
       "stock": 0,
       "stockBracket": 0
     },

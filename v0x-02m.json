@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai ZP-R c7-7",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-13T11:47:05.224585+00:00",
+  "lastUpdated": "2025-04-13T11:47:24.453763+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -283,7 +283,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 4667,
+      "stock": 3899,
       "stockBracket": 2
     },
     {

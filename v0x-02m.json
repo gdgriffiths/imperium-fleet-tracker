@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Synuefai FX-F b17-2",
+  "systemName": "Synuefai ZP-R c7-7",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-12T15:05:57.342002+00:00",
+  "lastUpdated": "2025-04-13T10:47:21.173485+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -12,6 +12,16 @@
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "agriculturalmedicines",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "aluminium",
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
@@ -53,8 +63,18 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 156,
+      "stock": 60,
       "stockBracket": 2
+    },
+    {
+      "buyPrice": 631,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 221,
@@ -73,7 +93,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 310,
+      "stock": 213,
       "stockBracket": 2
     },
     {
@@ -83,7 +103,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 637,
+      "stock": 585,
       "stockBracket": 2
     },
     {
@@ -107,13 +127,33 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 10605,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "insulatingmembrane",
+      "sellPrice": 0,
+      "stock": 259,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 1375,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "liquidoxygen",
+      "sellPrice": 0,
+      "stock": 2191,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 2944,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 681,
+      "stock": 655,
       "stockBracket": 2
     },
     {
@@ -153,8 +193,8 @@
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
-      "stock": 8,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 6429,
@@ -197,14 +237,34 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "polymers",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
       "buyPrice": 2388,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
-      "stock": 624,
+      "stock": 567,
       "stockBracket": 2
+    },
+    {
+      "buyPrice": 1084,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 1828,
@@ -223,8 +283,18 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 12513,
+      "stock": 10176,
       "stockBracket": 2
+    },
+    {
+      "buyPrice": 6551,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 536,
@@ -273,8 +343,8 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 525,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 447,
@@ -283,7 +353,7 @@
       "meanPrice": 0,
       "name": "waterpurifiers",
       "sellPrice": 0,
-      "stock": 90,
+      "stock": 50,
       "stockBracket": 2
     },
     {

@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai CM-H b16-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-13T15:54:09.932862+00:00",
+  "lastUpdated": "2025-04-13T15:54:53.147489+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 6163,
+      "stock": 5383,
       "stockBracket": 2
     },
     {

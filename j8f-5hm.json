@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai CM-H b16-1",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-13T12:24:50.594356+00:00",
+  "lastUpdated": "2025-04-13T12:25:44.737003+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 988,
+      "stock": 746,
       "stockBracket": 2
     },
     {

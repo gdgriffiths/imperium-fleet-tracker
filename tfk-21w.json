@@ -4,12 +4,12 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai CM-H b16-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-13T13:09:00.575663+00:00",
+  "lastUpdated": "2025-04-13T13:17:24.059406+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
@@ -19,7 +19,7 @@
     {
       "buyPrice": 271,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "biowaste",
       "sellPrice": 0,
@@ -27,29 +27,9 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 708,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "computercomponents",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 252,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "foodcartridges",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
       "buyPrice": 306,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
@@ -59,7 +39,7 @@
     {
       "buyPrice": 4179,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
@@ -69,7 +49,7 @@
     {
       "buyPrice": 4446,
       "demand": 0,
-      "demandBracket": 0,
+      "demandBracket": "",
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,

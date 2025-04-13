@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai ZU-V d3-7",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-13T17:02:20.444331+00:00",
+  "lastUpdated": "2025-04-13T17:03:05.775357+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 1110,
+      "stock": 623,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 2678,
+      "stock": 2478,
       "stockBracket": 2
     }
   ]

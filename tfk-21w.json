@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "HIP 15273",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-13T11:21:56.249548+00:00",
+  "lastUpdated": "2025-04-13T11:29:19.542012+00:00",
   "commodities": [
     {
       "buyPrice": 271,
@@ -48,7 +48,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 1954,
+      "demand": 1174,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",

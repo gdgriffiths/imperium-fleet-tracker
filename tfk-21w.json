@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai CM-H b16-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-13T12:50:15.081839+00:00",
+  "lastUpdated": "2025-04-13T12:50:45.315977+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 1856,
+      "stock": 1797,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 7449,
+      "stock": 6728,
       "stockBracket": 2
     }
   ]

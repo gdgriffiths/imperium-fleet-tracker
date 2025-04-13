@@ -2,9 +2,9 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "Synuefai ZP-R c7-7",
+  "systemName": "Synuefai CM-H b16-1",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-13T10:48:23.816423+00:00",
+  "lastUpdated": "2025-04-13T13:59:18.057727+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 17421,
+      "stock": 15257,
       "stockBracket": 2
     },
     {

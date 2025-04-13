@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Bletii",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-13T15:17:45.045975+00:00",
+  "lastUpdated": "2025-04-13T15:33:19.174059+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -68,7 +68,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 4626,
+      "demand": 3858,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "cmmcomposite",

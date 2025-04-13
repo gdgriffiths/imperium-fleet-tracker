@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai ZP-R c7-7",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-13T10:53:10.803392+00:00",
+  "lastUpdated": "2025-04-13T10:59:57.445222+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 1698,
+      "stock": 346,
       "stockBracket": 2
     },
     {
@@ -153,8 +153,8 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 655,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 541,
@@ -283,7 +283,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 10176,
+      "stock": 9995,
       "stockBracket": 2
     },
     {

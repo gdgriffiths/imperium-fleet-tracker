@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai CM-H b16-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-13T15:58:27.704122+00:00",
+  "lastUpdated": "2025-04-13T15:58:48.840568+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -23,8 +23,8 @@
       "meanPrice": 0,
       "name": "biowaste",
       "sellPrice": 0,
-      "stock": 8,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 708,
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 5383,
+      "stock": 4667,
       "stockBracket": 2
     },
     {

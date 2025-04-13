@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai ZP-R c7-7",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-13T11:48:18.462056+00:00",
+  "lastUpdated": "2025-04-13T11:56:52.879244+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 3895,
+      "stock": 3890,
       "stockBracket": 2
     },
     {
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 2438,
+      "stock": 994,
       "stockBracket": 2
     }
   ]

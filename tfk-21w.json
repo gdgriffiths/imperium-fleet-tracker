@@ -2,9 +2,9 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "Synuefai CM-H b16-1",
+  "systemName": "Synuefai ZU-V d3-7",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-13T16:25:24.341218+00:00",
+  "lastUpdated": "2025-04-13T16:41:51.610201+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 31,
+      "stock": 19,
       "stockBracket": 2
     },
     {

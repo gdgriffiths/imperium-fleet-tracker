@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai ZU-V d3-7",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-13T16:32:25.520466+00:00",
+  "lastUpdated": "2025-04-13T16:33:54.853458+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 1333,
+      "stock": 1272,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 1905,
+      "stock": 1812,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 1349,
+      "stock": 1297,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 184,
+      "stock": 170,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
-      "stock": 287,
+      "stock": 274,
       "stockBracket": 2
     },
     {
@@ -93,7 +93,7 @@
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
-      "stock": 529,
+      "stock": 510,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 726,
+      "stock": 656,
       "stockBracket": 2
     },
     {
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 986,
+      "stock": 872,
       "stockBracket": 2
     },
     {
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 417,
+      "stock": 168,
       "stockBracket": 2
     },
     {
@@ -153,7 +153,7 @@
       "meanPrice": 0,
       "name": "waterpurifiers",
       "sellPrice": 0,
-      "stock": 808,
+      "stock": 769,
       "stockBracket": 2
     }
   ]

@@ -2,14 +2,24 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "HIP 15273",
+  "systemName": "Synuefai CM-H b16-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-13T11:47:59.398481+00:00",
+  "lastUpdated": "2025-04-13T12:42:06.810560+00:00",
   "commodities": [
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 1110,
+      "stockBracket": 2
+    },
     {
       "buyPrice": 271,
       "demand": 0,
-      "demandBracket": "",
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "biowaste",
       "sellPrice": 0,
@@ -17,14 +27,54 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 325,
-      "demandBracket": 2,
+      "buyPrice": 708,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "computercomponents",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 252,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "foodcartridges",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "polymers",
-      "sellPrice": 306,
-      "stock": 0,
-      "stockBracket": ""
+      "sellPrice": 0,
+      "stock": 1856,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 4179,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "steel",
+      "sellPrice": 0,
+      "stock": 7936,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 4446,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "titanium",
+      "sellPrice": 0,
+      "stock": 7737,
+      "stockBracket": 2
     }
   ]
 }

@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai CM-H b16-1",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-13T12:21:49.969989+00:00",
+  "lastUpdated": "2025-04-13T12:23:43.415148+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 1397,
+      "stock": 1333,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 1998,
+      "stock": 1905,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,17 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 1400,
+      "stock": 1349,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 2944,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "medicaldiagnosticequipment",
+      "sellPrice": 0,
+      "stock": 197,
       "stockBracket": 2
     },
     {

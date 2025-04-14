@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai XF-J b15-1",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-14T22:13:41.859128+00:00",
+  "lastUpdated": "2025-04-14T22:15:16.192794+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -77,24 +77,24 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 263,
-      "demandBracket": 2,
+      "buyPrice": 2944,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
-      "sellPrice": 2961,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 407,
+      "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 21,
-      "demandBracket": 2,
+      "buyPrice": 1848,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "nonlethalweapons",
-      "sellPrice": 1857,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 269,
+      "stockBracket": 2
     },
     {
       "buyPrice": 306,
@@ -157,14 +157,24 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 22,
-      "demandBracket": 2,
+      "buyPrice": 51294,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "tritium",
+      "sellPrice": 0,
+      "stock": 91,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 260,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "water",
-      "sellPrice": 258,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 4250,
+      "stockBracket": 2
     },
     {
       "buyPrice": 447,

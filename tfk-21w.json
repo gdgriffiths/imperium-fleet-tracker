@@ -4,11 +4,11 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-14T20:00:08.900234+00:00",
+  "lastUpdated": "2025-04-14T20:07:50.390257+00:00",
   "commodities": [
     {
       "buyPrice": 0,
-      "demand": 1500,
+      "demand": 720,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "aluminium",

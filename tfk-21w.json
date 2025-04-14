@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-14T19:14:15.685459+00:00",
+  "lastUpdated": "2025-04-14T19:43:37.965754+00:00",
   "commodities": [
     {
       "buyPrice": 0,
@@ -58,7 +58,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 1500,
+      "demand": 720,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "polymers",

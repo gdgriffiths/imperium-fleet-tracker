@@ -2,9 +2,9 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "Synuefai ZP-R c7-7",
+  "systemName": "Cauani",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-13T11:57:33.080632+00:00",
+  "lastUpdated": "2025-04-14T22:53:11.072726+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2786,
+      "stock": 3182,
       "stockBracket": 2
     },
     {
@@ -23,8 +23,8 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 122,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 5972,
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 782,
+      "stock": 1091,
       "stockBracket": 2
     },
     {
@@ -103,18 +103,18 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 3802,
+      "stock": 3469,
       "stockBracket": 2
     },
     {
-      "buyPrice": 1375,
+      "buyPrice": 1382,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stock": 2302,
+      "stockBracket": 2
     },
     {
       "buyPrice": 412,
@@ -163,18 +163,18 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 65,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
-      "buyPrice": 4446,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 6211,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 0,
-      "stock": 799,
-      "stockBracket": 2
+      "sellPrice": 4447,
+      "stock": 0,
+      "stockBracket": 0
     }
   ]
 }

@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai XF-J b15-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-14T22:50:44.576444+00:00",
+  "lastUpdated": "2025-04-14T22:51:02.605757+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 6392,
+      "stock": 5668,
       "stockBracket": 2
     },
     {

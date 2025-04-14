@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai ZU-V d3-40",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-14T18:25:37.523981+00:00",
+  "lastUpdated": "2025-04-14T18:30:57.345526+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 18534,
+      "stock": 17750,
       "stockBracket": 2
     },
     {

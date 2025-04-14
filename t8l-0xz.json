@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai XF-J b15-1",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-14T19:40:42.676120+00:00",
+  "lastUpdated": "2025-04-14T19:40:51.776402+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 15028,
+      "stock": 14304,
       "stockBracket": 2
     },
     {

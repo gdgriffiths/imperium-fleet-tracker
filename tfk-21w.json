@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-14T20:48:17.650768+00:00",
+  "lastUpdated": "2025-04-14T20:57:34.446080+00:00",
   "commodities": [
     {
       "buyPrice": 271,
@@ -48,7 +48,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 3635,
+      "demand": 2855,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "steel",

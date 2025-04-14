@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai XF-J b15-1",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-14T19:33:27.447822+00:00",
+  "lastUpdated": "2025-04-14T19:34:01.618754+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 8519,
+      "stock": 7988,
       "stockBracket": 2
     },
     {
@@ -163,7 +163,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 257,
+      "stock": 64,
       "stockBracket": 2
     },
     {

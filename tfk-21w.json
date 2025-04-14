@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai XF-J b15-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-14T22:26:27.232926+00:00",
+  "lastUpdated": "2025-04-14T22:27:32.506934+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2123,
+      "stock": 1619,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 592,
+      "stock": 437,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 1605,
+      "stock": 1540,
       "stockBracket": 2
     },
     {

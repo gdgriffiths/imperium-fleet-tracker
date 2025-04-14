@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Synuefai XF-J b15-1",
+  "systemName": "Synuefai LX-R d5-28",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-14T20:13:59.288172+00:00",
+  "lastUpdated": "2025-04-14T20:38:41.462303+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -157,14 +157,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 260,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 4164,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "water",
-      "sellPrice": 0,
-      "stock": 64,
-      "stockBracket": 2
+      "sellPrice": 258,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 447,

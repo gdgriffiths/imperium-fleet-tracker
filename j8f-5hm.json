@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai WE-T c6-7",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-15T23:46:39.667425+00:00",
+  "lastUpdated": "2025-04-15T23:47:06.841430+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 6148,
+      "stock": 5891,
       "stockBracket": 2
     },
     {
@@ -163,7 +163,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 2428,
+      "stock": 1961,
       "stockBracket": 2
     },
     {

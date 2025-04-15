@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai SO-M b13-0",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-15T22:37:45.100971+00:00",
+  "lastUpdated": "2025-04-15T22:37:52.137667+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 855,
+      "stock": 853,
       "stockBracket": 2
     },
     {

@@ -2,19 +2,19 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "Synuefai WU-K b14-2",
+  "systemName": "Maia",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-15T16:21:36.705819+00:00",
+  "lastUpdated": "2025-04-15T17:11:37.842611+00:00",
   "commodities": [
     {
-      "buyPrice": 6022,
-      "demand": 0,
-      "demandBracket": "",
+      "buyPrice": 0,
+      "demand": 14530,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "cmmcomposite",
-      "sellPrice": 0,
-      "stock": 9886,
-      "stockBracket": 2
+      "sellPrice": 6022,
+      "stock": 0,
+      "stockBracket": ""
     }
   ]
 }

@@ -2,26 +2,16 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "Ngobe",
+  "systemName": "Cauani",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-15T19:25:47.851686+00:00",
+  "lastUpdated": "2025-04-15T19:50:08.308481+00:00",
   "commodities": [
     {
-      "buyPrice": 0,
-      "demand": 330,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "cmmcomposite",
-      "sellPrice": 6022,
-      "stock": 0,
-      "stockBracket": ""
-    },
-    {
-      "buyPrice": 4446,
+      "buyPrice": 260,
       "demand": 0,
       "demandBracket": "",
       "meanPrice": 0,
-      "name": "titanium",
+      "name": "water",
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": ""

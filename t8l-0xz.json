@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Ngobe",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-15T18:20:57.855534+00:00",
+  "lastUpdated": "2025-04-15T18:29:26.512645+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -28,7 +28,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 10042,
+      "demand": 9318,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "cmmcomposite",

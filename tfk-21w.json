@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai WU-K b14-2",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-15T20:45:20.998630+00:00",
+  "lastUpdated": "2025-04-15T20:57:20.099212+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 3907,
+      "stock": 2382,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 986,
+      "stock": 262,
       "stockBracket": 2
     },
     {
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 7427,
+      "stock": 6451,
       "stockBracket": 2
     }
   ]

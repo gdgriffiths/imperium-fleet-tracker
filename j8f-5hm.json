@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai SO-M b13-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-15T22:27:32.931668+00:00",
+  "lastUpdated": "2025-04-15T22:28:39.484448+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 6906,
+      "stock": 6625,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 1465,
+      "stock": 1398,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 1587,
+      "stock": 1480,
       "stockBracket": 2
     },
     {
@@ -163,7 +163,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 3190,
+      "stock": 2428,
       "stockBracket": 2
     },
     {

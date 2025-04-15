@@ -2,9 +2,9 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "Synuefai XJ-X d2-33",
+  "systemName": "Synuefai SO-M b13-0",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-15T21:50:02.893974+00:00",
+  "lastUpdated": "2025-04-15T22:45:12.639727+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 1049,
+      "stock": 706,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 2650,
+      "stock": 2213,
       "stockBracket": 2
     },
     {
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 4484,
+      "stock": 2982,
       "stockBracket": 2
     }
   ]

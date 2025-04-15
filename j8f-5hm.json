@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai XJ-X d2-33",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-15T21:37:28.400864+00:00",
+  "lastUpdated": "2025-04-15T21:42:27.471329+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -163,7 +163,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 3890,
+      "stock": 3190,
       "stockBracket": 2
     },
     {

@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Synuefai WU-K b14-2",
+  "systemName": "Synuefai XJ-X d2-33",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-15T20:34:20.555578+00:00",
+  "lastUpdated": "2025-04-15T20:52:36.263399+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 423,
+      "stock": 387,
       "stockBracket": 2
     },
     {
@@ -153,16 +153,6 @@
       "meanPrice": 0,
       "name": "tritium",
       "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 784,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "water",
-      "sellPrice": 263,
       "stock": 0,
       "stockBracket": 0
     },

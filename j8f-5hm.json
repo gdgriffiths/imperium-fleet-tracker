@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai XJ-X d2-33",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-15T20:52:36.263399+00:00",
+  "lastUpdated": "2025-04-15T21:04:54.555047+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -128,7 +128,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 986,
+      "demand": 262,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "superconductors",

@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai SO-M b13-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-15T22:28:39.484448+00:00",
+  "lastUpdated": "2025-04-15T22:53:39.157108+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 6625,
+      "stock": 6408,
       "stockBracket": 2
     },
     {

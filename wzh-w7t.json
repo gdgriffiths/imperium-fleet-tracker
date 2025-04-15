@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai XJ-X d2-33",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-15T21:40:44.199932+00:00",
+  "lastUpdated": "2025-04-15T21:51:20.155561+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 14276,
+      "stock": 11140,
       "stockBracket": 2
     }
   ]

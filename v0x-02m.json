@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Cauani",
+  "systemName": "Synuefai XJ-X d2-33",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-14T22:29:25.777168+00:00",
+  "lastUpdated": "2025-04-15T22:04:28.262161+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -327,14 +327,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 759,
-      "demandBracket": 2,
+      "buyPrice": 4179,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "steel",
-      "sellPrice": 4186,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 14534,
+      "stockBracket": 2
     },
     {
       "buyPrice": 6551,
@@ -367,12 +367,12 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 4447,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 613,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 0,
+      "sellPrice": 4446,
       "stock": 0,
       "stockBracket": 0
     },

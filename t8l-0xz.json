@@ -2,9 +2,9 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "Synuefai WU-K b14-2",
+  "systemName": "Synuefai XJ-X d2-33",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-15T20:28:42.513036+00:00",
+  "lastUpdated": "2025-04-15T22:12:23.399304+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 24416,
+      "stock": 20650,
       "stockBracket": 2
     },
     {
@@ -175,16 +175,6 @@
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
-    },
-    {
-      "buyPrice": 51294,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "tritium",
-      "sellPrice": 0,
-      "stock": 254,
-      "stockBracket": 2
     },
     {
       "buyPrice": 260,

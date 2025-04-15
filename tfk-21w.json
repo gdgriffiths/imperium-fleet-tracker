@@ -2,9 +2,9 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "Synuefai WU-K b14-2",
+  "systemName": "Synuefai XJ-X d2-33",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-15T21:16:03.437700+00:00",
+  "lastUpdated": "2025-04-15T21:49:34.723276+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2147,
+      "stock": 1641,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 1186,
+      "stock": 945,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 1235,
+      "stock": 1049,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 3152,
+      "stock": 3097,
       "stockBracket": 2
     },
     {
@@ -123,8 +123,8 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 814,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 6551,
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 5914,
+      "stock": 4761,
       "stockBracket": 2
     }
   ]

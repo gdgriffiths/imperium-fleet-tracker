@@ -2,9 +2,9 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "Synuefai XJ-X d2-33",
+  "systemName": "Synuefai SO-M b13-0",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-15T21:59:29.301868+00:00",
+  "lastUpdated": "2025-04-15T22:37:45.100971+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 3182,
+      "stock": 2698,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 1091,
+      "stock": 855,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 1518,
+      "stock": 1372,
       "stockBracket": 2
     },
     {

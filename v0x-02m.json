@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Synuefai XJ-X d2-33",
+  "systemName": "Synuefai XJ-X d2-18",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-15T22:05:20.007369+00:00",
+  "lastUpdated": "2025-04-16T17:41:07.557286+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -113,8 +113,8 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 125,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 483,
@@ -123,8 +123,8 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 537,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 1830,
@@ -183,7 +183,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 5036,
+      "stock": 3901,
       "stockBracket": 2
     },
     {
@@ -333,8 +333,8 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 13810,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 6551,
@@ -367,13 +367,23 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 4446,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "titanium",
+      "sellPrice": 0,
+      "stock": 414,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 258,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 254,
+      "stock": 192,
       "stockBracket": 2
     },
     {

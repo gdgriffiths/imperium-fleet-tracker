@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai WE-T c6-7",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-16T16:45:48.101270+00:00",
+  "lastUpdated": "2025-04-16T16:47:21.385103+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 1641,
+      "stock": 1514,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 700,
+      "stock": 461,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 677,
+      "stock": 331,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 1588,
+      "stock": 1576,
       "stockBracket": 2
     },
     {

@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai XJ-X d2-18",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-16T17:41:07.557286+00:00",
+  "lastUpdated": "2025-04-16T17:47:25.635936+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -373,8 +373,8 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 414,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 258,
@@ -383,8 +383,8 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 192,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 447,

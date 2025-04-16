@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai XJ-X d2-18",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-16T18:08:45.435335+00:00",
+  "lastUpdated": "2025-04-16T18:13:38.156641+00:00",
   "commodities": [
     {
       "buyPrice": 1828,
@@ -14,16 +14,6 @@
       "name": "hnshockmount",
       "sellPrice": 0,
       "stock": 8,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 1375,
-      "demand": 0,
-      "demandBracket": "",
-      "meanPrice": 0,
-      "name": "liquidoxygen",
-      "sellPrice": 0,
-      "stock": 171,
       "stockBracket": 2
     },
     {

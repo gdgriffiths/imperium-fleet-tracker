@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai XJ-X d2-18",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-16T23:31:47.248448+00:00",
+  "lastUpdated": "2025-04-16T23:32:19.452021+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 2981,
+      "stock": 2567,
       "stockBracket": 2
     },
     {
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 7736,
+      "stock": 7426,
       "stockBracket": 2
     }
   ]

@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Synuefai JC-Q b11-0",
+  "systemName": "Synuefai FW-R b10-1",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-17T18:08:44.169301+00:00",
+  "lastUpdated": "2025-04-17T21:25:37.422151+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -333,7 +333,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 16120,
+      "stock": 15336,
       "stockBracket": 2
     },
     {

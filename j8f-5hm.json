@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Synuefai XJ-X d2-18",
+  "systemName": "Synuefai XJ-X d2-17",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-17T00:02:54.179607+00:00",
+  "lastUpdated": "2025-04-17T17:00:34.775295+00:00",
   "commodities": [
     {
       "buyPrice": 402,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 4853,
+      "stock": 4350,
       "stockBracket": 2
     },
     {
@@ -23,7 +23,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 779,
+      "stock": 714,
       "stockBracket": 2
     },
     {
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 1274,
+      "stock": 1183,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 1534,
+      "stock": 1484,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 323,
+      "stock": 310,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
-      "stock": 199,
+      "stock": 186,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
-      "stock": 361,
+      "stock": 342,
       "stockBracket": 2
     },
     {
@@ -93,7 +93,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 1194,
+      "stock": 1128,
       "stockBracket": 2
     },
     {
@@ -103,17 +103,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 1147,
-      "stockBracket": 2
-    },
-    {
-      "buyPrice": 4447,
-      "demand": 0,
-      "demandBracket": "",
-      "meanPrice": 0,
-      "name": "titanium",
-      "sellPrice": 0,
-      "stock": 385,
+      "stock": 1032,
       "stockBracket": 2
     },
     {
@@ -133,7 +123,7 @@
       "meanPrice": 0,
       "name": "waterpurifiers",
       "sellPrice": 0,
-      "stock": 466,
+      "stock": 429,
       "stockBracket": 2
     }
   ]

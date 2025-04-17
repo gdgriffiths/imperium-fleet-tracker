@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Synuefai OS-W c4-2",
+  "systemName": "Synuefai OS-W c4-1",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-17T23:33:09.139363+00:00",
+  "lastUpdated": "2025-04-17T23:49:36.174548+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -153,8 +153,8 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 573,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 268,

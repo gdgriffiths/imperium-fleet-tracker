@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai OS-W c4-2",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-17T23:19:32.618428+00:00",
+  "lastUpdated": "2025-04-17T23:25:59.839587+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -97,7 +97,7 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 306,
+      "buyPrice": 316,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
@@ -127,14 +127,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 126,
-      "demandBracket": 2,
+      "buyPrice": 4391,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "steel",
-      "sellPrice": 4179,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 112,
+      "stockBracket": 2
     },
     {
       "buyPrice": 6746,
@@ -147,13 +147,13 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 4535,
+      "buyPrice": 4491,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 437,
+      "stock": 573,
       "stockBracket": 2
     },
     {

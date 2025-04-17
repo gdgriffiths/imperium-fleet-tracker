@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai JC-Q b11-0",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-17T18:23:14.990346+00:00",
+  "lastUpdated": "2025-04-17T18:23:25.019715+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 1344,
+      "stock": 1221,
       "stockBracket": 2
     },
     {

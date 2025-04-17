@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "Synuefai LX-R d5-28",
+  "systemName": "HIP 18390",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-17T21:28:24.864989+00:00",
+  "lastUpdated": "2025-04-17T21:51:38.826472+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -137,34 +137,34 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 4447,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 1360,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 51294,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "tritium",
-      "sellPrice": 0,
+      "sellPrice": 4446,
       "stock": 0,
       "stockBracket": 0
     },
     {
       "buyPrice": 0,
-      "demand": 828,
+      "demand": 450,
       "demandBracket": 2,
       "meanPrice": 0,
-      "name": "water",
-      "sellPrice": 260,
+      "name": "tritium",
+      "sellPrice": 51294,
       "stock": 0,
       "stockBracket": 0
+    },
+    {
+      "buyPrice": 268,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "water",
+      "sellPrice": 0,
+      "stock": 2896,
+      "stockBracket": 2
     },
     {
       "buyPrice": 462,

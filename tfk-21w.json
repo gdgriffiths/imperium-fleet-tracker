@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai JC-Q b11-0",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-17T18:26:38.175467+00:00",
+  "lastUpdated": "2025-04-17T18:45:09.670355+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 1997,
+      "stock": 1640,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 2039,
+      "stock": 1527,
       "stockBracket": 2
     },
     {

@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "HIP 18390",
+  "systemName": "Synuefai OS-W c4-2",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-17T22:54:00.126329+00:00",
+  "lastUpdated": "2025-04-17T23:00:32.239163+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 590,
+      "stock": 528,
       "stockBracket": 2
     },
     {
@@ -53,7 +53,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 1002,
+      "stock": 903,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 1384,
+      "stock": 1332,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 4382,
+      "stock": 4168,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 285,
+      "stock": 272,
       "stockBracket": 2
     },
     {
@@ -93,7 +93,7 @@
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
-      "stock": 160,
+      "stock": 147,
       "stockBracket": 2
     },
     {
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 994,
+      "stock": 928,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 815,
+      "stock": 698,
       "stockBracket": 2
     },
     {
@@ -153,7 +153,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 2896,
+      "stock": 2808,
       "stockBracket": 2
     },
     {

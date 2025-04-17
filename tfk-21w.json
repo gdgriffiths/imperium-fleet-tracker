@@ -4,8 +4,18 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai FW-R b10-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-17T21:02:56.240504+00:00",
+  "lastUpdated": "2025-04-17T21:16:17.985848+00:00",
   "commodities": [
+    {
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 1699,
+      "stockBracket": 2
+    },
     {
       "buyPrice": 271,
       "demand": 0,
@@ -57,6 +67,16 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 10605,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "insulatingmembrane",
+      "sellPrice": 0,
+      "stock": 1612,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 2944,
       "demand": 0,
       "demandBracket": 0,
@@ -103,7 +123,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 5665,
+      "stock": 4881,
       "stockBracket": 2
     },
     {
@@ -123,7 +143,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 3318,
+      "stock": 2534,
       "stockBracket": 2
     }
   ]

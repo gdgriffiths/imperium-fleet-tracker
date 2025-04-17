@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "Synuefai OS-W c4-2",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-17T22:17:59.447901+00:00",
+  "lastUpdated": "2025-04-17T22:18:56.732060+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -53,8 +53,8 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 74,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 2211,
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 1461,
+      "stock": 1393,
       "stockBracket": 2
     },
     {
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 8846,
+      "stock": 8710,
       "stockBracket": 2
     }
   ]

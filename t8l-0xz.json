@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai FW-R b10-1",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-17T20:32:41.802301+00:00",
+  "lastUpdated": "2025-04-17T20:36:41.634279+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 11426,
+      "stock": 9134,
       "stockBracket": 2
     },
     {

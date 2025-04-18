@@ -2,9 +2,9 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "California Sector IM-V c2-0",
+  "systemName": "California Sector IM-V c2-3",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-18T21:00:18.076289+00:00",
+  "lastUpdated": "2025-04-18T23:57:15.451331+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 12524,
+      "stock": 10956,
       "stockBracket": 2
     },
     {

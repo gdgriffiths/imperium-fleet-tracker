@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai OS-W c4-1",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T00:46:05.998675+00:00",
+  "lastUpdated": "2025-04-18T00:49:24.746505+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 2731,
+      "stock": 2230,
       "stockBracket": 2
     },
     {

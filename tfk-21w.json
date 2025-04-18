@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "California Sector GW-W d1-16",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-18T22:13:22.772480+00:00",
+  "lastUpdated": "2025-04-18T22:23:09.948951+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 4136,
+      "stock": 2568,
       "stockBracket": 2
     },
     {

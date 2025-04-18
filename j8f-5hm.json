@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector IM-V c2-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T19:58:13.489803+00:00",
+  "lastUpdated": "2025-04-18T19:59:54.834228+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 802,
+      "stock": 738,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 1120,
+      "stock": 1026,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 1183,
+      "stock": 1131,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 3361,
+      "stock": 3360,
       "stockBracket": 2
     },
     {
@@ -93,7 +93,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 257,
+      "stock": 244,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
-      "stock": 171,
+      "stock": 159,
       "stockBracket": 2
     },
     {
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
-      "stock": 265,
+      "stock": 245,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 795,
+      "stock": 726,
       "stockBracket": 2
     },
     {
@@ -153,7 +153,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 1347,
+      "stock": 1233,
       "stockBracket": 2
     },
     {
@@ -183,7 +183,7 @@
       "meanPrice": 0,
       "name": "waterpurifiers",
       "sellPrice": 0,
-      "stock": 436,
+      "stock": 398,
       "stockBracket": 2
     }
   ]

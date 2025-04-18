@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "California Sector IM-V c2-0",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-18T21:00:07.051577+00:00",
+  "lastUpdated": "2025-04-18T21:00:18.076289+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 12995,
+      "stock": 12524,
       "stockBracket": 2
     },
     {

@@ -4,8 +4,18 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector GW-W d1-16",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T23:35:04.822479+00:00",
+  "lastUpdated": "2025-04-18T23:35:41.946716+00:00",
   "commodities": [
+    {
+      "buyPrice": 2615,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "aluminium",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": ""
+    },
     {
       "buyPrice": 412,
       "demand": 0,

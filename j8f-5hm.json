@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector GW-W d1-16",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T22:58:35.193872+00:00",
+  "lastUpdated": "2025-04-18T23:03:50.370753+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -27,14 +27,14 @@
       "stockBracket": 2
     },
     {
-      "buyPrice": 0,
-      "demand": 54,
-      "demandBracket": 2,
+      "buyPrice": 6081,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "cmmcomposite",
-      "sellPrice": 5972,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 30,
+      "stockBracket": 2
     },
     {
       "buyPrice": 729,
@@ -83,8 +83,8 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 719,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 3031,
@@ -167,14 +167,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 832,
-      "demandBracket": 2,
+      "buyPrice": 263,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "water",
-      "sellPrice": 268,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 3301,
+      "stockBracket": 2
     },
     {
       "buyPrice": 462,

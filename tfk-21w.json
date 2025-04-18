@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "California Sector KX-T c3-0",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-18T12:24:33.078496+00:00",
+  "lastUpdated": "2025-04-18T12:25:29.906167+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 878,
+      "stock": 529,
       "stockBracket": 2
     },
     {

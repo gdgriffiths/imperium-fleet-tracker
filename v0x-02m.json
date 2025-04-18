@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "California Sector KX-T c3-0",
+  "systemName": "California Sector GW-W d1-31",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-18T18:49:16.175902+00:00",
+  "lastUpdated": "2025-04-18T18:54:36.701867+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -313,7 +313,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 24260,
+      "stock": 23476,
       "stockBracket": 2
     },
     {

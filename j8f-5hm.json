@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector GW-W d1-31",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T18:46:45.448717+00:00",
+  "lastUpdated": "2025-04-18T18:54:33.024853+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -33,8 +33,8 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 685,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 729,
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 248,
+      "stock": 243,
       "stockBracket": 2
     },
     {

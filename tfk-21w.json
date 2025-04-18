@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "California Sector KX-T c3-0",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-18T12:25:29.906167+00:00",
+  "lastUpdated": "2025-04-18T12:25:47.479733+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2249,
+      "stock": 2172,
       "stockBracket": 2
     },
     {
@@ -123,8 +123,8 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 272,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 6551,

@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "HIP 19653",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T12:13:45.071179+00:00",
+  "lastUpdated": "2025-04-18T12:34:26.341942+00:00",
   "commodities": [
     {
       "buyPrice": 412,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 903,
+      "stock": 1307,
       "stockBracket": 2
     },
     {

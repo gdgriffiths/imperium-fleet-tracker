@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai OS-W c4-1",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-18T00:23:38.707716+00:00",
+  "lastUpdated": "2025-04-18T00:28:37.890322+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 6080,
+      "stock": 5296,
       "stockBracket": 2
     },
     {

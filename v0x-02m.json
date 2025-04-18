@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Cauani",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-18T05:53:16.158511+00:00",
+  "lastUpdated": "2025-04-18T05:57:20.875474+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -308,7 +308,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 16564,
+      "demand": 15964,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "steel",

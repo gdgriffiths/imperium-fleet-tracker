@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "California Sector KX-T c3-0",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-18T15:59:21.541755+00:00",
+  "lastUpdated": "2025-04-18T17:01:37.611555+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -305,6 +305,16 @@
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
+    },
+    {
+      "buyPrice": 4179,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "steel",
+      "sellPrice": 0,
+      "stock": 24260,
+      "stockBracket": 2
     },
     {
       "buyPrice": 6551,

@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector IM-V c2-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T20:25:01.521656+00:00",
+  "lastUpdated": "2025-04-18T20:25:22.669205+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 2417,
+      "stock": 1693,
       "stockBracket": 2
     },
     {

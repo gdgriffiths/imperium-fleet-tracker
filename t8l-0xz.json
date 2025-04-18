@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "Synuefai OS-W c4-1",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-18T00:14:14.216632+00:00",
+  "lastUpdated": "2025-04-18T00:23:38.707716+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 8341,
+      "stock": 6080,
       "stockBracket": 2
     },
     {
@@ -47,14 +47,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 631,
+      "buyPrice": 632,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stock": 58,
+      "stockBracket": 2
     },
     {
       "buyPrice": 253,

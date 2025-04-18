@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector GW-W d1-16",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T21:51:59.866254+00:00",
+  "lastUpdated": "2025-04-18T21:52:58.046830+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 724,
+      "stock": 474,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 1026,
+      "stock": 927,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 1131,
+      "stock": 1083,
       "stockBracket": 2
     },
     {

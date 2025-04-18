@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "California Sector GW-W d1-16",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-18T22:36:05.107556+00:00",
+  "lastUpdated": "2025-04-18T22:36:17.453500+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 21256,
+      "stock": 20472,
       "stockBracket": 2
     }
   ]

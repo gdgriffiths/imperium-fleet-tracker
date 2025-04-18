@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "HIP 19653",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-18T11:20:58.730093+00:00",
+  "lastUpdated": "2025-04-18T11:27:13.845501+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -123,7 +123,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 3292,
+      "stock": 1784,
       "stockBracket": 2
     },
     {

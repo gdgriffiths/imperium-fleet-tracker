@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Synuefai OS-W c4-1",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-18T02:55:51.842092+00:00",
+  "lastUpdated": "2025-04-18T02:56:23.133478+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2999,
+      "stock": 2684,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 3000,
+      "stock": 2973,
       "stockBracket": 2
     },
     {
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 6202,
+      "stock": 5760,
       "stockBracket": 2
     }
   ]

@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector KX-T c3-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T17:56:45.636165+00:00",
+  "lastUpdated": "2025-04-18T17:57:49.850886+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 5000,
+      "stock": 4508,
       "stockBracket": 2
     },
     {

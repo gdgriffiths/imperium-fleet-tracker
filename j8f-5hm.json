@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "Synuefai OS-W c4-1",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T00:36:35.219049+00:00",
+  "lastUpdated": "2025-04-18T00:41:52.156049+00:00",
   "commodities": [
     {
       "buyPrice": 412,
@@ -25,6 +25,16 @@
       "sellPrice": 0,
       "stock": 464,
       "stockBracket": 2
+    },
+    {
+      "buyPrice": 632,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": ""
     },
     {
       "buyPrice": 262,

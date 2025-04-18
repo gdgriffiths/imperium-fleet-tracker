@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector KX-T c3-0",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-18T17:55:37.446012+00:00",
+  "lastUpdated": "2025-04-18T17:56:45.636165+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -77,6 +77,16 @@
       "stockBracket": 2
     },
     {
+      "buyPrice": 1375,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "liquidoxygen",
+      "sellPrice": 0,
+      "stock": 5000,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 3031,
       "demand": 0,
       "demandBracket": 0,
@@ -94,6 +104,16 @@
       "name": "nonlethalweapons",
       "sellPrice": 0,
       "stock": 184,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "polymers",
+      "sellPrice": 0,
+      "stock": 248,
       "stockBracket": 2
     },
     {
@@ -145,6 +165,16 @@
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
+    },
+    {
+      "buyPrice": 260,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "water",
+      "sellPrice": 0,
+      "stock": 3212,
+      "stockBracket": 2
     },
     {
       "buyPrice": 462,

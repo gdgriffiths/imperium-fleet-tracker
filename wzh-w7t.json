@@ -2,9 +2,9 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "Synuefai OS-W c4-1",
+  "systemName": "Cauani",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-18T02:48:19.115771+00:00",
+  "lastUpdated": "2025-04-18T11:10:31.815985+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -97,16 +97,6 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 10605,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "insulatingmembrane",
-      "sellPrice": 0,
-      "stock": 1140,
-      "stockBracket": 2
-    },
-    {
       "buyPrice": 1382,
       "demand": 0,
       "demandBracket": 0,
@@ -167,14 +157,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 4446,
-      "demand": 0,
-      "demandBracket": 0,
+      "buyPrice": 0,
+      "demand": 2793,
+      "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 0,
-      "stock": 8164,
-      "stockBracket": 2
+      "sellPrice": 5811,
+      "stock": 0,
+      "stockBracket": 0
     }
   ]
 }

@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Synuefai OS-W c4-1",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-18T01:14:20.302694+00:00",
+  "lastUpdated": "2025-04-18T01:28:11.381727+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -313,7 +313,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 11612,
+      "stock": 10828,
       "stockBracket": 2
     },
     {

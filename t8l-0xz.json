@@ -2,9 +2,9 @@
   "carrierName": "IMBR Emperors Blade",
   "callsign": "T8L-0XZ",
   "stationName": "T8L-0XZ",
-  "systemName": "Synuefai OS-W c4-1",
+  "systemName": "California Sector GW-W d1-31",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-18T00:45:23.007104+00:00",
+  "lastUpdated": "2025-04-18T19:27:38.202508+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 3182,
+      "stock": 21292,
       "stockBracket": 2
     },
     {
@@ -72,16 +72,6 @@
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "fruitandvegetables",
-      "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 10605,
-      "demand": 0,
-      "demandBracket": 0,
-      "meanPrice": 0,
-      "name": "insulatingmembrane",
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0
@@ -172,6 +162,16 @@
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "titanium",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 51294,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "tritium",
       "sellPrice": 0,
       "stock": 0,
       "stockBracket": 0

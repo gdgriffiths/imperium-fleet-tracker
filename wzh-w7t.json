@@ -2,9 +2,9 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "Cauani",
+  "systemName": "California Sector KX-T c3-0",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-18T11:10:31.815985+00:00",
+  "lastUpdated": "2025-04-18T18:21:14.966360+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -97,6 +97,16 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 10605,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "insulatingmembrane",
+      "sellPrice": 0,
+      "stock": 2340,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 1382,
       "demand": 0,
       "demandBracket": 0,
@@ -157,14 +167,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 2793,
-      "demandBracket": 2,
+      "buyPrice": 4446,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "titanium",
-      "sellPrice": 5811,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 21256,
+      "stockBracket": 2
     }
   ]
 }

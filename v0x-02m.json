@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "California Sector GW-W d1-31",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-18T18:54:36.701867+00:00",
+  "lastUpdated": "2025-04-18T19:03:38.281267+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -313,7 +313,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 23476,
+      "stock": 22692,
       "stockBracket": 2
     },
     {

@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "California Sector KH-V c2-5",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-19T18:31:26.312964+00:00",
+  "lastUpdated": "2025-04-19T18:32:27.860514+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 1506,
+      "stock": 1005,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 1767,
+      "stock": 1484,
       "stockBracket": 2
     },
     {

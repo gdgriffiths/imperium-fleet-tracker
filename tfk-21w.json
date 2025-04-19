@@ -2,9 +2,9 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "California Sector KH-V c2-5",
+  "systemName": "California Sector MC-V c2-9",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-19T18:32:27.860514+00:00",
+  "lastUpdated": "2025-04-19T22:25:56.861410+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 1619,
+      "stock": 624,
       "stockBracket": 2
     },
     {
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 1005,
+      "stock": 206,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 1878,
+      "stock": 581,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 1048,
+      "stock": 572,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 1484,
+      "stock": 215,
       "stockBracket": 2
     },
     {

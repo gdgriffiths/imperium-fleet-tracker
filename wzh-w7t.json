@@ -2,9 +2,9 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "California Sector IR-W d1-24",
+  "systemName": "California Sector MC-V c2-9",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-19T20:08:12.974306+00:00",
+  "lastUpdated": "2025-04-19T23:15:40.865687+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 1478,
+      "stock": 694,
       "stockBracket": 2
     }
   ]

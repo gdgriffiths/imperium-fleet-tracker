@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Cauani",
+  "systemName": "California Sector GW-W d1-21",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-19T03:27:36.757014+00:00",
+  "lastUpdated": "2025-04-19T14:10:35.449116+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -307,14 +307,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 278,
-      "demandBracket": 2,
+      "buyPrice": 4179,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "steel",
-      "sellPrice": 5457,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 22545,
+      "stockBracket": 2
     },
     {
       "buyPrice": 6551,

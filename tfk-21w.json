@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "California Sector GW-W d1-21",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-19T14:25:04.786155+00:00",
+  "lastUpdated": "2025-04-19T14:29:14.625024+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "polymers",
       "sellPrice": 0,
-      "stock": 2474,
+      "stock": 2805,
       "stockBracket": 2
     },
     {
@@ -153,8 +153,8 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 1110,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 0,

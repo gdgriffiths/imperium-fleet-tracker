@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector IR-W d1-24",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-19T19:43:36.738673+00:00",
+  "lastUpdated": "2025-04-19T19:52:37.318198+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 224,
+      "stock": 147,
       "stockBracket": 2
     },
     {

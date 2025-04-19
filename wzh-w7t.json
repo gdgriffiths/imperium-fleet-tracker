@@ -2,9 +2,9 @@
   "carrierName": "IMBR Voxel Voyager",
   "callsign": "WZH-W7T",
   "stationName": "WZH-W7T",
-  "systemName": "California Sector IR-W d1-26",
+  "systemName": "California Sector KH-V c2-5",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-19T17:12:02.798883+00:00",
+  "lastUpdated": "2025-04-19T19:14:17.661240+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 1539,
+      "stock": 1199,
       "stockBracket": 2
     },
     {
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 10885,
+      "stock": 6914,
       "stockBracket": 2
     }
   ]

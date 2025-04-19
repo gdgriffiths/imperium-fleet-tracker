@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "California Sector KH-V c2-5",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-19T18:19:29.820918+00:00",
+  "lastUpdated": "2025-04-19T18:46:33.645056+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -313,7 +313,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 11933,
+      "stock": 11149,
       "stockBracket": 2
     },
     {

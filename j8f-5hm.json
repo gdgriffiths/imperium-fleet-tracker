@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "California Sector KH-V c2-9",
+  "systemName": "California Sector IR-W d1-24",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-19T18:58:32.289933+00:00",
+  "lastUpdated": "2025-04-19T19:25:18.831640+00:00",
   "commodities": [
     {
       "buyPrice": 412,
@@ -15,6 +15,16 @@
       "sellPrice": 0,
       "stock": 1583,
       "stockBracket": 2
+    },
+    {
+      "buyPrice": 6081,
+      "demand": 0,
+      "demandBracket": "",
+      "meanPrice": 0,
+      "name": "cmmcomposite",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": ""
     },
     {
       "buyPrice": 729,

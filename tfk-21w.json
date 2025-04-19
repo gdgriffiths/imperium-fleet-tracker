@@ -2,29 +2,159 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "Cauani",
+  "systemName": "California Sector IM-V c2-3",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-19T05:05:40.932673+00:00",
+  "lastUpdated": "2025-04-19T13:04:28.088745+00:00",
   "commodities": [
     {
-      "buyPrice": 0,
-      "demand": 260,
-      "demandBracket": 2,
+      "buyPrice": 2540,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "aluminium",
-      "sellPrice": 2540,
+      "sellPrice": 0,
+      "stock": 3101,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 271,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "biowaste",
+      "sellPrice": 0,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 402,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "ceramiccomposites",
+      "sellPrice": 0,
+      "stock": 2091,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 5972,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "cmmcomposite",
+      "sellPrice": 0,
+      "stock": 3545,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 708,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "computercomponents",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 631,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "copper",
+      "sellPrice": 0,
+      "stock": 2039,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 252,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "foodcartridges",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 483,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "fruitandvegetables",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 2944,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "medicaldiagnosticequipment",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 1848,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "nonlethalweapons",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 1084,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 4179,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "steel",
+      "sellPrice": 0,
+      "stock": 2655,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 6551,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 4446,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "titanium",
+      "sellPrice": 0,
+      "stock": 1110,
+      "stockBracket": 2
     },
     {
       "buyPrice": 0,
-      "demand": 2000,
+      "demand": 2784,
       "demandBracket": 2,
       "meanPrice": 0,
-      "name": "ceramiccomposites",
-      "sellPrice": 402,
+      "name": "water",
+      "sellPrice": 260,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
     }
   ]
 }

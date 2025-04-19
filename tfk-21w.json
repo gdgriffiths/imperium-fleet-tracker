@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "California Sector KH-V c2-9",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-19T15:39:24.099876+00:00",
+  "lastUpdated": "2025-04-19T15:40:19.440972+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -13,7 +13,7 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 2840,
+      "stock": 2614,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 2159,
+      "stock": 1919,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 1560,
+      "stock": 1536,
       "stockBracket": 2
     },
     {

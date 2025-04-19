@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector MC-V c2-9",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-19T22:02:19.645813+00:00",
+  "lastUpdated": "2025-04-19T22:03:37.884405+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 368,
+      "stock": 305,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 348,
+      "stock": 254,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 781,
+      "stock": 733,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 153,
+      "stock": 140,
       "stockBracket": 2
     },
     {
@@ -113,7 +113,7 @@
       "meanPrice": 0,
       "name": "nonlethalweapons",
       "sellPrice": 0,
-      "stock": 68,
+      "stock": 55,
       "stockBracket": 2
     },
     {
@@ -133,7 +133,7 @@
       "meanPrice": 0,
       "name": "powergenerators",
       "sellPrice": 0,
-      "stock": 169,
+      "stock": 150,
       "stockBracket": 2
     },
     {
@@ -143,7 +143,7 @@
       "meanPrice": 0,
       "name": "semiconductors",
       "sellPrice": 0,
-      "stock": 248,
+      "stock": 181,
       "stockBracket": 2
     },
     {
@@ -163,7 +163,7 @@
       "meanPrice": 0,
       "name": "superconductors",
       "sellPrice": 0,
-      "stock": 443,
+      "stock": 327,
       "stockBracket": 2
     },
     {
@@ -183,7 +183,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 1226,
+      "stock": 1225,
       "stockBracket": 2
     },
     {
@@ -193,7 +193,7 @@
       "meanPrice": 0,
       "name": "waterpurifiers",
       "sellPrice": 0,
-      "stock": 215,
+      "stock": 178,
       "stockBracket": 2
     }
   ]

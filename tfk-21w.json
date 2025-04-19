@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "California Sector IM-V c2-3",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-19T01:35:28.677313+00:00",
+  "lastUpdated": "2025-04-19T01:48:19.498804+00:00",
   "commodities": [
     {
       "buyPrice": 0,
@@ -38,7 +38,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 1576,
+      "demand": 800,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "cmmcomposite",
@@ -118,7 +118,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 1290,
+      "demand": 900,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "steel",
@@ -138,7 +138,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 2268,
+      "demand": 1866,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "titanium",

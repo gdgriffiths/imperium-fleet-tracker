@@ -4,7 +4,7 @@
   "stationName": "WZH-W7T",
   "systemName": "California Sector MC-V c2-9",
   "marketId": 3711740928,
-  "lastUpdated": "2025-04-19T23:15:40.865687+00:00",
+  "lastUpdated": "2025-04-19T23:16:13.067723+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 1199,
+      "stock": 982,
       "stockBracket": 2
     },
     {
@@ -173,7 +173,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 694,
+      "stock": 270,
       "stockBracket": 2
     }
   ]

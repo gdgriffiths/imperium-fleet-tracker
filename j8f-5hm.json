@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector MC-V c2-9",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-19T22:03:37.884405+00:00",
+  "lastUpdated": "2025-04-19T22:32:23.963637+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -83,8 +83,8 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 147,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 1375,
@@ -153,7 +153,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 721,
+      "stock": 144,
       "stockBracket": 2
     },
     {
@@ -183,7 +183,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 1225,
+      "stock": 972,
       "stockBracket": 2
     },
     {

@@ -4,7 +4,7 @@
   "stationName": "TFK-21W",
   "systemName": "Cauani",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-19T03:43:52.256227+00:00",
+  "lastUpdated": "2025-04-19T03:44:37.252096+00:00",
   "commodities": [
     {
       "buyPrice": 0,
@@ -14,7 +14,17 @@
       "name": "aluminium",
       "sellPrice": 2540,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 271,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "biowaste",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -24,7 +34,57 @@
       "name": "ceramiccomposites",
       "sellPrice": 402,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 708,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "computercomponents",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 252,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "foodcartridges",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 483,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "fruitandvegetables",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 2944,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "medicaldiagnosticequipment",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 1848,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "nonlethalweapons",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -34,7 +94,17 @@
       "name": "polymers",
       "sellPrice": 306,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 1084,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "semiconductors",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -44,7 +114,17 @@
       "name": "steel",
       "sellPrice": 4179,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
+    },
+    {
+      "buyPrice": 6551,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 0,
@@ -54,7 +134,7 @@
       "name": "titanium",
       "sellPrice": 4446,
       "stock": 0,
-      "stockBracket": ""
+      "stockBracket": 0
     }
   ]
 }

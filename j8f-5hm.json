@@ -2,9 +2,9 @@
   "carrierName": "IMBR Clear Skies",
   "callsign": "J8F-5HM",
   "stationName": "J8F-5HM",
-  "systemName": "California Sector IM-V c2-3",
+  "systemName": "California Sector KH-V c2-9",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-19T00:12:27.079454+00:00",
+  "lastUpdated": "2025-04-19T14:12:07.852562+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -13,8 +13,8 @@
       "meanPrice": 0,
       "name": "aluminium",
       "sellPrice": 0,
-      "stock": 57,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 412,
@@ -23,7 +23,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 2419,
+      "stock": 2167,
       "stockBracket": 2
     },
     {
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 754,
+      "stock": 252,
       "stockBracket": 2
     },
     {
@@ -74,6 +74,16 @@
       "name": "fruitandvegetables",
       "sellPrice": 0,
       "stock": 1033,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 10605,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "insulatingmembrane",
+      "sellPrice": 0,
+      "stock": 830,
       "stockBracket": 2
     },
     {
@@ -167,13 +177,13 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 263,
+      "buyPrice": 260,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 3301,
+      "stock": 3853,
       "stockBracket": 2
     },
     {

@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector IR-W d1-24",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-19T19:57:37.205509+00:00",
+  "lastUpdated": "2025-04-19T19:57:58.364022+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -23,7 +23,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 1583,
+      "stock": 1315,
       "stockBracket": 2
     },
     {

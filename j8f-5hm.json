@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector IR-W d1-24",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-19T19:41:21.046159+00:00",
+  "lastUpdated": "2025-04-19T19:42:18.522178+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 542,
+      "stock": 445,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 883,
+      "stock": 832,
       "stockBracket": 2
     },
     {
@@ -83,7 +83,7 @@
       "meanPrice": 0,
       "name": "insulatingmembrane",
       "sellPrice": 0,
-      "stock": 490,
+      "stock": 227,
       "stockBracket": 2
     },
     {

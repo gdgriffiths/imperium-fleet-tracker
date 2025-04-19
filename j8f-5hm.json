@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector KH-V c2-9",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-19T14:14:16.770741+00:00",
+  "lastUpdated": "2025-04-19T14:14:35.892087+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -183,7 +183,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 3853,
+      "stock": 3488,
       "stockBracket": 2
     },
     {

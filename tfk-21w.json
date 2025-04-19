@@ -2,9 +2,9 @@
   "carrierName": "IMBR Lilith's Hex",
   "callsign": "TFK-21W",
   "stationName": "TFK-21W",
-  "systemName": "California Sector IM-V c2-3",
+  "systemName": "California Sector GW-W d1-21",
   "marketId": 3711741184,
-  "lastUpdated": "2025-04-19T13:04:28.088745+00:00",
+  "lastUpdated": "2025-04-19T14:16:46.986971+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 2091,
+      "stock": 2023,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 3545,
+      "stock": 2159,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "copper",
       "sellPrice": 0,
-      "stock": 2039,
+      "stock": 1786,
       "stockBracket": 2
     },
     {
@@ -107,6 +107,16 @@
       "stockBracket": 0
     },
     {
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "polymers",
+      "sellPrice": 0,
+      "stock": 2474,
+      "stockBracket": 2
+    },
+    {
       "buyPrice": 1084,
       "demand": 0,
       "demandBracket": 0,
@@ -123,8 +133,8 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 2655,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 6551,

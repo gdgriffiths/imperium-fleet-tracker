@@ -4,7 +4,7 @@
   "stationName": "T8L-0XZ",
   "systemName": "California Sector IR-W d1-24",
   "marketId": 3711746304,
-  "lastUpdated": "2025-04-19T19:49:30.998789+00:00",
+  "lastUpdated": "2025-04-19T19:50:00.104172+00:00",
   "commodities": [
     {
       "buyPrice": 2540,
@@ -33,7 +33,7 @@
       "meanPrice": 0,
       "name": "cmmcomposite",
       "sellPrice": 0,
-      "stock": 12823,
+      "stock": 12369,
       "stockBracket": 2
     },
     {
@@ -163,8 +163,8 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 330,
-      "stockBracket": 2
+      "stock": 0,
+      "stockBracket": 0
     },
     {
       "buyPrice": 51294,

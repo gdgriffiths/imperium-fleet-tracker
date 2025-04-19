@@ -4,7 +4,7 @@
   "stationName": "J8F-5HM",
   "systemName": "California Sector KH-V c2-9",
   "marketId": 3711748608,
-  "lastUpdated": "2025-04-19T16:04:35.983015+00:00",
+  "lastUpdated": "2025-04-19T16:07:11.987478+00:00",
   "commodities": [
     {
       "buyPrice": 2615,
@@ -23,7 +23,7 @@
       "meanPrice": 0,
       "name": "ceramiccomposites",
       "sellPrice": 0,
-      "stock": 1656,
+      "stock": 1583,
       "stockBracket": 2
     },
     {
@@ -43,7 +43,7 @@
       "meanPrice": 0,
       "name": "computercomponents",
       "sellPrice": 0,
-      "stock": 492,
+      "stock": 432,
       "stockBracket": 2
     },
     {
@@ -63,7 +63,7 @@
       "meanPrice": 0,
       "name": "foodcartridges",
       "sellPrice": 0,
-      "stock": 638,
+      "stock": 542,
       "stockBracket": 2
     },
     {
@@ -73,7 +73,7 @@
       "meanPrice": 0,
       "name": "fruitandvegetables",
       "sellPrice": 0,
-      "stock": 931,
+      "stock": 883,
       "stockBracket": 2
     },
     {
@@ -103,7 +103,7 @@
       "meanPrice": 0,
       "name": "medicaldiagnosticequipment",
       "sellPrice": 0,
-      "stock": 192,
+      "stock": 179,
       "stockBracket": 2
     },
     {
@@ -183,7 +183,7 @@
       "meanPrice": 0,
       "name": "water",
       "sellPrice": 0,
-      "stock": 2658,
+      "stock": 1947,
       "stockBracket": 2
     },
     {

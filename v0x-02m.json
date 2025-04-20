@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "California Sector MC-V c2-9",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-20T21:52:39.569704+00:00",
+  "lastUpdated": "2025-04-20T22:22:08.473258+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -313,7 +313,7 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 0,
-      "stock": 9390,
+      "stock": 4241,
       "stockBracket": 2
     },
     {
@@ -353,7 +353,7 @@
       "meanPrice": 0,
       "name": "titanium",
       "sellPrice": 0,
-      "stock": 3176,
+      "stock": 2172,
       "stockBracket": 2
     },
     {

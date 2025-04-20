@@ -4,7 +4,7 @@
   "stationName": "V0X-02M",
   "systemName": "Mel 22 Sector XU-X c1-10",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-20T20:47:54.168379+00:00",
+  "lastUpdated": "2025-04-20T20:56:04.935304+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -88,7 +88,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 1516,
+      "demand": 732,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "copper",
@@ -258,7 +258,7 @@
     },
     {
       "buyPrice": 0,
-      "demand": 1500,
+      "demand": 716,
       "demandBracket": 2,
       "meanPrice": 0,
       "name": "polymers",
@@ -313,16 +313,6 @@
       "meanPrice": 0,
       "name": "steel",
       "sellPrice": 4179,
-      "stock": 0,
-      "stockBracket": 0
-    },
-    {
-      "buyPrice": 0,
-      "demand": 784,
-      "demandBracket": 2,
-      "meanPrice": 0,
-      "name": "superconductors",
-      "sellPrice": 6551,
       "stock": 0,
       "stockBracket": 0
     },

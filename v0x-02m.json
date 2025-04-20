@@ -2,9 +2,9 @@
   "carrierName": "IMBR Pixelated Pioneer",
   "callsign": "V0X-02M",
   "stationName": "V0X-02M",
-  "systemName": "Mel 22 Sector XU-X c1-10",
+  "systemName": "California Sector MC-V c2-9",
   "marketId": 3701154304,
-  "lastUpdated": "2025-04-20T20:56:04.935304+00:00",
+  "lastUpdated": "2025-04-20T21:52:39.569704+00:00",
   "commodities": [
     {
       "buyPrice": 126,
@@ -17,14 +17,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 1516,
-      "demandBracket": 2,
+      "buyPrice": 2552,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "aluminium",
-      "sellPrice": 2540,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 1853,
+      "stockBracket": 2
     },
     {
       "buyPrice": 11400,
@@ -87,14 +87,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 732,
-      "demandBracket": 2,
+      "buyPrice": 631,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "copper",
-      "sellPrice": 631,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 2300,
+      "stockBracket": 2
     },
     {
       "buyPrice": 221,
@@ -167,14 +167,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 1375,
+      "buyPrice": 1382,
       "demand": 0,
       "demandBracket": 0,
       "meanPrice": 0,
       "name": "liquidoxygen",
       "sellPrice": 0,
-      "stock": 0,
-      "stockBracket": 0
+      "stock": 733,
+      "stockBracket": 2
     },
     {
       "buyPrice": 2944,
@@ -257,14 +257,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 716,
-      "demandBracket": 2,
+      "buyPrice": 306,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "polymers",
-      "sellPrice": 306,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 1500,
+      "stockBracket": 2
     },
     {
       "buyPrice": 2388,
@@ -287,14 +287,14 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 784,
-      "demandBracket": 2,
+      "buyPrice": 1084,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "semiconductors",
-      "sellPrice": 1084,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 784,
+      "stockBracket": 2
     },
     {
       "buyPrice": 1828,
@@ -307,14 +307,24 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 2000,
-      "demandBracket": 2,
+      "buyPrice": 4179,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "steel",
-      "sellPrice": 4179,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 9390,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 6551,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "superconductors",
+      "sellPrice": 0,
+      "stock": 784,
+      "stockBracket": 2
     },
     {
       "buyPrice": 536,
@@ -337,14 +347,24 @@
       "stockBracket": 0
     },
     {
-      "buyPrice": 0,
-      "demand": 616,
-      "demandBracket": 2,
+      "buyPrice": 4446,
+      "demand": 0,
+      "demandBracket": 0,
+      "meanPrice": 0,
+      "name": "titanium",
+      "sellPrice": 0,
+      "stock": 3176,
+      "stockBracket": 2
+    },
+    {
+      "buyPrice": 51717,
+      "demand": 0,
+      "demandBracket": 0,
       "meanPrice": 0,
       "name": "tritium",
-      "sellPrice": 51294,
-      "stock": 0,
-      "stockBracket": 0
+      "sellPrice": 0,
+      "stock": 1178,
+      "stockBracket": 2
     },
     {
       "buyPrice": 258,
